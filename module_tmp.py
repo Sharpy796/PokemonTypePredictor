@@ -33,10 +33,12 @@ Description:
     <***>
 
 Authors:
-    <***>
+    Christian Bankovic
+    Ethan Cochran
+    Davidson Rock
 
-Date Created     :  <***>
-Date Last Updated:  <***>
+Date Created     :  3/28/26
+Date Last Updated:  3/28/26
 
 Doc:
     <***>
