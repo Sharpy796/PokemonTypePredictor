@@ -53,6 +53,29 @@ if __name__ == "__main__":
    #os.chdir("./../..")
 #
 
+# Not sure if we need alll this, but I have this now
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import Dataset
+from torch import nn
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+from torchvision.transforms import ToTensor
+import scipy
+from scipy.stats import zscore
+from time import sleep
+from tqdm import tqdm
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, recall_score, precision_score, f1_score, log_loss
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from matplotlib.colors import LinearSegmentedColormap, ListedColormap
+import pandas as pd
+import numpy as np
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+import math
+
 #custom imports
 
 
@@ -97,7 +120,7 @@ def main():
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main code start here
-
+print("Hello world")
 
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
