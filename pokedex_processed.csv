@@ -1,0 +1,989 @@
+type1,type2,spritepath_front,spritepath_back
+Grass,Poison,pokemon_images/sprites/0000-Bulbasaur-1/front/normal,pokemon_images/sprites/0000-Bulbasaur-1/back/normal
+Grass,Poison,pokemon_images/sprites/0001-Ivysaur-2/front/normal,pokemon_images/sprites/0001-Ivysaur-2/back/normal
+Grass,Poison,pokemon_images/sprites/0002-Venusaur-3/front/normal,pokemon_images/sprites/0002-Venusaur-3/back/normal
+Fire,,pokemon_images/sprites/0005-Charmander-4/front/normal,pokemon_images/sprites/0005-Charmander-4/back/normal
+Fire,,pokemon_images/sprites/0006-Charmeleon-5/front/normal,pokemon_images/sprites/0006-Charmeleon-5/back/normal
+Fire,Flying,pokemon_images/sprites/0007-Charizard-6/front/normal,pokemon_images/sprites/0007-Charizard-6/back/normal
+Water,,pokemon_images/sprites/0011-Squirtle-7/front/normal,pokemon_images/sprites/0011-Squirtle-7/back/normal
+Water,,pokemon_images/sprites/0012-Wartortle-8/front/normal,pokemon_images/sprites/0012-Wartortle-8/back/normal
+Water,,pokemon_images/sprites/0013-Blastoise-9/front/normal,pokemon_images/sprites/0013-Blastoise-9/back/normal
+Bug,,pokemon_images/sprites/0016-Caterpie-10/front/normal,pokemon_images/sprites/0016-Caterpie-10/back/normal
+Bug,,pokemon_images/sprites/0017-Metapod-11/front/normal,pokemon_images/sprites/0017-Metapod-11/back/normal
+Bug,Flying,pokemon_images/sprites/0018-Butterfree-12/front/normal,pokemon_images/sprites/0018-Butterfree-12/back/normal
+Bug,Poison,pokemon_images/sprites/0020-Weedle-13/front/normal,pokemon_images/sprites/0020-Weedle-13/back/normal
+Bug,Poison,pokemon_images/sprites/0021-Kakuna-14/front/normal,pokemon_images/sprites/0021-Kakuna-14/back/normal
+Bug,Poison,pokemon_images/sprites/0022-Beedrill-15/front/normal,pokemon_images/sprites/0022-Beedrill-15/back/normal
+Normal,Flying,pokemon_images/sprites/0024-Pidgey-16/front/normal,pokemon_images/sprites/0024-Pidgey-16/back/normal
+Normal,Flying,pokemon_images/sprites/0025-Pidgeotto-17/front/normal,pokemon_images/sprites/0025-Pidgeotto-17/back/normal
+Normal,Flying,pokemon_images/sprites/0026-Pidgeot-18/front/normal,pokemon_images/sprites/0026-Pidgeot-18/back/normal
+Normal,,pokemon_images/sprites/0028-Rattata-19/front/normal,pokemon_images/sprites/0028-Rattata-19/back/normal
+Dark,Normal,pokemon_images/sprites/0029-Rattata Alola-19/front/normal,pokemon_images/sprites/0029-Rattata Alola-19/back/normal
+Normal,,pokemon_images/sprites/0030-Raticate-20/front/normal,pokemon_images/sprites/0030-Raticate-20/back/normal
+Dark,Normal,pokemon_images/sprites/0031-Raticate Alola-20/front/normal,pokemon_images/sprites/0031-Raticate Alola-20/back/normal
+Normal,Flying,pokemon_images/sprites/0033-Spearow-21/front/normal,pokemon_images/sprites/0033-Spearow-21/back/normal
+Normal,Flying,pokemon_images/sprites/0034-Fearow-22/front/normal,pokemon_images/sprites/0034-Fearow-22/back/normal
+Poison,,pokemon_images/sprites/0035-Ekans-23/front/normal,pokemon_images/sprites/0035-Ekans-23/back/normal
+Poison,,pokemon_images/sprites/0036-Arbok-24/front/normal,pokemon_images/sprites/0036-Arbok-24/back/normal
+Electric,,pokemon_images/sprites/0037-Pikachu-25/front/normal,pokemon_images/sprites/0037-Pikachu-25/back/normal
+Electric,,pokemon_images/sprites/0052-Raichu-26/front/normal,pokemon_images/sprites/0052-Raichu-26/back/normal
+Electric,Psychic,pokemon_images/sprites/0053-Raichu Alola-26/front/normal,pokemon_images/sprites/0053-Raichu Alola-26/back/normal
+Ground,,pokemon_images/sprites/0054-Sandshrew-27/front/normal,pokemon_images/sprites/0054-Sandshrew-27/back/normal
+Ice,Steel,pokemon_images/sprites/0055-Sandshrew Alola-27/front/normal,pokemon_images/sprites/0055-Sandshrew Alola-27/back/normal
+Ground,,pokemon_images/sprites/0056-Sandslash-28/front/normal,pokemon_images/sprites/0056-Sandslash-28/back/normal
+Ice,Steel,pokemon_images/sprites/0057-Sandslash Alola-28/front/normal,pokemon_images/sprites/0057-Sandslash Alola-28/back/normal
+Poison,,pokemon_images/sprites/0058-Nidoran F-29/front/normal,pokemon_images/sprites/0058-Nidoran F-29/back/normal
+Poison,,pokemon_images/sprites/0059-Nidorina-30/front/normal,pokemon_images/sprites/0059-Nidorina-30/back/normal
+Poison,Ground,pokemon_images/sprites/0060-Nidoqueen-31/front/normal,pokemon_images/sprites/0060-Nidoqueen-31/back/normal
+Poison,,pokemon_images/sprites/0061-Nidoran M-32/front/normal,pokemon_images/sprites/0061-Nidoran M-32/back/normal
+Poison,,pokemon_images/sprites/0062-Nidorino-33/front/normal,pokemon_images/sprites/0062-Nidorino-33/back/normal
+Poison,Ground,pokemon_images/sprites/0063-Nidoking-34/front/normal,pokemon_images/sprites/0063-Nidoking-34/back/normal
+Fairy,,pokemon_images/sprites/0064-Clefairy-35/front/normal,pokemon_images/sprites/0064-Clefairy-35/back/normal
+Fairy,,pokemon_images/sprites/0065-Clefable-36/front/normal,pokemon_images/sprites/0065-Clefable-36/back/normal
+Fire,,pokemon_images/sprites/0066-Vulpix-37/front/normal,pokemon_images/sprites/0066-Vulpix-37/back/normal
+Ice,,pokemon_images/sprites/0067-Vulpix Alola-37/front/normal,pokemon_images/sprites/0067-Vulpix Alola-37/back/normal
+Fire,,pokemon_images/sprites/0068-Ninetales-38/front/normal,pokemon_images/sprites/0068-Ninetales-38/back/normal
+Ice,Fairy,pokemon_images/sprites/0069-Ninetales Alola-38/front/normal,pokemon_images/sprites/0069-Ninetales Alola-38/back/normal
+Normal,Fairy,pokemon_images/sprites/0070-Jigglypuff-39/front/normal,pokemon_images/sprites/0070-Jigglypuff-39/back/normal
+Normal,Fairy,pokemon_images/sprites/0071-Wigglytuff-40/front/normal,pokemon_images/sprites/0071-Wigglytuff-40/back/normal
+Poison,Flying,pokemon_images/sprites/0072-Zubat-41/front/normal,pokemon_images/sprites/0072-Zubat-41/back/normal
+Poison,Flying,pokemon_images/sprites/0073-Golbat-42/front/normal,pokemon_images/sprites/0073-Golbat-42/back/normal
+Grass,Poison,pokemon_images/sprites/0074-Oddish-43/front/normal,pokemon_images/sprites/0074-Oddish-43/back/normal
+Grass,Poison,pokemon_images/sprites/0075-Gloom-44/front/normal,pokemon_images/sprites/0075-Gloom-44/back/normal
+Grass,Poison,pokemon_images/sprites/0076-Vileplume-45/front/normal,pokemon_images/sprites/0076-Vileplume-45/back/normal
+Bug,Grass,pokemon_images/sprites/0077-Paras-46/front/normal,pokemon_images/sprites/0077-Paras-46/back/normal
+Bug,Grass,pokemon_images/sprites/0078-Parasect-47/front/normal,pokemon_images/sprites/0078-Parasect-47/back/normal
+Bug,Poison,pokemon_images/sprites/0079-Venonat-48/front/normal,pokemon_images/sprites/0079-Venonat-48/back/normal
+Bug,Poison,pokemon_images/sprites/0080-Venomoth-49/front/normal,pokemon_images/sprites/0080-Venomoth-49/back/normal
+Ground,,pokemon_images/sprites/0081-Diglett-50/front/normal,pokemon_images/sprites/0081-Diglett-50/back/normal
+Ground,Steel,pokemon_images/sprites/0082-Diglett Alola-50/front/normal,pokemon_images/sprites/0082-Diglett Alola-50/back/normal
+Ground,,pokemon_images/sprites/0083-Dugtrio-51/front/normal,pokemon_images/sprites/0083-Dugtrio-51/back/normal
+Ground,Steel,pokemon_images/sprites/0084-Dugtrio Alola-51/front/normal,pokemon_images/sprites/0084-Dugtrio Alola-51/back/normal
+Normal,,pokemon_images/sprites/0085-Meowth-52/front/normal,pokemon_images/sprites/0085-Meowth-52/back/normal
+Dark,,pokemon_images/sprites/0086-Meowth Alola-52/front/normal,pokemon_images/sprites/0086-Meowth Alola-52/back/normal
+Steel,,pokemon_images/sprites/0087-Meowth Galar-52/front/normal,pokemon_images/sprites/0087-Meowth Galar-52/back/normal
+Normal,,pokemon_images/sprites/0089-Persian-53/front/normal,pokemon_images/sprites/0089-Persian-53/back/normal
+Dark,,pokemon_images/sprites/0090-Persian Alola-53/front/normal,pokemon_images/sprites/0090-Persian Alola-53/back/normal
+Water,,pokemon_images/sprites/0091-Psyduck-54/front/normal,pokemon_images/sprites/0091-Psyduck-54/back/normal
+Water,,pokemon_images/sprites/0092-Golduck-55/front/normal,pokemon_images/sprites/0092-Golduck-55/back/normal
+Fighting,,pokemon_images/sprites/0093-Mankey-56/front/normal,pokemon_images/sprites/0093-Mankey-56/back/normal
+Fighting,,pokemon_images/sprites/0094-Primeape-57/front/normal,pokemon_images/sprites/0094-Primeape-57/back/normal
+Fire,,pokemon_images/sprites/0095-Growlithe-58/front/normal,pokemon_images/sprites/0095-Growlithe-58/back/normal
+Fire,,pokemon_images/sprites/0096-Arcanine-59/front/normal,pokemon_images/sprites/0096-Arcanine-59/back/normal
+Water,,pokemon_images/sprites/0097-Poliwag-60/front/normal,pokemon_images/sprites/0097-Poliwag-60/back/normal
+Water,,pokemon_images/sprites/0098-Poliwhirl-61/front/normal,pokemon_images/sprites/0098-Poliwhirl-61/back/normal
+Water,Fighting,pokemon_images/sprites/0099-Poliwrath-62/front/normal,pokemon_images/sprites/0099-Poliwrath-62/back/normal
+Psychic,,pokemon_images/sprites/0100-Abra-63/front/normal,pokemon_images/sprites/0100-Abra-63/back/normal
+Psychic,,pokemon_images/sprites/0101-Kadabra-64/front/normal,pokemon_images/sprites/0101-Kadabra-64/back/normal
+Psychic,,pokemon_images/sprites/0102-Alakazam-65/front/normal,pokemon_images/sprites/0102-Alakazam-65/back/normal
+Fighting,,pokemon_images/sprites/0104-Machop-66/front/normal,pokemon_images/sprites/0104-Machop-66/back/normal
+Fighting,,pokemon_images/sprites/0105-Machoke-67/front/normal,pokemon_images/sprites/0105-Machoke-67/back/normal
+Fighting,,pokemon_images/sprites/0106-Machamp-68/front/normal,pokemon_images/sprites/0106-Machamp-68/back/normal
+Grass,Poison,pokemon_images/sprites/0108-Bellsprout-69/front/normal,pokemon_images/sprites/0108-Bellsprout-69/back/normal
+Grass,Poison,pokemon_images/sprites/0109-Weepinbell-70/front/normal,pokemon_images/sprites/0109-Weepinbell-70/back/normal
+Grass,Poison,pokemon_images/sprites/0110-Victreebel-71/front/normal,pokemon_images/sprites/0110-Victreebel-71/back/normal
+Water,Poison,pokemon_images/sprites/0111-Tentacool-72/front/normal,pokemon_images/sprites/0111-Tentacool-72/back/normal
+Water,Poison,pokemon_images/sprites/0112-Tentacruel-73/front/normal,pokemon_images/sprites/0112-Tentacruel-73/back/normal
+Rock,Ground,pokemon_images/sprites/0113-Geodude-74/front/normal,pokemon_images/sprites/0113-Geodude-74/back/normal
+Rock,Electric,pokemon_images/sprites/0114-Geodude Alola-74/front/normal,pokemon_images/sprites/0114-Geodude Alola-74/back/normal
+Rock,Ground,pokemon_images/sprites/0115-Graveler-75/front/normal,pokemon_images/sprites/0115-Graveler-75/back/normal
+Rock,Electric,pokemon_images/sprites/0116-Graveler Alola-75/front/normal,pokemon_images/sprites/0116-Graveler Alola-75/back/normal
+Rock,Ground,pokemon_images/sprites/0117-Golem-76/front/normal,pokemon_images/sprites/0117-Golem-76/back/normal
+Rock,Electric,pokemon_images/sprites/0118-Golem Alola-76/front/normal,pokemon_images/sprites/0118-Golem Alola-76/back/normal
+Fire,,pokemon_images/sprites/0119-Ponyta-77/front/normal,pokemon_images/sprites/0119-Ponyta-77/back/normal
+Psychic,,pokemon_images/sprites/0120-Ponyta Galar-77/front/normal,pokemon_images/sprites/0120-Ponyta Galar-77/back/normal
+Fire,,pokemon_images/sprites/0121-Rapidash-78/front/normal,pokemon_images/sprites/0121-Rapidash-78/back/normal
+Psychic,Fairy,pokemon_images/sprites/0122-Rapidash Galar-78/front/normal,pokemon_images/sprites/0122-Rapidash Galar-78/back/normal
+Water,Psychic,pokemon_images/sprites/0123-Slowpoke-79/front/normal,pokemon_images/sprites/0123-Slowpoke-79/back/normal
+Psychic,,pokemon_images/sprites/0124-Slowpoke Galar-79/front/normal,pokemon_images/sprites/0124-Slowpoke Galar-79/back/normal
+Water,Psychic,pokemon_images/sprites/0125-Slowbro-80/front/normal,pokemon_images/sprites/0125-Slowbro-80/back/normal
+Poison,Psychic,pokemon_images/sprites/0126-Slowbro Galar-80/front/normal,pokemon_images/sprites/0126-Slowbro Galar-80/back/normal
+Electric,Steel,pokemon_images/sprites/0128-Magnemite-81/front/normal,pokemon_images/sprites/0128-Magnemite-81/back/normal
+Electric,Steel,pokemon_images/sprites/0129-Magneton-82/front/normal,pokemon_images/sprites/0129-Magneton-82/back/normal
+Normal,Flying,pokemon_images/sprites/0130-Farfetchd-83/front/normal,pokemon_images/sprites/0130-Farfetchd-83/back/normal
+Fighting,,pokemon_images/sprites/0131-Farfetchd Galar-83/front/normal,pokemon_images/sprites/0131-Farfetchd Galar-83/back/normal
+Normal,Flying,pokemon_images/sprites/0132-Doduo-84/front/normal,pokemon_images/sprites/0132-Doduo-84/back/normal
+Normal,Flying,pokemon_images/sprites/0133-Dodrio-85/front/normal,pokemon_images/sprites/0133-Dodrio-85/back/normal
+Water,,pokemon_images/sprites/0134-Seel-86/front/normal,pokemon_images/sprites/0134-Seel-86/back/normal
+Water,Ice,pokemon_images/sprites/0135-Dewgong-87/front/normal,pokemon_images/sprites/0135-Dewgong-87/back/normal
+Poison,,pokemon_images/sprites/0136-Grimer-88/front/normal,pokemon_images/sprites/0136-Grimer-88/back/normal
+Poison,Dark,pokemon_images/sprites/0137-Grimer Alola-88/front/normal,pokemon_images/sprites/0137-Grimer Alola-88/back/normal
+Poison,,pokemon_images/sprites/0138-Muk-89/front/normal,pokemon_images/sprites/0138-Muk-89/back/normal
+Poison,Dark,pokemon_images/sprites/0139-Muk Alola-89/front/normal,pokemon_images/sprites/0139-Muk Alola-89/back/normal
+Water,,pokemon_images/sprites/0140-Shellder-90/front/normal,pokemon_images/sprites/0140-Shellder-90/back/normal
+Water,Ice,pokemon_images/sprites/0141-Cloyster-91/front/normal,pokemon_images/sprites/0141-Cloyster-91/back/normal
+Ghost,Poison,pokemon_images/sprites/0142-Gastly-92/front/normal,pokemon_images/sprites/0142-Gastly-92/back/normal
+Ghost,Poison,pokemon_images/sprites/0143-Haunter-93/front/normal,pokemon_images/sprites/0143-Haunter-93/back/normal
+Ghost,Poison,pokemon_images/sprites/0144-Gengar-94/front/normal,pokemon_images/sprites/0144-Gengar-94/back/normal
+Rock,Ground,pokemon_images/sprites/0147-Onix-95/front/normal,pokemon_images/sprites/0147-Onix-95/back/normal
+Psychic,,pokemon_images/sprites/0148-Drowzee-96/front/normal,pokemon_images/sprites/0148-Drowzee-96/back/normal
+Psychic,,pokemon_images/sprites/0149-Hypno-97/front/normal,pokemon_images/sprites/0149-Hypno-97/back/normal
+Water,,pokemon_images/sprites/0150-Krabby-98/front/normal,pokemon_images/sprites/0150-Krabby-98/back/normal
+Water,,pokemon_images/sprites/0151-Kingler-99/front/normal,pokemon_images/sprites/0151-Kingler-99/back/normal
+Electric,,pokemon_images/sprites/0153-Voltorb-100/front/normal,pokemon_images/sprites/0153-Voltorb-100/back/normal
+Electric,,pokemon_images/sprites/0154-Electrode-101/front/normal,pokemon_images/sprites/0154-Electrode-101/back/normal
+Grass,Psychic,pokemon_images/sprites/0155-Exeggcute-102/front/normal,pokemon_images/sprites/0155-Exeggcute-102/back/normal
+Grass,Psychic,pokemon_images/sprites/0156-Exeggutor-103/front/normal,pokemon_images/sprites/0156-Exeggutor-103/back/normal
+Grass,Dragon,pokemon_images/sprites/0157-Exeggutor Alola-103/front/normal,pokemon_images/sprites/0157-Exeggutor Alola-103/back/normal
+Ground,,pokemon_images/sprites/0158-Cubone-104/front/normal,pokemon_images/sprites/0158-Cubone-104/back/normal
+Ground,,pokemon_images/sprites/0159-Marowak-105/front/normal,pokemon_images/sprites/0159-Marowak-105/back/normal
+Fire,Ghost,pokemon_images/sprites/0160-Marowak Alola-105/front/normal,pokemon_images/sprites/0160-Marowak Alola-105/back/normal
+Fighting,,pokemon_images/sprites/0162-Hitmonlee-106/front/normal,pokemon_images/sprites/0162-Hitmonlee-106/back/normal
+Fighting,,pokemon_images/sprites/0163-Hitmonchan-107/front/normal,pokemon_images/sprites/0163-Hitmonchan-107/back/normal
+Normal,,pokemon_images/sprites/0164-Lickitung-108/front/normal,pokemon_images/sprites/0164-Lickitung-108/back/normal
+Poison,,pokemon_images/sprites/0165-Koffing-109/front/normal,pokemon_images/sprites/0165-Koffing-109/back/normal
+Poison,,pokemon_images/sprites/0166-Weezing-110/front/normal,pokemon_images/sprites/0166-Weezing-110/back/normal
+Poison,Fairy,pokemon_images/sprites/0167-Weezing Galar-110/front/normal,pokemon_images/sprites/0167-Weezing Galar-110/back/normal
+Ground,Rock,pokemon_images/sprites/0168-Rhyhorn-111/front/normal,pokemon_images/sprites/0168-Rhyhorn-111/back/normal
+Ground,Rock,pokemon_images/sprites/0169-Rhydon-112/front/normal,pokemon_images/sprites/0169-Rhydon-112/back/normal
+Normal,,pokemon_images/sprites/0170-Chansey-113/front/normal,pokemon_images/sprites/0170-Chansey-113/back/normal
+Grass,,pokemon_images/sprites/0171-Tangela-114/front/normal,pokemon_images/sprites/0171-Tangela-114/back/normal
+Normal,,pokemon_images/sprites/0172-Kangaskhan-115/front/normal,pokemon_images/sprites/0172-Kangaskhan-115/back/normal
+Water,,pokemon_images/sprites/0174-Horsea-116/front/normal,pokemon_images/sprites/0174-Horsea-116/back/normal
+Water,,pokemon_images/sprites/0175-Seadra-117/front/normal,pokemon_images/sprites/0175-Seadra-117/back/normal
+Water,,pokemon_images/sprites/0176-Goldeen-118/front/normal,pokemon_images/sprites/0176-Goldeen-118/back/normal
+Water,,pokemon_images/sprites/0177-Seaking-119/front/normal,pokemon_images/sprites/0177-Seaking-119/back/normal
+Water,,pokemon_images/sprites/0178-Staryu-120/front/normal,pokemon_images/sprites/0178-Staryu-120/back/normal
+Water,Psychic,pokemon_images/sprites/0179-Starmie-121/front/normal,pokemon_images/sprites/0179-Starmie-121/back/normal
+Psychic,Fairy,pokemon_images/sprites/0180-Mr Mime-122/front/normal,pokemon_images/sprites/0180-Mr Mime-122/back/normal
+Ice,Psychic,pokemon_images/sprites/0181-Mr Mime Galar-122/front/normal,pokemon_images/sprites/0181-Mr Mime Galar-122/back/normal
+Bug,Flying,pokemon_images/sprites/0182-Scyther-123/front/normal,pokemon_images/sprites/0182-Scyther-123/back/normal
+Ice,Psychic,pokemon_images/sprites/0183-Jynx-124/front/normal,pokemon_images/sprites/0183-Jynx-124/back/normal
+Electric,,pokemon_images/sprites/0184-Electabuzz-125/front/normal,pokemon_images/sprites/0184-Electabuzz-125/back/normal
+Fire,,pokemon_images/sprites/0185-Magmar-126/front/normal,pokemon_images/sprites/0185-Magmar-126/back/normal
+Bug,,pokemon_images/sprites/0186-Pinsir-127/front/normal,pokemon_images/sprites/0186-Pinsir-127/back/normal
+Normal,,pokemon_images/sprites/0188-Tauros-128/front/normal,pokemon_images/sprites/0188-Tauros-128/back/normal
+Water,,pokemon_images/sprites/0189-Magikarp-129/front/normal,pokemon_images/sprites/0189-Magikarp-129/back/normal
+Water,Flying,pokemon_images/sprites/0190-Gyarados-130/front/normal,pokemon_images/sprites/0190-Gyarados-130/back/normal
+Water,Ice,pokemon_images/sprites/0192-Lapras-131/front/normal,pokemon_images/sprites/0192-Lapras-131/back/normal
+Normal,,pokemon_images/sprites/0194-Ditto-132/front/normal,pokemon_images/sprites/0194-Ditto-132/back/normal
+Normal,,pokemon_images/sprites/0195-Eevee-133/front/normal,pokemon_images/sprites/0195-Eevee-133/back/normal
+Water,,pokemon_images/sprites/0197-Vaporeon-134/front/normal,pokemon_images/sprites/0197-Vaporeon-134/back/normal
+Electric,,pokemon_images/sprites/0198-Jolteon-135/front/normal,pokemon_images/sprites/0198-Jolteon-135/back/normal
+Fire,,pokemon_images/sprites/0199-Flareon-136/front/normal,pokemon_images/sprites/0199-Flareon-136/back/normal
+Normal,,pokemon_images/sprites/0200-Porygon-137/front/normal,pokemon_images/sprites/0200-Porygon-137/back/normal
+Rock,Water,pokemon_images/sprites/0201-Omanyte-138/front/normal,pokemon_images/sprites/0201-Omanyte-138/back/normal
+Rock,Water,pokemon_images/sprites/0202-Omastar-139/front/normal,pokemon_images/sprites/0202-Omastar-139/back/normal
+Rock,Water,pokemon_images/sprites/0203-Kabuto-140/front/normal,pokemon_images/sprites/0203-Kabuto-140/back/normal
+Rock,Water,pokemon_images/sprites/0204-Kabutops-141/front/normal,pokemon_images/sprites/0204-Kabutops-141/back/normal
+Rock,Flying,pokemon_images/sprites/0205-Aerodactyl-142/front/normal,pokemon_images/sprites/0205-Aerodactyl-142/back/normal
+Normal,,pokemon_images/sprites/0207-Snorlax-143/front/normal,pokemon_images/sprites/0207-Snorlax-143/back/normal
+Ice,Flying,pokemon_images/sprites/0209-Articuno-144/front/normal,pokemon_images/sprites/0209-Articuno-144/back/normal
+Psychic,Flying,pokemon_images/sprites/0210-Articuno Galar-144/front/normal,pokemon_images/sprites/0210-Articuno Galar-144/back/normal
+Electric,Flying,pokemon_images/sprites/0211-Zapdos-145/front/normal,pokemon_images/sprites/0211-Zapdos-145/back/normal
+Fighting,Flying,pokemon_images/sprites/0212-Zapdos Galar-145/front/normal,pokemon_images/sprites/0212-Zapdos Galar-145/back/normal
+Fire,Flying,pokemon_images/sprites/0213-Moltres-146/front/normal,pokemon_images/sprites/0213-Moltres-146/back/normal
+Dark,Flying,pokemon_images/sprites/0214-Moltres Galar-146/front/normal,pokemon_images/sprites/0214-Moltres Galar-146/back/normal
+Dragon,,pokemon_images/sprites/0215-Dratini-147/front/normal,pokemon_images/sprites/0215-Dratini-147/back/normal
+Dragon,,pokemon_images/sprites/0216-Dragonair-148/front/normal,pokemon_images/sprites/0216-Dragonair-148/back/normal
+Dragon,Flying,pokemon_images/sprites/0217-Dragonite-149/front/normal,pokemon_images/sprites/0217-Dragonite-149/back/normal
+Psychic,,pokemon_images/sprites/0218-Mewtwo-150/front/normal,pokemon_images/sprites/0218-Mewtwo-150/back/normal
+Psychic,,pokemon_images/sprites/0221-Mew-151/front/normal,pokemon_images/sprites/0221-Mew-151/back/normal
+Grass,,pokemon_images/sprites/0222-Chikorita-152/front/normal,pokemon_images/sprites/0222-Chikorita-152/back/normal
+Grass,,pokemon_images/sprites/0223-Bayleef-153/front/normal,pokemon_images/sprites/0223-Bayleef-153/back/normal
+Grass,,pokemon_images/sprites/0224-Meganium-154/front/normal,pokemon_images/sprites/0224-Meganium-154/back/normal
+Fire,,pokemon_images/sprites/0225-Cyndaquil-155/front/normal,pokemon_images/sprites/0225-Cyndaquil-155/back/normal
+Fire,,pokemon_images/sprites/0226-Quilava-156/front/normal,pokemon_images/sprites/0226-Quilava-156/back/normal
+Fire,,pokemon_images/sprites/0227-Typhlosion-157/front/normal,pokemon_images/sprites/0227-Typhlosion-157/back/normal
+Water,,pokemon_images/sprites/0228-Totodile-158/front/normal,pokemon_images/sprites/0228-Totodile-158/back/normal
+Water,,pokemon_images/sprites/0229-Croconaw-159/front/normal,pokemon_images/sprites/0229-Croconaw-159/back/normal
+Water,,pokemon_images/sprites/0230-Feraligatr-160/front/normal,pokemon_images/sprites/0230-Feraligatr-160/back/normal
+Normal,,pokemon_images/sprites/0231-Sentret-161/front/normal,pokemon_images/sprites/0231-Sentret-161/back/normal
+Normal,,pokemon_images/sprites/0232-Furret-162/front/normal,pokemon_images/sprites/0232-Furret-162/back/normal
+Normal,Flying,pokemon_images/sprites/0233-Hoothoot-163/front/normal,pokemon_images/sprites/0233-Hoothoot-163/back/normal
+Normal,Flying,pokemon_images/sprites/0234-Noctowl-164/front/normal,pokemon_images/sprites/0234-Noctowl-164/back/normal
+Bug,Flying,pokemon_images/sprites/0235-Ledyba-165/front/normal,pokemon_images/sprites/0235-Ledyba-165/back/normal
+Bug,Flying,pokemon_images/sprites/0236-Ledian-166/front/normal,pokemon_images/sprites/0236-Ledian-166/back/normal
+Bug,Poison,pokemon_images/sprites/0237-Spinarak-167/front/normal,pokemon_images/sprites/0237-Spinarak-167/back/normal
+Bug,Poison,pokemon_images/sprites/0238-Ariados-168/front/normal,pokemon_images/sprites/0238-Ariados-168/back/normal
+Poison,Flying,pokemon_images/sprites/0239-Crobat-169/front/normal,pokemon_images/sprites/0239-Crobat-169/back/normal
+Water,Electric,pokemon_images/sprites/0240-Chinchou-170/front/normal,pokemon_images/sprites/0240-Chinchou-170/back/normal
+Water,Electric,pokemon_images/sprites/0241-Lanturn-171/front/normal,pokemon_images/sprites/0241-Lanturn-171/back/normal
+Electric,,pokemon_images/sprites/0242-Pichu-172/front/normal,pokemon_images/sprites/0242-Pichu-172/back/normal
+Fairy,,pokemon_images/sprites/0243-Cleffa-173/front/normal,pokemon_images/sprites/0243-Cleffa-173/back/normal
+Normal,Fairy,pokemon_images/sprites/0244-Igglybuff-174/front/normal,pokemon_images/sprites/0244-Igglybuff-174/back/normal
+Fairy,,pokemon_images/sprites/0245-Togepi-175/front/normal,pokemon_images/sprites/0245-Togepi-175/back/normal
+Fairy,Flying,pokemon_images/sprites/0246-Togetic-176/front/normal,pokemon_images/sprites/0246-Togetic-176/back/normal
+Psychic,Flying,pokemon_images/sprites/0247-Natu-177/front/normal,pokemon_images/sprites/0247-Natu-177/back/normal
+Psychic,Flying,pokemon_images/sprites/0248-Xatu-178/front/normal,pokemon_images/sprites/0248-Xatu-178/back/normal
+Electric,,pokemon_images/sprites/0249-Mareep-179/front/normal,pokemon_images/sprites/0249-Mareep-179/back/normal
+Electric,,pokemon_images/sprites/0250-Flaaffy-180/front/normal,pokemon_images/sprites/0250-Flaaffy-180/back/normal
+Electric,,pokemon_images/sprites/0251-Ampharos-181/front/normal,pokemon_images/sprites/0251-Ampharos-181/back/normal
+Grass,,pokemon_images/sprites/0253-Bellossom-182/front/normal,pokemon_images/sprites/0253-Bellossom-182/back/normal
+Water,Fairy,pokemon_images/sprites/0254-Marill-183/front/normal,pokemon_images/sprites/0254-Marill-183/back/normal
+Water,Fairy,pokemon_images/sprites/0255-Azumarill-184/front/normal,pokemon_images/sprites/0255-Azumarill-184/back/normal
+Rock,,pokemon_images/sprites/0256-Sudowoodo-185/front/normal,pokemon_images/sprites/0256-Sudowoodo-185/back/normal
+Water,,pokemon_images/sprites/0257-Politoed-186/front/normal,pokemon_images/sprites/0257-Politoed-186/back/normal
+Grass,Flying,pokemon_images/sprites/0258-Hoppip-187/front/normal,pokemon_images/sprites/0258-Hoppip-187/back/normal
+Grass,Flying,pokemon_images/sprites/0259-Skiploom-188/front/normal,pokemon_images/sprites/0259-Skiploom-188/back/normal
+Grass,Flying,pokemon_images/sprites/0260-Jumpluff-189/front/normal,pokemon_images/sprites/0260-Jumpluff-189/back/normal
+Normal,,pokemon_images/sprites/0261-Aipom-190/front/normal,pokemon_images/sprites/0261-Aipom-190/back/normal
+Grass,,pokemon_images/sprites/0262-Sunkern-191/front/normal,pokemon_images/sprites/0262-Sunkern-191/back/normal
+Grass,,pokemon_images/sprites/0263-Sunflora-192/front/normal,pokemon_images/sprites/0263-Sunflora-192/back/normal
+Bug,Flying,pokemon_images/sprites/0264-Yanma-193/front/normal,pokemon_images/sprites/0264-Yanma-193/back/normal
+Water,Ground,pokemon_images/sprites/0265-Wooper-194/front/normal,pokemon_images/sprites/0265-Wooper-194/back/normal
+Water,Ground,pokemon_images/sprites/0266-Quagsire-195/front/normal,pokemon_images/sprites/0266-Quagsire-195/back/normal
+Psychic,,pokemon_images/sprites/0267-Espeon-196/front/normal,pokemon_images/sprites/0267-Espeon-196/back/normal
+Dark,,pokemon_images/sprites/0268-Umbreon-197/front/normal,pokemon_images/sprites/0268-Umbreon-197/back/normal
+Dark,Flying,pokemon_images/sprites/0269-Murkrow-198/front/normal,pokemon_images/sprites/0269-Murkrow-198/back/normal
+Water,Psychic,pokemon_images/sprites/0270-Slowking-199/front/normal,pokemon_images/sprites/0270-Slowking-199/back/normal
+Poison,Psychic,pokemon_images/sprites/0271-Slowking Galar-199/front/normal,pokemon_images/sprites/0271-Slowking Galar-199/back/normal
+Ghost,,pokemon_images/sprites/0272-Misdreavus-200/front/normal,pokemon_images/sprites/0272-Misdreavus-200/back/normal
+Psychic,,pokemon_images/sprites/0273-Unown-201/front/normal,pokemon_images/sprites/0273-Unown-201/back/normal
+Psychic,,pokemon_images/sprites/0274-Wobbuffet-202/front/normal,pokemon_images/sprites/0274-Wobbuffet-202/back/normal
+Normal,Psychic,pokemon_images/sprites/0275-Girafarig-203/front/normal,pokemon_images/sprites/0275-Girafarig-203/back/normal
+Bug,,pokemon_images/sprites/0276-Pineco-204/front/normal,pokemon_images/sprites/0276-Pineco-204/back/normal
+Bug,Steel,pokemon_images/sprites/0277-Forretress-205/front/normal,pokemon_images/sprites/0277-Forretress-205/back/normal
+Normal,,pokemon_images/sprites/0278-Dunsparce-206/front/normal,pokemon_images/sprites/0278-Dunsparce-206/back/normal
+Ground,Flying,pokemon_images/sprites/0279-Gligar-207/front/normal,pokemon_images/sprites/0279-Gligar-207/back/normal
+Steel,Ground,pokemon_images/sprites/0280-Steelix-208/front/normal,pokemon_images/sprites/0280-Steelix-208/back/normal
+Fairy,,pokemon_images/sprites/0282-Snubbull-209/front/normal,pokemon_images/sprites/0282-Snubbull-209/back/normal
+Fairy,,pokemon_images/sprites/0283-Granbull-210/front/normal,pokemon_images/sprites/0283-Granbull-210/back/normal
+Water,Poison,pokemon_images/sprites/0284-Qwilfish-211/front/normal,pokemon_images/sprites/0284-Qwilfish-211/back/normal
+Bug,Steel,pokemon_images/sprites/0285-Scizor-212/front/normal,pokemon_images/sprites/0285-Scizor-212/back/normal
+Bug,Rock,pokemon_images/sprites/0287-Shuckle-213/front/normal,pokemon_images/sprites/0287-Shuckle-213/back/normal
+Bug,Fighting,pokemon_images/sprites/0288-Heracross-214/front/normal,pokemon_images/sprites/0288-Heracross-214/back/normal
+Dark,Ice,pokemon_images/sprites/0290-Sneasel-215/front/normal,pokemon_images/sprites/0290-Sneasel-215/back/normal
+Normal,,pokemon_images/sprites/0291-Teddiursa-216/front/normal,pokemon_images/sprites/0291-Teddiursa-216/back/normal
+Normal,,pokemon_images/sprites/0292-Ursaring-217/front/normal,pokemon_images/sprites/0292-Ursaring-217/back/normal
+Fire,,pokemon_images/sprites/0293-Slugma-218/front/normal,pokemon_images/sprites/0293-Slugma-218/back/normal
+Fire,Rock,pokemon_images/sprites/0294-Magcargo-219/front/normal,pokemon_images/sprites/0294-Magcargo-219/back/normal
+Ice,Ground,pokemon_images/sprites/0295-Swinub-220/front/normal,pokemon_images/sprites/0295-Swinub-220/back/normal
+Ice,Ground,pokemon_images/sprites/0296-Piloswine-221/front/normal,pokemon_images/sprites/0296-Piloswine-221/back/normal
+Water,Rock,pokemon_images/sprites/0297-Corsola-222/front/normal,pokemon_images/sprites/0297-Corsola-222/back/normal
+Ghost,,pokemon_images/sprites/0298-Corsola Galar-222/front/normal,pokemon_images/sprites/0298-Corsola Galar-222/back/normal
+Water,,pokemon_images/sprites/0299-Remoraid-223/front/normal,pokemon_images/sprites/0299-Remoraid-223/back/normal
+Water,,pokemon_images/sprites/0300-Octillery-224/front/normal,pokemon_images/sprites/0300-Octillery-224/back/normal
+Ice,Flying,pokemon_images/sprites/0301-Delibird-225/front/normal,pokemon_images/sprites/0301-Delibird-225/back/normal
+Water,Flying,pokemon_images/sprites/0302-Mantine-226/front/normal,pokemon_images/sprites/0302-Mantine-226/back/normal
+Steel,Flying,pokemon_images/sprites/0303-Skarmory-227/front/normal,pokemon_images/sprites/0303-Skarmory-227/back/normal
+Dark,Fire,pokemon_images/sprites/0304-Houndour-228/front/normal,pokemon_images/sprites/0304-Houndour-228/back/normal
+Dark,Fire,pokemon_images/sprites/0305-Houndoom-229/front/normal,pokemon_images/sprites/0305-Houndoom-229/back/normal
+Water,Dragon,pokemon_images/sprites/0307-Kingdra-230/front/normal,pokemon_images/sprites/0307-Kingdra-230/back/normal
+Ground,,pokemon_images/sprites/0308-Phanpy-231/front/normal,pokemon_images/sprites/0308-Phanpy-231/back/normal
+Ground,,pokemon_images/sprites/0309-Donphan-232/front/normal,pokemon_images/sprites/0309-Donphan-232/back/normal
+Normal,,pokemon_images/sprites/0310-Porygon2-233/front/normal,pokemon_images/sprites/0310-Porygon2-233/back/normal
+Normal,,pokemon_images/sprites/0311-Stantler-234/front/normal,pokemon_images/sprites/0311-Stantler-234/back/normal
+Normal,,pokemon_images/sprites/0312-Smeargle-235/front/normal,pokemon_images/sprites/0312-Smeargle-235/back/normal
+Fighting,,pokemon_images/sprites/0313-Tyrogue-236/front/normal,pokemon_images/sprites/0313-Tyrogue-236/back/normal
+Fighting,,pokemon_images/sprites/0314-Hitmontop-237/front/normal,pokemon_images/sprites/0314-Hitmontop-237/back/normal
+Ice,Psychic,pokemon_images/sprites/0315-Smoochum-238/front/normal,pokemon_images/sprites/0315-Smoochum-238/back/normal
+Electric,,pokemon_images/sprites/0316-Elekid-239/front/normal,pokemon_images/sprites/0316-Elekid-239/back/normal
+Fire,,pokemon_images/sprites/0317-Magby-240/front/normal,pokemon_images/sprites/0317-Magby-240/back/normal
+Normal,,pokemon_images/sprites/0318-Miltank-241/front/normal,pokemon_images/sprites/0318-Miltank-241/back/normal
+Normal,,pokemon_images/sprites/0319-Blissey-242/front/normal,pokemon_images/sprites/0319-Blissey-242/back/normal
+Electric,,pokemon_images/sprites/0320-Raikou-243/front/normal,pokemon_images/sprites/0320-Raikou-243/back/normal
+Fire,,pokemon_images/sprites/0321-Entei-244/front/normal,pokemon_images/sprites/0321-Entei-244/back/normal
+Water,,pokemon_images/sprites/0322-Suicune-245/front/normal,pokemon_images/sprites/0322-Suicune-245/back/normal
+Rock,Ground,pokemon_images/sprites/0323-Larvitar-246/front/normal,pokemon_images/sprites/0323-Larvitar-246/back/normal
+Rock,Ground,pokemon_images/sprites/0324-Pupitar-247/front/normal,pokemon_images/sprites/0324-Pupitar-247/back/normal
+Rock,Dark,pokemon_images/sprites/0325-Tyranitar-248/front/normal,pokemon_images/sprites/0325-Tyranitar-248/back/normal
+Psychic,Flying,pokemon_images/sprites/0327-Lugia-249/front/normal,pokemon_images/sprites/0327-Lugia-249/back/normal
+Fire,Flying,pokemon_images/sprites/0328-Ho Oh-250/front/normal,pokemon_images/sprites/0328-Ho Oh-250/back/normal
+Psychic,Grass,pokemon_images/sprites/0329-Celebi-251/front/normal,pokemon_images/sprites/0329-Celebi-251/back/normal
+Grass,,pokemon_images/sprites/0330-Treecko-252/front/normal,pokemon_images/sprites/0330-Treecko-252/back/normal
+Grass,,pokemon_images/sprites/0331-Grovyle-253/front/normal,pokemon_images/sprites/0331-Grovyle-253/back/normal
+Grass,,pokemon_images/sprites/0332-Sceptile-254/front/normal,pokemon_images/sprites/0332-Sceptile-254/back/normal
+Fire,,pokemon_images/sprites/0334-Torchic-255/front/normal,pokemon_images/sprites/0334-Torchic-255/back/normal
+Fire,Fighting,pokemon_images/sprites/0335-Combusken-256/front/normal,pokemon_images/sprites/0335-Combusken-256/back/normal
+Fire,Fighting,pokemon_images/sprites/0336-Blaziken-257/front/normal,pokemon_images/sprites/0336-Blaziken-257/back/normal
+Water,,pokemon_images/sprites/0338-Mudkip-258/front/normal,pokemon_images/sprites/0338-Mudkip-258/back/normal
+Water,Ground,pokemon_images/sprites/0339-Marshtomp-259/front/normal,pokemon_images/sprites/0339-Marshtomp-259/back/normal
+Water,Ground,pokemon_images/sprites/0340-Swampert-260/front/normal,pokemon_images/sprites/0340-Swampert-260/back/normal
+Dark,,pokemon_images/sprites/0342-Poochyena-261/front/normal,pokemon_images/sprites/0342-Poochyena-261/back/normal
+Dark,,pokemon_images/sprites/0343-Mightyena-262/front/normal,pokemon_images/sprites/0343-Mightyena-262/back/normal
+Normal,,pokemon_images/sprites/0344-Zigzagoon-263/front/normal,pokemon_images/sprites/0344-Zigzagoon-263/back/normal
+Dark,Normal,pokemon_images/sprites/0345-Zigzagoon Galar-263/front/normal,pokemon_images/sprites/0345-Zigzagoon Galar-263/back/normal
+Normal,,pokemon_images/sprites/0346-Linoone-264/front/normal,pokemon_images/sprites/0346-Linoone-264/back/normal
+Dark,Normal,pokemon_images/sprites/0347-Linoone Galar-264/front/normal,pokemon_images/sprites/0347-Linoone Galar-264/back/normal
+Bug,,pokemon_images/sprites/0348-Wurmple-265/front/normal,pokemon_images/sprites/0348-Wurmple-265/back/normal
+Bug,,pokemon_images/sprites/0349-Silcoon-266/front/normal,pokemon_images/sprites/0349-Silcoon-266/back/normal
+Bug,Flying,pokemon_images/sprites/0350-Beautifly-267/front/normal,pokemon_images/sprites/0350-Beautifly-267/back/normal
+Bug,,pokemon_images/sprites/0351-Cascoon-268/front/normal,pokemon_images/sprites/0351-Cascoon-268/back/normal
+Bug,Poison,pokemon_images/sprites/0352-Dustox-269/front/normal,pokemon_images/sprites/0352-Dustox-269/back/normal
+Water,Grass,pokemon_images/sprites/0353-Lotad-270/front/normal,pokemon_images/sprites/0353-Lotad-270/back/normal
+Water,Grass,pokemon_images/sprites/0354-Lombre-271/front/normal,pokemon_images/sprites/0354-Lombre-271/back/normal
+Water,Grass,pokemon_images/sprites/0355-Ludicolo-272/front/normal,pokemon_images/sprites/0355-Ludicolo-272/back/normal
+Grass,,pokemon_images/sprites/0356-Seedot-273/front/normal,pokemon_images/sprites/0356-Seedot-273/back/normal
+Grass,Dark,pokemon_images/sprites/0357-Nuzleaf-274/front/normal,pokemon_images/sprites/0357-Nuzleaf-274/back/normal
+Grass,Dark,pokemon_images/sprites/0358-Shiftry-275/front/normal,pokemon_images/sprites/0358-Shiftry-275/back/normal
+Normal,Flying,pokemon_images/sprites/0359-Taillow-276/front/normal,pokemon_images/sprites/0359-Taillow-276/back/normal
+Normal,Flying,pokemon_images/sprites/0360-Swellow-277/front/normal,pokemon_images/sprites/0360-Swellow-277/back/normal
+Water,Flying,pokemon_images/sprites/0361-Wingull-278/front/normal,pokemon_images/sprites/0361-Wingull-278/back/normal
+Water,Flying,pokemon_images/sprites/0362-Pelipper-279/front/normal,pokemon_images/sprites/0362-Pelipper-279/back/normal
+Psychic,Fairy,pokemon_images/sprites/0363-Ralts-280/front/normal,pokemon_images/sprites/0363-Ralts-280/back/normal
+Psychic,Fairy,pokemon_images/sprites/0364-Kirlia-281/front/normal,pokemon_images/sprites/0364-Kirlia-281/back/normal
+Psychic,Fairy,pokemon_images/sprites/0365-Gardevoir-282/front/normal,pokemon_images/sprites/0365-Gardevoir-282/back/normal
+Bug,Water,pokemon_images/sprites/0367-Surskit-283/front/normal,pokemon_images/sprites/0367-Surskit-283/back/normal
+Bug,Flying,pokemon_images/sprites/0368-Masquerain-284/front/normal,pokemon_images/sprites/0368-Masquerain-284/back/normal
+Grass,,pokemon_images/sprites/0369-Shroomish-285/front/normal,pokemon_images/sprites/0369-Shroomish-285/back/normal
+Grass,Fighting,pokemon_images/sprites/0370-Breloom-286/front/normal,pokemon_images/sprites/0370-Breloom-286/back/normal
+Normal,,pokemon_images/sprites/0371-Slakoth-287/front/normal,pokemon_images/sprites/0371-Slakoth-287/back/normal
+Normal,,pokemon_images/sprites/0372-Vigoroth-288/front/normal,pokemon_images/sprites/0372-Vigoroth-288/back/normal
+Normal,,pokemon_images/sprites/0373-Slaking-289/front/normal,pokemon_images/sprites/0373-Slaking-289/back/normal
+Bug,Ground,pokemon_images/sprites/0374-Nincada-290/front/normal,pokemon_images/sprites/0374-Nincada-290/back/normal
+Bug,Flying,pokemon_images/sprites/0375-Ninjask-291/front/normal,pokemon_images/sprites/0375-Ninjask-291/back/normal
+Bug,Ghost,pokemon_images/sprites/0376-Shedinja-292/front/normal,pokemon_images/sprites/0376-Shedinja-292/back/normal
+Normal,,pokemon_images/sprites/0377-Whismur-293/front/normal,pokemon_images/sprites/0377-Whismur-293/back/normal
+Normal,,pokemon_images/sprites/0378-Loudred-294/front/normal,pokemon_images/sprites/0378-Loudred-294/back/normal
+Normal,,pokemon_images/sprites/0379-Exploud-295/front/normal,pokemon_images/sprites/0379-Exploud-295/back/normal
+Fighting,,pokemon_images/sprites/0380-Makuhita-296/front/normal,pokemon_images/sprites/0380-Makuhita-296/back/normal
+Fighting,,pokemon_images/sprites/0381-Hariyama-297/front/normal,pokemon_images/sprites/0381-Hariyama-297/back/normal
+Normal,Fairy,pokemon_images/sprites/0382-Azurill-298/front/normal,pokemon_images/sprites/0382-Azurill-298/back/normal
+Rock,,pokemon_images/sprites/0383-Nosepass-299/front/normal,pokemon_images/sprites/0383-Nosepass-299/back/normal
+Normal,,pokemon_images/sprites/0384-Skitty-300/front/normal,pokemon_images/sprites/0384-Skitty-300/back/normal
+Normal,,pokemon_images/sprites/0385-Delcatty-301/front/normal,pokemon_images/sprites/0385-Delcatty-301/back/normal
+Dark,Ghost,pokemon_images/sprites/0386-Sableye-302/front/normal,pokemon_images/sprites/0386-Sableye-302/back/normal
+Steel,Fairy,pokemon_images/sprites/0388-Mawile-303/front/normal,pokemon_images/sprites/0388-Mawile-303/back/normal
+Steel,Rock,pokemon_images/sprites/0390-Aron-304/front/normal,pokemon_images/sprites/0390-Aron-304/back/normal
+Steel,Rock,pokemon_images/sprites/0391-Lairon-305/front/normal,pokemon_images/sprites/0391-Lairon-305/back/normal
+Steel,Rock,pokemon_images/sprites/0392-Aggron-306/front/normal,pokemon_images/sprites/0392-Aggron-306/back/normal
+Fighting,Psychic,pokemon_images/sprites/0394-Meditite-307/front/normal,pokemon_images/sprites/0394-Meditite-307/back/normal
+Fighting,Psychic,pokemon_images/sprites/0395-Medicham-308/front/normal,pokemon_images/sprites/0395-Medicham-308/back/normal
+Electric,,pokemon_images/sprites/0397-Electrike-309/front/normal,pokemon_images/sprites/0397-Electrike-309/back/normal
+Electric,,pokemon_images/sprites/0398-Manectric-310/front/normal,pokemon_images/sprites/0398-Manectric-310/back/normal
+Electric,,pokemon_images/sprites/0400-Plusle-311/front/normal,pokemon_images/sprites/0400-Plusle-311/back/normal
+Electric,,pokemon_images/sprites/0401-Minun-312/front/normal,pokemon_images/sprites/0401-Minun-312/back/normal
+Bug,,pokemon_images/sprites/0402-Volbeat-313/front/normal,pokemon_images/sprites/0402-Volbeat-313/back/normal
+Bug,,pokemon_images/sprites/0403-Illumise-314/front/normal,pokemon_images/sprites/0403-Illumise-314/back/normal
+Grass,Poison,pokemon_images/sprites/0404-Roselia-315/front/normal,pokemon_images/sprites/0404-Roselia-315/back/normal
+Poison,,pokemon_images/sprites/0405-Gulpin-316/front/normal,pokemon_images/sprites/0405-Gulpin-316/back/normal
+Poison,,pokemon_images/sprites/0406-Swalot-317/front/normal,pokemon_images/sprites/0406-Swalot-317/back/normal
+Water,Dark,pokemon_images/sprites/0407-Carvanha-318/front/normal,pokemon_images/sprites/0407-Carvanha-318/back/normal
+Water,Dark,pokemon_images/sprites/0408-Sharpedo-319/front/normal,pokemon_images/sprites/0408-Sharpedo-319/back/normal
+Water,,pokemon_images/sprites/0410-Wailmer-320/front/normal,pokemon_images/sprites/0410-Wailmer-320/back/normal
+Water,,pokemon_images/sprites/0411-Wailord-321/front/normal,pokemon_images/sprites/0411-Wailord-321/back/normal
+Fire,Ground,pokemon_images/sprites/0412-Numel-322/front/normal,pokemon_images/sprites/0412-Numel-322/back/normal
+Fire,Ground,pokemon_images/sprites/0413-Camerupt-323/front/normal,pokemon_images/sprites/0413-Camerupt-323/back/normal
+Fire,,pokemon_images/sprites/0415-Torkoal-324/front/normal,pokemon_images/sprites/0415-Torkoal-324/back/normal
+Psychic,,pokemon_images/sprites/0416-Spoink-325/front/normal,pokemon_images/sprites/0416-Spoink-325/back/normal
+Psychic,,pokemon_images/sprites/0417-Grumpig-326/front/normal,pokemon_images/sprites/0417-Grumpig-326/back/normal
+Normal,,pokemon_images/sprites/0418-Spinda-327/front/normal,pokemon_images/sprites/0418-Spinda-327/back/normal
+Ground,,pokemon_images/sprites/0419-Trapinch-328/front/normal,pokemon_images/sprites/0419-Trapinch-328/back/normal
+Ground,Dragon,pokemon_images/sprites/0420-Vibrava-329/front/normal,pokemon_images/sprites/0420-Vibrava-329/back/normal
+Ground,Dragon,pokemon_images/sprites/0421-Flygon-330/front/normal,pokemon_images/sprites/0421-Flygon-330/back/normal
+Grass,,pokemon_images/sprites/0422-Cacnea-331/front/normal,pokemon_images/sprites/0422-Cacnea-331/back/normal
+Grass,Dark,pokemon_images/sprites/0423-Cacturne-332/front/normal,pokemon_images/sprites/0423-Cacturne-332/back/normal
+Normal,Flying,pokemon_images/sprites/0424-Swablu-333/front/normal,pokemon_images/sprites/0424-Swablu-333/back/normal
+Dragon,Flying,pokemon_images/sprites/0425-Altaria-334/front/normal,pokemon_images/sprites/0425-Altaria-334/back/normal
+Normal,,pokemon_images/sprites/0427-Zangoose-335/front/normal,pokemon_images/sprites/0427-Zangoose-335/back/normal
+Poison,,pokemon_images/sprites/0428-Seviper-336/front/normal,pokemon_images/sprites/0428-Seviper-336/back/normal
+Rock,Psychic,pokemon_images/sprites/0429-Lunatone-337/front/normal,pokemon_images/sprites/0429-Lunatone-337/back/normal
+Rock,Psychic,pokemon_images/sprites/0430-Solrock-338/front/normal,pokemon_images/sprites/0430-Solrock-338/back/normal
+Water,Ground,pokemon_images/sprites/0431-Barboach-339/front/normal,pokemon_images/sprites/0431-Barboach-339/back/normal
+Water,Ground,pokemon_images/sprites/0432-Whiscash-340/front/normal,pokemon_images/sprites/0432-Whiscash-340/back/normal
+Water,,pokemon_images/sprites/0433-Corphish-341/front/normal,pokemon_images/sprites/0433-Corphish-341/back/normal
+Water,Dark,pokemon_images/sprites/0434-Crawdaunt-342/front/normal,pokemon_images/sprites/0434-Crawdaunt-342/back/normal
+Ground,Psychic,pokemon_images/sprites/0435-Baltoy-343/front/normal,pokemon_images/sprites/0435-Baltoy-343/back/normal
+Ground,Psychic,pokemon_images/sprites/0436-Claydol-344/front/normal,pokemon_images/sprites/0436-Claydol-344/back/normal
+Rock,Grass,pokemon_images/sprites/0437-Lileep-345/front/normal,pokemon_images/sprites/0437-Lileep-345/back/normal
+Rock,Grass,pokemon_images/sprites/0438-Cradily-346/front/normal,pokemon_images/sprites/0438-Cradily-346/back/normal
+Rock,Bug,pokemon_images/sprites/0439-Anorith-347/front/normal,pokemon_images/sprites/0439-Anorith-347/back/normal
+Rock,Bug,pokemon_images/sprites/0440-Armaldo-348/front/normal,pokemon_images/sprites/0440-Armaldo-348/back/normal
+Water,,pokemon_images/sprites/0441-Feebas-349/front/normal,pokemon_images/sprites/0441-Feebas-349/back/normal
+Water,,pokemon_images/sprites/0442-Milotic-350/front/normal,pokemon_images/sprites/0442-Milotic-350/back/normal
+Normal,,pokemon_images/sprites/0443-Castform-351/front/normal,pokemon_images/sprites/0443-Castform-351/back/normal
+Water,,pokemon_images/sprites/0444-Castform Rainy-351/front/normal,pokemon_images/sprites/0444-Castform Rainy-351/back/normal
+Ice,,pokemon_images/sprites/0445-Castform Snowy-351/front/normal,pokemon_images/sprites/0445-Castform Snowy-351/back/normal
+Fire,,pokemon_images/sprites/0446-Castform Sunny-351/front/normal,pokemon_images/sprites/0446-Castform Sunny-351/back/normal
+Normal,,pokemon_images/sprites/0447-Kecleon-352/front/normal,pokemon_images/sprites/0447-Kecleon-352/back/normal
+Ghost,,pokemon_images/sprites/0448-Shuppet-353/front/normal,pokemon_images/sprites/0448-Shuppet-353/back/normal
+Ghost,,pokemon_images/sprites/0449-Banette-354/front/normal,pokemon_images/sprites/0449-Banette-354/back/normal
+Ghost,,pokemon_images/sprites/0451-Duskull-355/front/normal,pokemon_images/sprites/0451-Duskull-355/back/normal
+Ghost,,pokemon_images/sprites/0452-Dusclops-356/front/normal,pokemon_images/sprites/0452-Dusclops-356/back/normal
+Grass,Flying,pokemon_images/sprites/0453-Tropius-357/front/normal,pokemon_images/sprites/0453-Tropius-357/back/normal
+Psychic,,pokemon_images/sprites/0454-Chimecho-358/front/normal,pokemon_images/sprites/0454-Chimecho-358/back/normal
+Dark,,pokemon_images/sprites/0455-Absol-359/front/normal,pokemon_images/sprites/0455-Absol-359/back/normal
+Psychic,,pokemon_images/sprites/0457-Wynaut-360/front/normal,pokemon_images/sprites/0457-Wynaut-360/back/normal
+Ice,,pokemon_images/sprites/0458-Snorunt-361/front/normal,pokemon_images/sprites/0458-Snorunt-361/back/normal
+Ice,,pokemon_images/sprites/0459-Glalie-362/front/normal,pokemon_images/sprites/0459-Glalie-362/back/normal
+Ice,Water,pokemon_images/sprites/0461-Spheal-363/front/normal,pokemon_images/sprites/0461-Spheal-363/back/normal
+Ice,Water,pokemon_images/sprites/0462-Sealeo-364/front/normal,pokemon_images/sprites/0462-Sealeo-364/back/normal
+Ice,Water,pokemon_images/sprites/0463-Walrein-365/front/normal,pokemon_images/sprites/0463-Walrein-365/back/normal
+Water,,pokemon_images/sprites/0464-Clamperl-366/front/normal,pokemon_images/sprites/0464-Clamperl-366/back/normal
+Water,,pokemon_images/sprites/0465-Huntail-367/front/normal,pokemon_images/sprites/0465-Huntail-367/back/normal
+Water,,pokemon_images/sprites/0466-Gorebyss-368/front/normal,pokemon_images/sprites/0466-Gorebyss-368/back/normal
+Water,Rock,pokemon_images/sprites/0467-Relicanth-369/front/normal,pokemon_images/sprites/0467-Relicanth-369/back/normal
+Water,,pokemon_images/sprites/0468-Luvdisc-370/front/normal,pokemon_images/sprites/0468-Luvdisc-370/back/normal
+Dragon,,pokemon_images/sprites/0469-Bagon-371/front/normal,pokemon_images/sprites/0469-Bagon-371/back/normal
+Dragon,,pokemon_images/sprites/0470-Shelgon-372/front/normal,pokemon_images/sprites/0470-Shelgon-372/back/normal
+Dragon,Flying,pokemon_images/sprites/0471-Salamence-373/front/normal,pokemon_images/sprites/0471-Salamence-373/back/normal
+Steel,Psychic,pokemon_images/sprites/0473-Beldum-374/front/normal,pokemon_images/sprites/0473-Beldum-374/back/normal
+Steel,Psychic,pokemon_images/sprites/0474-Metang-375/front/normal,pokemon_images/sprites/0474-Metang-375/back/normal
+Steel,Psychic,pokemon_images/sprites/0475-Metagross-376/front/normal,pokemon_images/sprites/0475-Metagross-376/back/normal
+Rock,,pokemon_images/sprites/0477-Regirock-377/front/normal,pokemon_images/sprites/0477-Regirock-377/back/normal
+Ice,,pokemon_images/sprites/0478-Regice-378/front/normal,pokemon_images/sprites/0478-Regice-378/back/normal
+Steel,,pokemon_images/sprites/0479-Registeel-379/front/normal,pokemon_images/sprites/0479-Registeel-379/back/normal
+Dragon,Psychic,pokemon_images/sprites/0480-Latias-380/front/normal,pokemon_images/sprites/0480-Latias-380/back/normal
+Dragon,Psychic,pokemon_images/sprites/0482-Latios-381/front/normal,pokemon_images/sprites/0482-Latios-381/back/normal
+Water,,pokemon_images/sprites/0484-Kyogre-382/front/normal,pokemon_images/sprites/0484-Kyogre-382/back/normal
+Ground,,pokemon_images/sprites/0486-Groudon-383/front/normal,pokemon_images/sprites/0486-Groudon-383/back/normal
+Dragon,Flying,pokemon_images/sprites/0488-Rayquaza-384/front/normal,pokemon_images/sprites/0488-Rayquaza-384/back/normal
+Steel,Psychic,pokemon_images/sprites/0490-Jirachi-385/front/normal,pokemon_images/sprites/0490-Jirachi-385/back/normal
+Psychic,,pokemon_images/sprites/0491-Deoxys Attack-386/front/normal,pokemon_images/sprites/0491-Deoxys Attack-386/back/normal
+Psychic,,pokemon_images/sprites/0492-Deoxys Defense-386/front/normal,pokemon_images/sprites/0492-Deoxys Defense-386/back/normal
+Psychic,,pokemon_images/sprites/0493-Deoxys Normal-386/front/normal,pokemon_images/sprites/0493-Deoxys Normal-386/back/normal
+Psychic,,pokemon_images/sprites/0494-Deoxys Speed-386/front/normal,pokemon_images/sprites/0494-Deoxys Speed-386/back/normal
+Grass,,pokemon_images/sprites/0495-Turtwig-387/front/normal,pokemon_images/sprites/0495-Turtwig-387/back/normal
+Grass,,pokemon_images/sprites/0496-Grotle-388/front/normal,pokemon_images/sprites/0496-Grotle-388/back/normal
+Grass,Ground,pokemon_images/sprites/0497-Torterra-389/front/normal,pokemon_images/sprites/0497-Torterra-389/back/normal
+Fire,,pokemon_images/sprites/0498-Chimchar-390/front/normal,pokemon_images/sprites/0498-Chimchar-390/back/normal
+Fire,Fighting,pokemon_images/sprites/0499-Monferno-391/front/normal,pokemon_images/sprites/0499-Monferno-391/back/normal
+Fire,Fighting,pokemon_images/sprites/0500-Infernape-392/front/normal,pokemon_images/sprites/0500-Infernape-392/back/normal
+Water,,pokemon_images/sprites/0501-Piplup-393/front/normal,pokemon_images/sprites/0501-Piplup-393/back/normal
+Water,,pokemon_images/sprites/0502-Prinplup-394/front/normal,pokemon_images/sprites/0502-Prinplup-394/back/normal
+Water,Steel,pokemon_images/sprites/0503-Empoleon-395/front/normal,pokemon_images/sprites/0503-Empoleon-395/back/normal
+Normal,Flying,pokemon_images/sprites/0504-Starly-396/front/normal,pokemon_images/sprites/0504-Starly-396/back/normal
+Normal,Flying,pokemon_images/sprites/0505-Staravia-397/front/normal,pokemon_images/sprites/0505-Staravia-397/back/normal
+Normal,Flying,pokemon_images/sprites/0506-Staraptor-398/front/normal,pokemon_images/sprites/0506-Staraptor-398/back/normal
+Normal,,pokemon_images/sprites/0507-Bidoof-399/front/normal,pokemon_images/sprites/0507-Bidoof-399/back/normal
+Normal,Water,pokemon_images/sprites/0508-Bibarel-400/front/normal,pokemon_images/sprites/0508-Bibarel-400/back/normal
+Bug,,pokemon_images/sprites/0509-Kricketot-401/front/normal,pokemon_images/sprites/0509-Kricketot-401/back/normal
+Bug,,pokemon_images/sprites/0510-Kricketune-402/front/normal,pokemon_images/sprites/0510-Kricketune-402/back/normal
+Electric,,pokemon_images/sprites/0511-Shinx-403/front/normal,pokemon_images/sprites/0511-Shinx-403/back/normal
+Electric,,pokemon_images/sprites/0512-Luxio-404/front/normal,pokemon_images/sprites/0512-Luxio-404/back/normal
+Electric,,pokemon_images/sprites/0513-Luxray-405/front/normal,pokemon_images/sprites/0513-Luxray-405/back/normal
+Grass,Poison,pokemon_images/sprites/0514-Budew-406/front/normal,pokemon_images/sprites/0514-Budew-406/back/normal
+Grass,Poison,pokemon_images/sprites/0515-Roserade-407/front/normal,pokemon_images/sprites/0515-Roserade-407/back/normal
+Rock,,pokemon_images/sprites/0516-Cranidos-408/front/normal,pokemon_images/sprites/0516-Cranidos-408/back/normal
+Rock,,pokemon_images/sprites/0517-Rampardos-409/front/normal,pokemon_images/sprites/0517-Rampardos-409/back/normal
+Rock,Steel,pokemon_images/sprites/0518-Shieldon-410/front/normal,pokemon_images/sprites/0518-Shieldon-410/back/normal
+Rock,Steel,pokemon_images/sprites/0519-Bastiodon-411/front/normal,pokemon_images/sprites/0519-Bastiodon-411/back/normal
+Bug,,pokemon_images/sprites/0520-Burmy-412/front/normal,pokemon_images/sprites/0520-Burmy-412/back/normal
+Bug,Grass,pokemon_images/sprites/0521-Wormadam Plant-413/front/normal,pokemon_images/sprites/0521-Wormadam Plant-413/back/normal
+Bug,Ground,pokemon_images/sprites/0522-Wormadam Sandy-413/front/normal,pokemon_images/sprites/0522-Wormadam Sandy-413/back/normal
+Bug,Steel,pokemon_images/sprites/0523-Wormadam Trash-413/front/normal,pokemon_images/sprites/0523-Wormadam Trash-413/back/normal
+Bug,Flying,pokemon_images/sprites/0524-Mothim-414/front/normal,pokemon_images/sprites/0524-Mothim-414/back/normal
+Bug,Flying,pokemon_images/sprites/0525-Combee-415/front/normal,pokemon_images/sprites/0525-Combee-415/back/normal
+Bug,Flying,pokemon_images/sprites/0526-Vespiquen-416/front/normal,pokemon_images/sprites/0526-Vespiquen-416/back/normal
+Electric,,pokemon_images/sprites/0527-Pachirisu-417/front/normal,pokemon_images/sprites/0527-Pachirisu-417/back/normal
+Water,,pokemon_images/sprites/0528-Buizel-418/front/normal,pokemon_images/sprites/0528-Buizel-418/back/normal
+Water,,pokemon_images/sprites/0529-Floatzel-419/front/normal,pokemon_images/sprites/0529-Floatzel-419/back/normal
+Grass,,pokemon_images/sprites/0530-Cherubi-420/front/normal,pokemon_images/sprites/0530-Cherubi-420/back/normal
+Grass,,pokemon_images/sprites/0531-Cherrim-421/front/normal,pokemon_images/sprites/0531-Cherrim-421/back/normal
+Water,,pokemon_images/sprites/0532-Shellos-422/front/normal,pokemon_images/sprites/0532-Shellos-422/back/normal
+Water,Ground,pokemon_images/sprites/0533-Gastrodon-423/front/normal,pokemon_images/sprites/0533-Gastrodon-423/back/normal
+Normal,,pokemon_images/sprites/0534-Ambipom-424/front/normal,pokemon_images/sprites/0534-Ambipom-424/back/normal
+Ghost,Flying,pokemon_images/sprites/0535-Drifloon-425/front/normal,pokemon_images/sprites/0535-Drifloon-425/back/normal
+Ghost,Flying,pokemon_images/sprites/0536-Drifblim-426/front/normal,pokemon_images/sprites/0536-Drifblim-426/back/normal
+Normal,,pokemon_images/sprites/0537-Buneary-427/front/normal,pokemon_images/sprites/0537-Buneary-427/back/normal
+Normal,,pokemon_images/sprites/0538-Lopunny-428/front/normal,pokemon_images/sprites/0538-Lopunny-428/back/normal
+Ghost,,pokemon_images/sprites/0540-Mismagius-429/front/normal,pokemon_images/sprites/0540-Mismagius-429/back/normal
+Dark,Flying,pokemon_images/sprites/0541-Honchkrow-430/front/normal,pokemon_images/sprites/0541-Honchkrow-430/back/normal
+Normal,,pokemon_images/sprites/0542-Glameow-431/front/normal,pokemon_images/sprites/0542-Glameow-431/back/normal
+Normal,,pokemon_images/sprites/0543-Purugly-432/front/normal,pokemon_images/sprites/0543-Purugly-432/back/normal
+Psychic,,pokemon_images/sprites/0544-Chingling-433/front/normal,pokemon_images/sprites/0544-Chingling-433/back/normal
+Poison,Dark,pokemon_images/sprites/0545-Stunky-434/front/normal,pokemon_images/sprites/0545-Stunky-434/back/normal
+Poison,Dark,pokemon_images/sprites/0546-Skuntank-435/front/normal,pokemon_images/sprites/0546-Skuntank-435/back/normal
+Steel,Psychic,pokemon_images/sprites/0547-Bronzor-436/front/normal,pokemon_images/sprites/0547-Bronzor-436/back/normal
+Steel,Psychic,pokemon_images/sprites/0548-Bronzong-437/front/normal,pokemon_images/sprites/0548-Bronzong-437/back/normal
+Rock,,pokemon_images/sprites/0549-Bonsly-438/front/normal,pokemon_images/sprites/0549-Bonsly-438/back/normal
+Psychic,Fairy,pokemon_images/sprites/0550-Mime Jr-439/front/normal,pokemon_images/sprites/0550-Mime Jr-439/back/normal
+Normal,,pokemon_images/sprites/0551-Happiny-440/front/normal,pokemon_images/sprites/0551-Happiny-440/back/normal
+Normal,Flying,pokemon_images/sprites/0552-Chatot-441/front/normal,pokemon_images/sprites/0552-Chatot-441/back/normal
+Ghost,Dark,pokemon_images/sprites/0553-Spiritomb-442/front/normal,pokemon_images/sprites/0553-Spiritomb-442/back/normal
+Dragon,Ground,pokemon_images/sprites/0554-Gible-443/front/normal,pokemon_images/sprites/0554-Gible-443/back/normal
+Dragon,Ground,pokemon_images/sprites/0555-Gabite-444/front/normal,pokemon_images/sprites/0555-Gabite-444/back/normal
+Dragon,Ground,pokemon_images/sprites/0556-Garchomp-445/front/normal,pokemon_images/sprites/0556-Garchomp-445/back/normal
+Normal,,pokemon_images/sprites/0558-Munchlax-446/front/normal,pokemon_images/sprites/0558-Munchlax-446/back/normal
+Fighting,,pokemon_images/sprites/0559-Riolu-447/front/normal,pokemon_images/sprites/0559-Riolu-447/back/normal
+Fighting,Steel,pokemon_images/sprites/0560-Lucario-448/front/normal,pokemon_images/sprites/0560-Lucario-448/back/normal
+Ground,,pokemon_images/sprites/0562-Hippopotas-449/front/normal,pokemon_images/sprites/0562-Hippopotas-449/back/normal
+Ground,,pokemon_images/sprites/0563-Hippowdon-450/front/normal,pokemon_images/sprites/0563-Hippowdon-450/back/normal
+Poison,Bug,pokemon_images/sprites/0564-Skorupi-451/front/normal,pokemon_images/sprites/0564-Skorupi-451/back/normal
+Poison,Dark,pokemon_images/sprites/0565-Drapion-452/front/normal,pokemon_images/sprites/0565-Drapion-452/back/normal
+Poison,Fighting,pokemon_images/sprites/0566-Croagunk-453/front/normal,pokemon_images/sprites/0566-Croagunk-453/back/normal
+Poison,Fighting,pokemon_images/sprites/0567-Toxicroak-454/front/normal,pokemon_images/sprites/0567-Toxicroak-454/back/normal
+Grass,,pokemon_images/sprites/0568-Carnivine-455/front/normal,pokemon_images/sprites/0568-Carnivine-455/back/normal
+Water,,pokemon_images/sprites/0569-Finneon-456/front/normal,pokemon_images/sprites/0569-Finneon-456/back/normal
+Water,,pokemon_images/sprites/0570-Lumineon-457/front/normal,pokemon_images/sprites/0570-Lumineon-457/back/normal
+Water,Flying,pokemon_images/sprites/0571-Mantyke-458/front/normal,pokemon_images/sprites/0571-Mantyke-458/back/normal
+Grass,Ice,pokemon_images/sprites/0572-Snover-459/front/normal,pokemon_images/sprites/0572-Snover-459/back/normal
+Grass,Ice,pokemon_images/sprites/0573-Abomasnow-460/front/normal,pokemon_images/sprites/0573-Abomasnow-460/back/normal
+Dark,Ice,pokemon_images/sprites/0575-Weavile-461/front/normal,pokemon_images/sprites/0575-Weavile-461/back/normal
+Electric,Steel,pokemon_images/sprites/0576-Magnezone-462/front/normal,pokemon_images/sprites/0576-Magnezone-462/back/normal
+Normal,,pokemon_images/sprites/0577-Lickilicky-463/front/normal,pokemon_images/sprites/0577-Lickilicky-463/back/normal
+Ground,Rock,pokemon_images/sprites/0578-Rhyperior-464/front/normal,pokemon_images/sprites/0578-Rhyperior-464/back/normal
+Grass,,pokemon_images/sprites/0579-Tangrowth-465/front/normal,pokemon_images/sprites/0579-Tangrowth-465/back/normal
+Electric,,pokemon_images/sprites/0580-Electivire-466/front/normal,pokemon_images/sprites/0580-Electivire-466/back/normal
+Fire,,pokemon_images/sprites/0581-Magmortar-467/front/normal,pokemon_images/sprites/0581-Magmortar-467/back/normal
+Fairy,Flying,pokemon_images/sprites/0582-Togekiss-468/front/normal,pokemon_images/sprites/0582-Togekiss-468/back/normal
+Bug,Flying,pokemon_images/sprites/0583-Yanmega-469/front/normal,pokemon_images/sprites/0583-Yanmega-469/back/normal
+Grass,,pokemon_images/sprites/0584-Leafeon-470/front/normal,pokemon_images/sprites/0584-Leafeon-470/back/normal
+Ice,,pokemon_images/sprites/0585-Glaceon-471/front/normal,pokemon_images/sprites/0585-Glaceon-471/back/normal
+Ground,Flying,pokemon_images/sprites/0586-Gliscor-472/front/normal,pokemon_images/sprites/0586-Gliscor-472/back/normal
+Ice,Ground,pokemon_images/sprites/0587-Mamoswine-473/front/normal,pokemon_images/sprites/0587-Mamoswine-473/back/normal
+Normal,,pokemon_images/sprites/0588-Porygon Z-474/front/normal,pokemon_images/sprites/0588-Porygon Z-474/back/normal
+Psychic,Fighting,pokemon_images/sprites/0589-Gallade-475/front/normal,pokemon_images/sprites/0589-Gallade-475/back/normal
+Rock,Steel,pokemon_images/sprites/0591-Probopass-476/front/normal,pokemon_images/sprites/0591-Probopass-476/back/normal
+Ghost,,pokemon_images/sprites/0592-Dusknoir-477/front/normal,pokemon_images/sprites/0592-Dusknoir-477/back/normal
+Ice,Ghost,pokemon_images/sprites/0593-Froslass-478/front/normal,pokemon_images/sprites/0593-Froslass-478/back/normal
+Electric,Ghost,pokemon_images/sprites/0594-Rotom-479/front/normal,pokemon_images/sprites/0594-Rotom-479/back/normal
+Electric,Flying,pokemon_images/sprites/0595-Rotom Fan-479/front/normal,pokemon_images/sprites/0595-Rotom Fan-479/back/normal
+Electric,Ice,pokemon_images/sprites/0596-Rotom Frost-479/front/normal,pokemon_images/sprites/0596-Rotom Frost-479/back/normal
+Electric,Fire,pokemon_images/sprites/0597-Rotom Heat-479/front/normal,pokemon_images/sprites/0597-Rotom Heat-479/back/normal
+Electric,Grass,pokemon_images/sprites/0598-Rotom Mow-479/front/normal,pokemon_images/sprites/0598-Rotom Mow-479/back/normal
+Electric,Water,pokemon_images/sprites/0599-Rotom Wash-479/front/normal,pokemon_images/sprites/0599-Rotom Wash-479/back/normal
+Psychic,,pokemon_images/sprites/0600-Uxie-480/front/normal,pokemon_images/sprites/0600-Uxie-480/back/normal
+Psychic,,pokemon_images/sprites/0601-Mesprit-481/front/normal,pokemon_images/sprites/0601-Mesprit-481/back/normal
+Psychic,,pokemon_images/sprites/0602-Azelf-482/front/normal,pokemon_images/sprites/0602-Azelf-482/back/normal
+Steel,Dragon,pokemon_images/sprites/0603-Dialga-483/front/normal,pokemon_images/sprites/0603-Dialga-483/back/normal
+Water,Dragon,pokemon_images/sprites/0604-Palkia-484/front/normal,pokemon_images/sprites/0604-Palkia-484/back/normal
+Fire,Steel,pokemon_images/sprites/0605-Heatran-485/front/normal,pokemon_images/sprites/0605-Heatran-485/back/normal
+Normal,,pokemon_images/sprites/0606-Regigigas-486/front/normal,pokemon_images/sprites/0606-Regigigas-486/back/normal
+Ghost,Dragon,pokemon_images/sprites/0607-Giratina Altered-487/front/normal,pokemon_images/sprites/0607-Giratina Altered-487/back/normal
+Ghost,Dragon,pokemon_images/sprites/0608-Giratina Origin-487/front/normal,pokemon_images/sprites/0608-Giratina Origin-487/back/normal
+Psychic,,pokemon_images/sprites/0609-Cresselia-488/front/normal,pokemon_images/sprites/0609-Cresselia-488/back/normal
+Water,,pokemon_images/sprites/0610-Phione-489/front/normal,pokemon_images/sprites/0610-Phione-489/back/normal
+Water,,pokemon_images/sprites/0611-Manaphy-490/front/normal,pokemon_images/sprites/0611-Manaphy-490/back/normal
+Dark,,pokemon_images/sprites/0612-Darkrai-491/front/normal,pokemon_images/sprites/0612-Darkrai-491/back/normal
+Grass,,pokemon_images/sprites/0613-Shaymin Land-492/front/normal,pokemon_images/sprites/0613-Shaymin Land-492/back/normal
+Grass,Flying,pokemon_images/sprites/0614-Shaymin Sky-492/front/normal,pokemon_images/sprites/0614-Shaymin Sky-492/back/normal
+Normal,,pokemon_images/sprites/0615-Arceus-493/front/normal,pokemon_images/sprites/0615-Arceus-493/back/normal
+Psychic,Fire,pokemon_images/sprites/0616-Victini-494/front/normal,pokemon_images/sprites/0616-Victini-494/back/normal
+Grass,,pokemon_images/sprites/0617-Snivy-495/front/normal,pokemon_images/sprites/0617-Snivy-495/back/normal
+Grass,,pokemon_images/sprites/0618-Servine-496/front/normal,pokemon_images/sprites/0618-Servine-496/back/normal
+Grass,,pokemon_images/sprites/0619-Serperior-497/front/normal,pokemon_images/sprites/0619-Serperior-497/back/normal
+Fire,,pokemon_images/sprites/0620-Tepig-498/front/normal,pokemon_images/sprites/0620-Tepig-498/back/normal
+Fire,Fighting,pokemon_images/sprites/0621-Pignite-499/front/normal,pokemon_images/sprites/0621-Pignite-499/back/normal
+Fire,Fighting,pokemon_images/sprites/0622-Emboar-500/front/normal,pokemon_images/sprites/0622-Emboar-500/back/normal
+Water,,pokemon_images/sprites/0623-Oshawott-501/front/normal,pokemon_images/sprites/0623-Oshawott-501/back/normal
+Water,,pokemon_images/sprites/0624-Dewott-502/front/normal,pokemon_images/sprites/0624-Dewott-502/back/normal
+Water,,pokemon_images/sprites/0625-Samurott-503/front/normal,pokemon_images/sprites/0625-Samurott-503/back/normal
+Normal,,pokemon_images/sprites/0626-Patrat-504/front/normal,pokemon_images/sprites/0626-Patrat-504/back/normal
+Normal,,pokemon_images/sprites/0627-Watchog-505/front/normal,pokemon_images/sprites/0627-Watchog-505/back/normal
+Normal,,pokemon_images/sprites/0628-Lillipup-506/front/normal,pokemon_images/sprites/0628-Lillipup-506/back/normal
+Normal,,pokemon_images/sprites/0629-Herdier-507/front/normal,pokemon_images/sprites/0629-Herdier-507/back/normal
+Normal,,pokemon_images/sprites/0630-Stoutland-508/front/normal,pokemon_images/sprites/0630-Stoutland-508/back/normal
+Dark,,pokemon_images/sprites/0631-Purrloin-509/front/normal,pokemon_images/sprites/0631-Purrloin-509/back/normal
+Dark,,pokemon_images/sprites/0632-Liepard-510/front/normal,pokemon_images/sprites/0632-Liepard-510/back/normal
+Grass,,pokemon_images/sprites/0633-Pansage-511/front/normal,pokemon_images/sprites/0633-Pansage-511/back/normal
+Grass,,pokemon_images/sprites/0634-Simisage-512/front/normal,pokemon_images/sprites/0634-Simisage-512/back/normal
+Fire,,pokemon_images/sprites/0635-Pansear-513/front/normal,pokemon_images/sprites/0635-Pansear-513/back/normal
+Fire,,pokemon_images/sprites/0636-Simisear-514/front/normal,pokemon_images/sprites/0636-Simisear-514/back/normal
+Water,,pokemon_images/sprites/0637-Panpour-515/front/normal,pokemon_images/sprites/0637-Panpour-515/back/normal
+Water,,pokemon_images/sprites/0638-Simipour-516/front/normal,pokemon_images/sprites/0638-Simipour-516/back/normal
+Psychic,,pokemon_images/sprites/0639-Munna-517/front/normal,pokemon_images/sprites/0639-Munna-517/back/normal
+Psychic,,pokemon_images/sprites/0640-Musharna-518/front/normal,pokemon_images/sprites/0640-Musharna-518/back/normal
+Normal,Flying,pokemon_images/sprites/0641-Pidove-519/front/normal,pokemon_images/sprites/0641-Pidove-519/back/normal
+Normal,Flying,pokemon_images/sprites/0642-Tranquill-520/front/normal,pokemon_images/sprites/0642-Tranquill-520/back/normal
+Normal,Flying,pokemon_images/sprites/0643-Unfezant-521/front/normal,pokemon_images/sprites/0643-Unfezant-521/back/normal
+Electric,,pokemon_images/sprites/0644-Blitzle-522/front/normal,pokemon_images/sprites/0644-Blitzle-522/back/normal
+Electric,,pokemon_images/sprites/0645-Zebstrika-523/front/normal,pokemon_images/sprites/0645-Zebstrika-523/back/normal
+Rock,,pokemon_images/sprites/0646-Roggenrola-524/front/normal,pokemon_images/sprites/0646-Roggenrola-524/back/normal
+Rock,,pokemon_images/sprites/0647-Boldore-525/front/normal,pokemon_images/sprites/0647-Boldore-525/back/normal
+Rock,,pokemon_images/sprites/0648-Gigalith-526/front/normal,pokemon_images/sprites/0648-Gigalith-526/back/normal
+Psychic,Flying,pokemon_images/sprites/0649-Woobat-527/front/normal,pokemon_images/sprites/0649-Woobat-527/back/normal
+Psychic,Flying,pokemon_images/sprites/0650-Swoobat-528/front/normal,pokemon_images/sprites/0650-Swoobat-528/back/normal
+Ground,,pokemon_images/sprites/0651-Drilbur-529/front/normal,pokemon_images/sprites/0651-Drilbur-529/back/normal
+Ground,Steel,pokemon_images/sprites/0652-Excadrill-530/front/normal,pokemon_images/sprites/0652-Excadrill-530/back/normal
+Normal,,pokemon_images/sprites/0653-Audino-531/front/normal,pokemon_images/sprites/0653-Audino-531/back/normal
+Fighting,,pokemon_images/sprites/0655-Timburr-532/front/normal,pokemon_images/sprites/0655-Timburr-532/back/normal
+Fighting,,pokemon_images/sprites/0656-Gurdurr-533/front/normal,pokemon_images/sprites/0656-Gurdurr-533/back/normal
+Fighting,,pokemon_images/sprites/0657-Conkeldurr-534/front/normal,pokemon_images/sprites/0657-Conkeldurr-534/back/normal
+Water,,pokemon_images/sprites/0658-Tympole-535/front/normal,pokemon_images/sprites/0658-Tympole-535/back/normal
+Water,Ground,pokemon_images/sprites/0659-Palpitoad-536/front/normal,pokemon_images/sprites/0659-Palpitoad-536/back/normal
+Water,Ground,pokemon_images/sprites/0660-Seismitoad-537/front/normal,pokemon_images/sprites/0660-Seismitoad-537/back/normal
+Fighting,,pokemon_images/sprites/0661-Throh-538/front/normal,pokemon_images/sprites/0661-Throh-538/back/normal
+Fighting,,pokemon_images/sprites/0662-Sawk-539/front/normal,pokemon_images/sprites/0662-Sawk-539/back/normal
+Bug,Grass,pokemon_images/sprites/0663-Sewaddle-540/front/normal,pokemon_images/sprites/0663-Sewaddle-540/back/normal
+Bug,Grass,pokemon_images/sprites/0664-Swadloon-541/front/normal,pokemon_images/sprites/0664-Swadloon-541/back/normal
+Bug,Grass,pokemon_images/sprites/0665-Leavanny-542/front/normal,pokemon_images/sprites/0665-Leavanny-542/back/normal
+Bug,Poison,pokemon_images/sprites/0666-Venipede-543/front/normal,pokemon_images/sprites/0666-Venipede-543/back/normal
+Bug,Poison,pokemon_images/sprites/0667-Whirlipede-544/front/normal,pokemon_images/sprites/0667-Whirlipede-544/back/normal
+Bug,Poison,pokemon_images/sprites/0668-Scolipede-545/front/normal,pokemon_images/sprites/0668-Scolipede-545/back/normal
+Grass,Fairy,pokemon_images/sprites/0669-Cottonee-546/front/normal,pokemon_images/sprites/0669-Cottonee-546/back/normal
+Grass,Fairy,pokemon_images/sprites/0670-Whimsicott-547/front/normal,pokemon_images/sprites/0670-Whimsicott-547/back/normal
+Grass,,pokemon_images/sprites/0671-Petilil-548/front/normal,pokemon_images/sprites/0671-Petilil-548/back/normal
+Grass,,pokemon_images/sprites/0672-Lilligant-549/front/normal,pokemon_images/sprites/0672-Lilligant-549/back/normal
+Water,,pokemon_images/sprites/0673-Basculin Blue Striped-550/front/normal,pokemon_images/sprites/0673-Basculin Blue Striped-550/back/normal
+Water,,pokemon_images/sprites/0674-Basculin Red Striped-550/front/normal,pokemon_images/sprites/0674-Basculin Red Striped-550/back/normal
+Ground,Dark,pokemon_images/sprites/0675-Sandile-551/front/normal,pokemon_images/sprites/0675-Sandile-551/back/normal
+Ground,Dark,pokemon_images/sprites/0676-Krokorok-552/front/normal,pokemon_images/sprites/0676-Krokorok-552/back/normal
+Ground,Dark,pokemon_images/sprites/0677-Krookodile-553/front/normal,pokemon_images/sprites/0677-Krookodile-553/back/normal
+Fire,,pokemon_images/sprites/0678-Darumaka-554/front/normal,pokemon_images/sprites/0678-Darumaka-554/back/normal
+Ice,,pokemon_images/sprites/0679-Darumaka Galar-554/front/normal,pokemon_images/sprites/0679-Darumaka Galar-554/back/normal
+Fire,,pokemon_images/sprites/0680-Darmanitan Standard-555/front/normal,pokemon_images/sprites/0680-Darmanitan Standard-555/back/normal
+Ice,,pokemon_images/sprites/0681-Darmanitan Standard Galar-555/front/normal,pokemon_images/sprites/0681-Darmanitan Standard Galar-555/back/normal
+Fire,Psychic,pokemon_images/sprites/0682-Darmanitan Zen-555/front/normal,pokemon_images/sprites/0682-Darmanitan Zen-555/back/normal
+Ice,Fire,pokemon_images/sprites/0683-Darmanitan Zen Galar-555/front/normal,pokemon_images/sprites/0683-Darmanitan Zen Galar-555/back/normal
+Grass,,pokemon_images/sprites/0684-Maractus-556/front/normal,pokemon_images/sprites/0684-Maractus-556/back/normal
+Bug,Rock,pokemon_images/sprites/0685-Dwebble-557/front/normal,pokemon_images/sprites/0685-Dwebble-557/back/normal
+Bug,Rock,pokemon_images/sprites/0686-Crustle-558/front/normal,pokemon_images/sprites/0686-Crustle-558/back/normal
+Dark,Fighting,pokemon_images/sprites/0687-Scraggy-559/front/normal,pokemon_images/sprites/0687-Scraggy-559/back/normal
+Dark,Fighting,pokemon_images/sprites/0688-Scrafty-560/front/normal,pokemon_images/sprites/0688-Scrafty-560/back/normal
+Psychic,Flying,pokemon_images/sprites/0689-Sigilyph-561/front/normal,pokemon_images/sprites/0689-Sigilyph-561/back/normal
+Ghost,,pokemon_images/sprites/0690-Yamask-562/front/normal,pokemon_images/sprites/0690-Yamask-562/back/normal
+Ground,Ghost,pokemon_images/sprites/0691-Yamask Galar-562/front/normal,pokemon_images/sprites/0691-Yamask Galar-562/back/normal
+Ghost,,pokemon_images/sprites/0692-Cofagrigus-563/front/normal,pokemon_images/sprites/0692-Cofagrigus-563/back/normal
+Water,Rock,pokemon_images/sprites/0693-Tirtouga-564/front/normal,pokemon_images/sprites/0693-Tirtouga-564/back/normal
+Water,Rock,pokemon_images/sprites/0694-Carracosta-565/front/normal,pokemon_images/sprites/0694-Carracosta-565/back/normal
+Rock,Flying,pokemon_images/sprites/0695-Archen-566/front/normal,pokemon_images/sprites/0695-Archen-566/back/normal
+Rock,Flying,pokemon_images/sprites/0696-Archeops-567/front/normal,pokemon_images/sprites/0696-Archeops-567/back/normal
+Poison,,pokemon_images/sprites/0697-Trubbish-568/front/normal,pokemon_images/sprites/0697-Trubbish-568/back/normal
+Poison,,pokemon_images/sprites/0698-Garbodor-569/front/normal,pokemon_images/sprites/0698-Garbodor-569/back/normal
+Dark,,pokemon_images/sprites/0700-Zorua-570/front/normal,pokemon_images/sprites/0700-Zorua-570/back/normal
+Dark,,pokemon_images/sprites/0701-Zoroark-571/front/normal,pokemon_images/sprites/0701-Zoroark-571/back/normal
+Normal,,pokemon_images/sprites/0702-Minccino-572/front/normal,pokemon_images/sprites/0702-Minccino-572/back/normal
+Normal,,pokemon_images/sprites/0703-Cinccino-573/front/normal,pokemon_images/sprites/0703-Cinccino-573/back/normal
+Psychic,,pokemon_images/sprites/0704-Gothita-574/front/normal,pokemon_images/sprites/0704-Gothita-574/back/normal
+Psychic,,pokemon_images/sprites/0705-Gothorita-575/front/normal,pokemon_images/sprites/0705-Gothorita-575/back/normal
+Psychic,,pokemon_images/sprites/0706-Gothitelle-576/front/normal,pokemon_images/sprites/0706-Gothitelle-576/back/normal
+Psychic,,pokemon_images/sprites/0707-Solosis-577/front/normal,pokemon_images/sprites/0707-Solosis-577/back/normal
+Psychic,,pokemon_images/sprites/0708-Duosion-578/front/normal,pokemon_images/sprites/0708-Duosion-578/back/normal
+Psychic,,pokemon_images/sprites/0709-Reuniclus-579/front/normal,pokemon_images/sprites/0709-Reuniclus-579/back/normal
+Water,Flying,pokemon_images/sprites/0710-Ducklett-580/front/normal,pokemon_images/sprites/0710-Ducklett-580/back/normal
+Water,Flying,pokemon_images/sprites/0711-Swanna-581/front/normal,pokemon_images/sprites/0711-Swanna-581/back/normal
+Ice,,pokemon_images/sprites/0712-Vanillite-582/front/normal,pokemon_images/sprites/0712-Vanillite-582/back/normal
+Ice,,pokemon_images/sprites/0713-Vanillish-583/front/normal,pokemon_images/sprites/0713-Vanillish-583/back/normal
+Ice,,pokemon_images/sprites/0714-Vanilluxe-584/front/normal,pokemon_images/sprites/0714-Vanilluxe-584/back/normal
+Normal,Grass,pokemon_images/sprites/0715-Deerling-585/front/normal,pokemon_images/sprites/0715-Deerling-585/back/normal
+Normal,Grass,pokemon_images/sprites/0716-Sawsbuck-586/front/normal,pokemon_images/sprites/0716-Sawsbuck-586/back/normal
+Electric,Flying,pokemon_images/sprites/0717-Emolga-587/front/normal,pokemon_images/sprites/0717-Emolga-587/back/normal
+Bug,,pokemon_images/sprites/0718-Karrablast-588/front/normal,pokemon_images/sprites/0718-Karrablast-588/back/normal
+Bug,Steel,pokemon_images/sprites/0719-Escavalier-589/front/normal,pokemon_images/sprites/0719-Escavalier-589/back/normal
+Grass,Poison,pokemon_images/sprites/0720-Foongus-590/front/normal,pokemon_images/sprites/0720-Foongus-590/back/normal
+Grass,Poison,pokemon_images/sprites/0721-Amoonguss-591/front/normal,pokemon_images/sprites/0721-Amoonguss-591/back/normal
+Water,Ghost,pokemon_images/sprites/0722-Frillish-592/front/normal,pokemon_images/sprites/0722-Frillish-592/back/normal
+Water,Ghost,pokemon_images/sprites/0723-Jellicent-593/front/normal,pokemon_images/sprites/0723-Jellicent-593/back/normal
+Water,,pokemon_images/sprites/0724-Alomomola-594/front/normal,pokemon_images/sprites/0724-Alomomola-594/back/normal
+Bug,Electric,pokemon_images/sprites/0725-Joltik-595/front/normal,pokemon_images/sprites/0725-Joltik-595/back/normal
+Bug,Electric,pokemon_images/sprites/0726-Galvantula-596/front/normal,pokemon_images/sprites/0726-Galvantula-596/back/normal
+Grass,Steel,pokemon_images/sprites/0727-Ferroseed-597/front/normal,pokemon_images/sprites/0727-Ferroseed-597/back/normal
+Grass,Steel,pokemon_images/sprites/0728-Ferrothorn-598/front/normal,pokemon_images/sprites/0728-Ferrothorn-598/back/normal
+Steel,,pokemon_images/sprites/0729-Klink-599/front/normal,pokemon_images/sprites/0729-Klink-599/back/normal
+Steel,,pokemon_images/sprites/0730-Klang-600/front/normal,pokemon_images/sprites/0730-Klang-600/back/normal
+Steel,,pokemon_images/sprites/0731-Klinklang-601/front/normal,pokemon_images/sprites/0731-Klinklang-601/back/normal
+Electric,,pokemon_images/sprites/0732-Tynamo-602/front/normal,pokemon_images/sprites/0732-Tynamo-602/back/normal
+Electric,,pokemon_images/sprites/0733-Eelektrik-603/front/normal,pokemon_images/sprites/0733-Eelektrik-603/back/normal
+Electric,,pokemon_images/sprites/0734-Eelektross-604/front/normal,pokemon_images/sprites/0734-Eelektross-604/back/normal
+Psychic,,pokemon_images/sprites/0735-Elgyem-605/front/normal,pokemon_images/sprites/0735-Elgyem-605/back/normal
+Psychic,,pokemon_images/sprites/0736-Beheeyem-606/front/normal,pokemon_images/sprites/0736-Beheeyem-606/back/normal
+Ghost,Fire,pokemon_images/sprites/0737-Litwick-607/front/normal,pokemon_images/sprites/0737-Litwick-607/back/normal
+Ghost,Fire,pokemon_images/sprites/0738-Lampent-608/front/normal,pokemon_images/sprites/0738-Lampent-608/back/normal
+Ghost,Fire,pokemon_images/sprites/0739-Chandelure-609/front/normal,pokemon_images/sprites/0739-Chandelure-609/back/normal
+Dragon,,pokemon_images/sprites/0740-Axew-610/front/normal,pokemon_images/sprites/0740-Axew-610/back/normal
+Dragon,,pokemon_images/sprites/0741-Fraxure-611/front/normal,pokemon_images/sprites/0741-Fraxure-611/back/normal
+Dragon,,pokemon_images/sprites/0742-Haxorus-612/front/normal,pokemon_images/sprites/0742-Haxorus-612/back/normal
+Ice,,pokemon_images/sprites/0743-Cubchoo-613/front/normal,pokemon_images/sprites/0743-Cubchoo-613/back/normal
+Ice,,pokemon_images/sprites/0744-Beartic-614/front/normal,pokemon_images/sprites/0744-Beartic-614/back/normal
+Ice,,pokemon_images/sprites/0745-Cryogonal-615/front/normal,pokemon_images/sprites/0745-Cryogonal-615/back/normal
+Bug,,pokemon_images/sprites/0746-Shelmet-616/front/normal,pokemon_images/sprites/0746-Shelmet-616/back/normal
+Bug,,pokemon_images/sprites/0747-Accelgor-617/front/normal,pokemon_images/sprites/0747-Accelgor-617/back/normal
+Ground,Electric,pokemon_images/sprites/0748-Stunfisk-618/front/normal,pokemon_images/sprites/0748-Stunfisk-618/back/normal
+Ground,Steel,pokemon_images/sprites/0749-Stunfisk Galar-618/front/normal,pokemon_images/sprites/0749-Stunfisk Galar-618/back/normal
+Fighting,,pokemon_images/sprites/0750-Mienfoo-619/front/normal,pokemon_images/sprites/0750-Mienfoo-619/back/normal
+Fighting,,pokemon_images/sprites/0751-Mienshao-620/front/normal,pokemon_images/sprites/0751-Mienshao-620/back/normal
+Dragon,,pokemon_images/sprites/0752-Druddigon-621/front/normal,pokemon_images/sprites/0752-Druddigon-621/back/normal
+Ground,Ghost,pokemon_images/sprites/0753-Golett-622/front/normal,pokemon_images/sprites/0753-Golett-622/back/normal
+Ground,Ghost,pokemon_images/sprites/0754-Golurk-623/front/normal,pokemon_images/sprites/0754-Golurk-623/back/normal
+Dark,Steel,pokemon_images/sprites/0755-Pawniard-624/front/normal,pokemon_images/sprites/0755-Pawniard-624/back/normal
+Dark,Steel,pokemon_images/sprites/0756-Bisharp-625/front/normal,pokemon_images/sprites/0756-Bisharp-625/back/normal
+Normal,,pokemon_images/sprites/0757-Bouffalant-626/front/normal,pokemon_images/sprites/0757-Bouffalant-626/back/normal
+Normal,Flying,pokemon_images/sprites/0758-Rufflet-627/front/normal,pokemon_images/sprites/0758-Rufflet-627/back/normal
+Normal,Flying,pokemon_images/sprites/0759-Braviary-628/front/normal,pokemon_images/sprites/0759-Braviary-628/back/normal
+Dark,Flying,pokemon_images/sprites/0760-Vullaby-629/front/normal,pokemon_images/sprites/0760-Vullaby-629/back/normal
+Dark,Flying,pokemon_images/sprites/0761-Mandibuzz-630/front/normal,pokemon_images/sprites/0761-Mandibuzz-630/back/normal
+Fire,,pokemon_images/sprites/0762-Heatmor-631/front/normal,pokemon_images/sprites/0762-Heatmor-631/back/normal
+Bug,Steel,pokemon_images/sprites/0763-Durant-632/front/normal,pokemon_images/sprites/0763-Durant-632/back/normal
+Dark,Dragon,pokemon_images/sprites/0764-Deino-633/front/normal,pokemon_images/sprites/0764-Deino-633/back/normal
+Dark,Dragon,pokemon_images/sprites/0765-Zweilous-634/front/normal,pokemon_images/sprites/0765-Zweilous-634/back/normal
+Dark,Dragon,pokemon_images/sprites/0766-Hydreigon-635/front/normal,pokemon_images/sprites/0766-Hydreigon-635/back/normal
+Bug,Fire,pokemon_images/sprites/0767-Larvesta-636/front/normal,pokemon_images/sprites/0767-Larvesta-636/back/normal
+Bug,Fire,pokemon_images/sprites/0768-Volcarona-637/front/normal,pokemon_images/sprites/0768-Volcarona-637/back/normal
+Steel,Fighting,pokemon_images/sprites/0769-Cobalion-638/front/normal,pokemon_images/sprites/0769-Cobalion-638/back/normal
+Rock,Fighting,pokemon_images/sprites/0770-Terrakion-639/front/normal,pokemon_images/sprites/0770-Terrakion-639/back/normal
+Grass,Fighting,pokemon_images/sprites/0771-Virizion-640/front/normal,pokemon_images/sprites/0771-Virizion-640/back/normal
+Flying,,pokemon_images/sprites/0772-Tornadus Incarnate-641/front/normal,pokemon_images/sprites/0772-Tornadus Incarnate-641/back/normal
+Flying,,pokemon_images/sprites/0773-Tornadus Therian-641/front/normal,pokemon_images/sprites/0773-Tornadus Therian-641/back/normal
+Electric,Flying,pokemon_images/sprites/0774-Thundurus Incarnate-642/front/normal,pokemon_images/sprites/0774-Thundurus Incarnate-642/back/normal
+Electric,Flying,pokemon_images/sprites/0775-Thundurus Therian-642/front/normal,pokemon_images/sprites/0775-Thundurus Therian-642/back/normal
+Dragon,Fire,pokemon_images/sprites/0776-Reshiram-643/front/normal,pokemon_images/sprites/0776-Reshiram-643/back/normal
+Dragon,Electric,pokemon_images/sprites/0777-Zekrom-644/front/normal,pokemon_images/sprites/0777-Zekrom-644/back/normal
+Ground,Flying,pokemon_images/sprites/0778-Landorus Incarnate-645/front/normal,pokemon_images/sprites/0778-Landorus Incarnate-645/back/normal
+Ground,Flying,pokemon_images/sprites/0779-Landorus Therian-645/front/normal,pokemon_images/sprites/0779-Landorus Therian-645/back/normal
+Dragon,Ice,pokemon_images/sprites/0780-Kyurem-646/front/normal,pokemon_images/sprites/0780-Kyurem-646/back/normal
+Dragon,Ice,pokemon_images/sprites/0781-Kyurem Black-646/front/normal,pokemon_images/sprites/0781-Kyurem Black-646/back/normal
+Dragon,Ice,pokemon_images/sprites/0782-Kyurem White-646/front/normal,pokemon_images/sprites/0782-Kyurem White-646/back/normal
+Water,Fighting,pokemon_images/sprites/0783-Keldeo Ordinary-647/front/normal,pokemon_images/sprites/0783-Keldeo Ordinary-647/back/normal
+Water,Fighting,pokemon_images/sprites/0784-Keldeo Resolute-647/front/normal,pokemon_images/sprites/0784-Keldeo Resolute-647/back/normal
+Normal,Psychic,pokemon_images/sprites/0785-Meloetta Aria-648/front/normal,pokemon_images/sprites/0785-Meloetta Aria-648/back/normal
+Normal,Fighting,pokemon_images/sprites/0786-Meloetta Pirouette-648/front/normal,pokemon_images/sprites/0786-Meloetta Pirouette-648/back/normal
+Bug,Steel,pokemon_images/sprites/0787-Genesect-649/front/normal,pokemon_images/sprites/0787-Genesect-649/back/normal
+Grass,,pokemon_images/sprites/0788-Chespin-650/front/normal,pokemon_images/sprites/0788-Chespin-650/back/normal
+Grass,,pokemon_images/sprites/0789-Quilladin-651/front/normal,pokemon_images/sprites/0789-Quilladin-651/back/normal
+Grass,Fighting,pokemon_images/sprites/0790-Chesnaught-652/front/normal,pokemon_images/sprites/0790-Chesnaught-652/back/normal
+Fire,,pokemon_images/sprites/0791-Fennekin-653/front/normal,pokemon_images/sprites/0791-Fennekin-653/back/normal
+Fire,,pokemon_images/sprites/0792-Braixen-654/front/normal,pokemon_images/sprites/0792-Braixen-654/back/normal
+Fire,Psychic,pokemon_images/sprites/0793-Delphox-655/front/normal,pokemon_images/sprites/0793-Delphox-655/back/normal
+Water,,pokemon_images/sprites/0794-Froakie-656/front/normal,pokemon_images/sprites/0794-Froakie-656/back/normal
+Water,,pokemon_images/sprites/0795-Frogadier-657/front/normal,pokemon_images/sprites/0795-Frogadier-657/back/normal
+Water,Dark,pokemon_images/sprites/0796-Greninja-658/front/normal,pokemon_images/sprites/0796-Greninja-658/back/normal
+Water,Dark,pokemon_images/sprites/0797-Greninja Ash-658/front/normal,pokemon_images/sprites/0797-Greninja Ash-658/back/normal
+Normal,,pokemon_images/sprites/0799-Bunnelby-659/front/normal,pokemon_images/sprites/0799-Bunnelby-659/back/normal
+Normal,Ground,pokemon_images/sprites/0800-Diggersby-660/front/normal,pokemon_images/sprites/0800-Diggersby-660/back/normal
+Normal,Flying,pokemon_images/sprites/0801-Fletchling-661/front/normal,pokemon_images/sprites/0801-Fletchling-661/back/normal
+Fire,Flying,pokemon_images/sprites/0802-Fletchinder-662/front/normal,pokemon_images/sprites/0802-Fletchinder-662/back/normal
+Fire,Flying,pokemon_images/sprites/0803-Talonflame-663/front/normal,pokemon_images/sprites/0803-Talonflame-663/back/normal
+Bug,,pokemon_images/sprites/0804-Scatterbug-664/front/normal,pokemon_images/sprites/0804-Scatterbug-664/back/normal
+Bug,,pokemon_images/sprites/0805-Spewpa-665/front/normal,pokemon_images/sprites/0805-Spewpa-665/back/normal
+Bug,Flying,pokemon_images/sprites/0806-Vivillon-666/front/normal,pokemon_images/sprites/0806-Vivillon-666/back/normal
+Fire,Normal,pokemon_images/sprites/0807-Litleo-667/front/normal,pokemon_images/sprites/0807-Litleo-667/back/normal
+Fire,Normal,pokemon_images/sprites/0808-Pyroar-668/front/normal,pokemon_images/sprites/0808-Pyroar-668/back/normal
+Fairy,,pokemon_images/sprites/0809-Flabebe-669/front/normal,pokemon_images/sprites/0809-Flabebe-669/back/normal
+Fairy,,pokemon_images/sprites/0810-Floette-670/front/normal,pokemon_images/sprites/0810-Floette-670/back/normal
+Fairy,,pokemon_images/sprites/0811-Floette Eternal-670/front/normal,pokemon_images/sprites/0811-Floette Eternal-670/back/normal
+Fairy,,pokemon_images/sprites/0812-Florges-671/front/normal,pokemon_images/sprites/0812-Florges-671/back/normal
+Grass,,pokemon_images/sprites/0813-Skiddo-672/front/normal,pokemon_images/sprites/0813-Skiddo-672/back/normal
+Grass,,pokemon_images/sprites/0814-Gogoat-673/front/normal,pokemon_images/sprites/0814-Gogoat-673/back/normal
+Fighting,,pokemon_images/sprites/0815-Pancham-674/front/normal,pokemon_images/sprites/0815-Pancham-674/back/normal
+Fighting,Dark,pokemon_images/sprites/0816-Pangoro-675/front/normal,pokemon_images/sprites/0816-Pangoro-675/back/normal
+Normal,,pokemon_images/sprites/0817-Furfrou-676/front/normal,pokemon_images/sprites/0817-Furfrou-676/back/normal
+Psychic,,pokemon_images/sprites/0818-Espurr-677/front/normal,pokemon_images/sprites/0818-Espurr-677/back/normal
+Psychic,,pokemon_images/sprites/0819-Meowstic Female-678/front/normal,pokemon_images/sprites/0819-Meowstic Female-678/back/normal
+Psychic,,pokemon_images/sprites/0820-Meowstic Male-678/front/normal,pokemon_images/sprites/0820-Meowstic Male-678/back/normal
+Steel,Ghost,pokemon_images/sprites/0821-Honedge-679/front/normal,pokemon_images/sprites/0821-Honedge-679/back/normal
+Steel,Ghost,pokemon_images/sprites/0822-Doublade-680/front/normal,pokemon_images/sprites/0822-Doublade-680/back/normal
+Steel,Ghost,pokemon_images/sprites/0823-Aegislash Blade-681/front/normal,pokemon_images/sprites/0823-Aegislash Blade-681/back/normal
+Steel,Ghost,pokemon_images/sprites/0824-Aegislash Shield-681/front/normal,pokemon_images/sprites/0824-Aegislash Shield-681/back/normal
+Fairy,,pokemon_images/sprites/0825-Spritzee-682/front/normal,pokemon_images/sprites/0825-Spritzee-682/back/normal
+Fairy,,pokemon_images/sprites/0826-Aromatisse-683/front/normal,pokemon_images/sprites/0826-Aromatisse-683/back/normal
+Fairy,,pokemon_images/sprites/0827-Swirlix-684/front/normal,pokemon_images/sprites/0827-Swirlix-684/back/normal
+Fairy,,pokemon_images/sprites/0828-Slurpuff-685/front/normal,pokemon_images/sprites/0828-Slurpuff-685/back/normal
+Dark,Psychic,pokemon_images/sprites/0829-Inkay-686/front/normal,pokemon_images/sprites/0829-Inkay-686/back/normal
+Dark,Psychic,pokemon_images/sprites/0830-Malamar-687/front/normal,pokemon_images/sprites/0830-Malamar-687/back/normal
+Rock,Water,pokemon_images/sprites/0831-Binacle-688/front/normal,pokemon_images/sprites/0831-Binacle-688/back/normal
+Rock,Water,pokemon_images/sprites/0832-Barbaracle-689/front/normal,pokemon_images/sprites/0832-Barbaracle-689/back/normal
+Poison,Water,pokemon_images/sprites/0833-Skrelp-690/front/normal,pokemon_images/sprites/0833-Skrelp-690/back/normal
+Poison,Dragon,pokemon_images/sprites/0834-Dragalge-691/front/normal,pokemon_images/sprites/0834-Dragalge-691/back/normal
+Water,,pokemon_images/sprites/0835-Clauncher-692/front/normal,pokemon_images/sprites/0835-Clauncher-692/back/normal
+Water,,pokemon_images/sprites/0836-Clawitzer-693/front/normal,pokemon_images/sprites/0836-Clawitzer-693/back/normal
+Electric,Normal,pokemon_images/sprites/0837-Helioptile-694/front/normal,pokemon_images/sprites/0837-Helioptile-694/back/normal
+Electric,Normal,pokemon_images/sprites/0838-Heliolisk-695/front/normal,pokemon_images/sprites/0838-Heliolisk-695/back/normal
+Rock,Dragon,pokemon_images/sprites/0839-Tyrunt-696/front/normal,pokemon_images/sprites/0839-Tyrunt-696/back/normal
+Rock,Dragon,pokemon_images/sprites/0840-Tyrantrum-697/front/normal,pokemon_images/sprites/0840-Tyrantrum-697/back/normal
+Rock,Ice,pokemon_images/sprites/0841-Amaura-698/front/normal,pokemon_images/sprites/0841-Amaura-698/back/normal
+Rock,Ice,pokemon_images/sprites/0842-Aurorus-699/front/normal,pokemon_images/sprites/0842-Aurorus-699/back/normal
+Fairy,,pokemon_images/sprites/0843-Sylveon-700/front/normal,pokemon_images/sprites/0843-Sylveon-700/back/normal
+Fighting,Flying,pokemon_images/sprites/0844-Hawlucha-701/front/normal,pokemon_images/sprites/0844-Hawlucha-701/back/normal
+Electric,Fairy,pokemon_images/sprites/0845-Dedenne-702/front/normal,pokemon_images/sprites/0845-Dedenne-702/back/normal
+Rock,Fairy,pokemon_images/sprites/0846-Carbink-703/front/normal,pokemon_images/sprites/0846-Carbink-703/back/normal
+Dragon,,pokemon_images/sprites/0847-Goomy-704/front/normal,pokemon_images/sprites/0847-Goomy-704/back/normal
+Dragon,,pokemon_images/sprites/0848-Sliggoo-705/front/normal,pokemon_images/sprites/0848-Sliggoo-705/back/normal
+Dragon,,pokemon_images/sprites/0849-Goodra-706/front/normal,pokemon_images/sprites/0849-Goodra-706/back/normal
+Steel,Fairy,pokemon_images/sprites/0850-Klefki-707/front/normal,pokemon_images/sprites/0850-Klefki-707/back/normal
+Ghost,Grass,pokemon_images/sprites/0851-Phantump-708/front/normal,pokemon_images/sprites/0851-Phantump-708/back/normal
+Ghost,Grass,pokemon_images/sprites/0852-Trevenant-709/front/normal,pokemon_images/sprites/0852-Trevenant-709/back/normal
+Ghost,Grass,pokemon_images/sprites/0853-Pumpkaboo Average-710/front/normal,pokemon_images/sprites/0853-Pumpkaboo Average-710/back/normal
+Ghost,Grass,pokemon_images/sprites/0857-Gourgeist Average-711/front/normal,pokemon_images/sprites/0857-Gourgeist Average-711/back/normal
+Ice,,pokemon_images/sprites/0861-Bergmite-712/front/normal,pokemon_images/sprites/0861-Bergmite-712/back/normal
+Ice,,pokemon_images/sprites/0862-Avalugg-713/front/normal,pokemon_images/sprites/0862-Avalugg-713/back/normal
+Flying,Dragon,pokemon_images/sprites/0863-Noibat-714/front/normal,pokemon_images/sprites/0863-Noibat-714/back/normal
+Flying,Dragon,pokemon_images/sprites/0864-Noivern-715/front/normal,pokemon_images/sprites/0864-Noivern-715/back/normal
+Fairy,,pokemon_images/sprites/0865-Xerneas-716/front/normal,pokemon_images/sprites/0865-Xerneas-716/back/normal
+Dark,Flying,pokemon_images/sprites/0866-Yveltal-717/front/normal,pokemon_images/sprites/0866-Yveltal-717/back/normal
+Dragon,Ground,pokemon_images/sprites/0867-Zygarde-718/front/normal,pokemon_images/sprites/0867-Zygarde-718/back/normal
+Dragon,Ground,pokemon_images/sprites/0868-Zygarde 10-718/front/normal,pokemon_images/sprites/0868-Zygarde 10-718/back/normal
+Dragon,Ground,pokemon_images/sprites/0869-Zygarde 50-718/front/normal,pokemon_images/sprites/0869-Zygarde 50-718/back/normal
+Dragon,Ground,pokemon_images/sprites/0870-Zygarde Complete-718/front/normal,pokemon_images/sprites/0870-Zygarde Complete-718/back/normal
+Rock,Fairy,pokemon_images/sprites/0871-Diancie-719/front/normal,pokemon_images/sprites/0871-Diancie-719/back/normal
+Psychic,Ghost,pokemon_images/sprites/0873-Hoopa-720/front/normal,pokemon_images/sprites/0873-Hoopa-720/back/normal
+Psychic,Dark,pokemon_images/sprites/0874-Hoopa Unbound-720/front/normal,pokemon_images/sprites/0874-Hoopa Unbound-720/back/normal
+Fire,Water,pokemon_images/sprites/0875-Volcanion-721/front/normal,pokemon_images/sprites/0875-Volcanion-721/back/normal
+Grass,Flying,pokemon_images/sprites/0876-Rowlet-722/front/normal,pokemon_images/sprites/0876-Rowlet-722/back/normal
+Grass,Flying,pokemon_images/sprites/0877-Dartrix-723/front/normal,pokemon_images/sprites/0877-Dartrix-723/back/normal
+Grass,Ghost,pokemon_images/sprites/0878-Decidueye-724/front/normal,pokemon_images/sprites/0878-Decidueye-724/back/normal
+Fire,,pokemon_images/sprites/0879-Litten-725/front/normal,pokemon_images/sprites/0879-Litten-725/back/normal
+Fire,,pokemon_images/sprites/0880-Torracat-726/front/normal,pokemon_images/sprites/0880-Torracat-726/back/normal
+Fire,Dark,pokemon_images/sprites/0881-Incineroar-727/front/normal,pokemon_images/sprites/0881-Incineroar-727/back/normal
+Water,,pokemon_images/sprites/0882-Popplio-728/front/normal,pokemon_images/sprites/0882-Popplio-728/back/normal
+Water,,pokemon_images/sprites/0883-Brionne-729/front/normal,pokemon_images/sprites/0883-Brionne-729/back/normal
+Water,Fairy,pokemon_images/sprites/0884-Primarina-730/front/normal,pokemon_images/sprites/0884-Primarina-730/back/normal
+Normal,Flying,pokemon_images/sprites/0885-Pikipek-731/front/normal,pokemon_images/sprites/0885-Pikipek-731/back/normal
+Normal,Flying,pokemon_images/sprites/0886-Trumbeak-732/front/normal,pokemon_images/sprites/0886-Trumbeak-732/back/normal
+Normal,Flying,pokemon_images/sprites/0887-Toucannon-733/front/normal,pokemon_images/sprites/0887-Toucannon-733/back/normal
+Normal,,pokemon_images/sprites/0888-Yungoos-734/front/normal,pokemon_images/sprites/0888-Yungoos-734/back/normal
+Normal,,pokemon_images/sprites/0889-Gumshoos-735/front/normal,pokemon_images/sprites/0889-Gumshoos-735/back/normal
+Bug,,pokemon_images/sprites/0891-Grubbin-736/front/normal,pokemon_images/sprites/0891-Grubbin-736/back/normal
+Bug,Electric,pokemon_images/sprites/0892-Charjabug-737/front/normal,pokemon_images/sprites/0892-Charjabug-737/back/normal
+Bug,Electric,pokemon_images/sprites/0893-Vikavolt-738/front/normal,pokemon_images/sprites/0893-Vikavolt-738/back/normal
+Fighting,,pokemon_images/sprites/0895-Crabrawler-739/front/normal,pokemon_images/sprites/0895-Crabrawler-739/back/normal
+Fighting,Ice,pokemon_images/sprites/0896-Crabominable-740/front/normal,pokemon_images/sprites/0896-Crabominable-740/back/normal
+Fire,Flying,pokemon_images/sprites/0897-Oricorio Baile-741/front/normal,pokemon_images/sprites/0897-Oricorio Baile-741/back/normal
+Psychic,Flying,pokemon_images/sprites/0898-Oricorio Pau-741/front/normal,pokemon_images/sprites/0898-Oricorio Pau-741/back/normal
+Electric,Flying,pokemon_images/sprites/0899-Oricorio Pom Pom-741/front/normal,pokemon_images/sprites/0899-Oricorio Pom Pom-741/back/normal
+Ghost,Flying,pokemon_images/sprites/0900-Oricorio Sensu-741/front/normal,pokemon_images/sprites/0900-Oricorio Sensu-741/back/normal
+Bug,Fairy,pokemon_images/sprites/0901-Cutiefly-742/front/normal,pokemon_images/sprites/0901-Cutiefly-742/back/normal
+Bug,Fairy,pokemon_images/sprites/0902-Ribombee-743/front/normal,pokemon_images/sprites/0902-Ribombee-743/back/normal
+Rock,,pokemon_images/sprites/0904-Rockruff-744/front/normal,pokemon_images/sprites/0904-Rockruff-744/back/normal
+Rock,,pokemon_images/sprites/0906-Lycanroc Dusk-745/front/normal,pokemon_images/sprites/0906-Lycanroc Dusk-745/back/normal
+Rock,,pokemon_images/sprites/0907-Lycanroc Midday-745/front/normal,pokemon_images/sprites/0907-Lycanroc Midday-745/back/normal
+Rock,,pokemon_images/sprites/0908-Lycanroc Midnight-745/front/normal,pokemon_images/sprites/0908-Lycanroc Midnight-745/back/normal
+Water,,pokemon_images/sprites/0909-Wishiwashi School-746/front/normal,pokemon_images/sprites/0909-Wishiwashi School-746/back/normal
+Water,,pokemon_images/sprites/0910-Wishiwashi Solo-746/front/normal,pokemon_images/sprites/0910-Wishiwashi Solo-746/back/normal
+Poison,Water,pokemon_images/sprites/0911-Mareanie-747/front/normal,pokemon_images/sprites/0911-Mareanie-747/back/normal
+Poison,Water,pokemon_images/sprites/0912-Toxapex-748/front/normal,pokemon_images/sprites/0912-Toxapex-748/back/normal
+Ground,,pokemon_images/sprites/0913-Mudbray-749/front/normal,pokemon_images/sprites/0913-Mudbray-749/back/normal
+Ground,,pokemon_images/sprites/0914-Mudsdale-750/front/normal,pokemon_images/sprites/0914-Mudsdale-750/back/normal
+Water,Bug,pokemon_images/sprites/0915-Dewpider-751/front/normal,pokemon_images/sprites/0915-Dewpider-751/back/normal
+Water,Bug,pokemon_images/sprites/0916-Araquanid-752/front/normal,pokemon_images/sprites/0916-Araquanid-752/back/normal
+Grass,,pokemon_images/sprites/0918-Fomantis-753/front/normal,pokemon_images/sprites/0918-Fomantis-753/back/normal
+Grass,,pokemon_images/sprites/0919-Lurantis-754/front/normal,pokemon_images/sprites/0919-Lurantis-754/back/normal
+Grass,Fairy,pokemon_images/sprites/0921-Morelull-755/front/normal,pokemon_images/sprites/0921-Morelull-755/back/normal
+Grass,Fairy,pokemon_images/sprites/0922-Shiinotic-756/front/normal,pokemon_images/sprites/0922-Shiinotic-756/back/normal
+Poison,Fire,pokemon_images/sprites/0923-Salandit-757/front/normal,pokemon_images/sprites/0923-Salandit-757/back/normal
+Poison,Fire,pokemon_images/sprites/0924-Salazzle-758/front/normal,pokemon_images/sprites/0924-Salazzle-758/back/normal
+Normal,Fighting,pokemon_images/sprites/0926-Stufful-759/front/normal,pokemon_images/sprites/0926-Stufful-759/back/normal
+Normal,Fighting,pokemon_images/sprites/0927-Bewear-760/front/normal,pokemon_images/sprites/0927-Bewear-760/back/normal
+Grass,,pokemon_images/sprites/0928-Bounsweet-761/front/normal,pokemon_images/sprites/0928-Bounsweet-761/back/normal
+Grass,,pokemon_images/sprites/0929-Steenee-762/front/normal,pokemon_images/sprites/0929-Steenee-762/back/normal
+Grass,,pokemon_images/sprites/0930-Tsareena-763/front/normal,pokemon_images/sprites/0930-Tsareena-763/back/normal
+Fairy,,pokemon_images/sprites/0931-Comfey-764/front/normal,pokemon_images/sprites/0931-Comfey-764/back/normal
+Normal,Psychic,pokemon_images/sprites/0932-Oranguru-765/front/normal,pokemon_images/sprites/0932-Oranguru-765/back/normal
+Fighting,,pokemon_images/sprites/0933-Passimian-766/front/normal,pokemon_images/sprites/0933-Passimian-766/back/normal
+Bug,Water,pokemon_images/sprites/0934-Wimpod-767/front/normal,pokemon_images/sprites/0934-Wimpod-767/back/normal
+Bug,Water,pokemon_images/sprites/0935-Golisopod-768/front/normal,pokemon_images/sprites/0935-Golisopod-768/back/normal
+Ghost,Ground,pokemon_images/sprites/0936-Sandygast-769/front/normal,pokemon_images/sprites/0936-Sandygast-769/back/normal
+Ghost,Ground,pokemon_images/sprites/0937-Palossand-770/front/normal,pokemon_images/sprites/0937-Palossand-770/back/normal
+Water,,pokemon_images/sprites/0938-Pyukumuku-771/front/normal,pokemon_images/sprites/0938-Pyukumuku-771/back/normal
+Normal,,pokemon_images/sprites/0939-Type Null-772/front/normal,pokemon_images/sprites/0939-Type Null-772/back/normal
+Normal,,pokemon_images/sprites/0940-Silvally-773/front/normal,pokemon_images/sprites/0940-Silvally-773/back/normal
+Rock,Flying,pokemon_images/sprites/0941-Minior Blue-774/front/normal,pokemon_images/sprites/0941-Minior Blue-774/back/normal
+Rock,Flying,pokemon_images/sprites/0942-Minior Blue Meteor-774/front/normal,pokemon_images/sprites/0942-Minior Blue Meteor-774/back/normal
+Normal,,pokemon_images/sprites/0955-Komala-775/front/normal,pokemon_images/sprites/0955-Komala-775/back/normal
+Fire,Dragon,pokemon_images/sprites/0956-Turtonator-776/front/normal,pokemon_images/sprites/0956-Turtonator-776/back/normal
+Electric,Steel,pokemon_images/sprites/0957-Togedemaru-777/front/normal,pokemon_images/sprites/0957-Togedemaru-777/back/normal
+Ghost,Fairy,pokemon_images/sprites/0959-Mimikyu Busted-778/front/normal,pokemon_images/sprites/0959-Mimikyu Busted-778/back/normal
+Ghost,Fairy,pokemon_images/sprites/0960-Mimikyu Disguised-778/front/normal,pokemon_images/sprites/0960-Mimikyu Disguised-778/back/normal
+Water,Psychic,pokemon_images/sprites/0963-Bruxish-779/front/normal,pokemon_images/sprites/0963-Bruxish-779/back/normal
+Normal,Dragon,pokemon_images/sprites/0964-Drampa-780/front/normal,pokemon_images/sprites/0964-Drampa-780/back/normal
+Ghost,Grass,pokemon_images/sprites/0965-Dhelmise-781/front/normal,pokemon_images/sprites/0965-Dhelmise-781/back/normal
+Dragon,,pokemon_images/sprites/0966-Jangmo O-782/front/normal,pokemon_images/sprites/0966-Jangmo O-782/back/normal
+Dragon,Fighting,pokemon_images/sprites/0967-Hakamo O-783/front/normal,pokemon_images/sprites/0967-Hakamo O-783/back/normal
+Dragon,Fighting,pokemon_images/sprites/0968-Kommo O-784/front/normal,pokemon_images/sprites/0968-Kommo O-784/back/normal
+Electric,Fairy,pokemon_images/sprites/0970-Tapu Koko-785/front/normal,pokemon_images/sprites/0970-Tapu Koko-785/back/normal
+Psychic,Fairy,pokemon_images/sprites/0971-Tapu Lele-786/front/normal,pokemon_images/sprites/0971-Tapu Lele-786/back/normal
+Grass,Fairy,pokemon_images/sprites/0972-Tapu Bulu-787/front/normal,pokemon_images/sprites/0972-Tapu Bulu-787/back/normal
+Water,Fairy,pokemon_images/sprites/0973-Tapu Fini-788/front/normal,pokemon_images/sprites/0973-Tapu Fini-788/back/normal
+Psychic,,pokemon_images/sprites/0974-Cosmog-789/front/normal,pokemon_images/sprites/0974-Cosmog-789/back/normal
+Psychic,,pokemon_images/sprites/0975-Cosmoem-790/front/normal,pokemon_images/sprites/0975-Cosmoem-790/back/normal
+Psychic,Steel,pokemon_images/sprites/0976-Solgaleo-791/front/normal,pokemon_images/sprites/0976-Solgaleo-791/back/normal
+Psychic,Ghost,pokemon_images/sprites/0977-Lunala-792/front/normal,pokemon_images/sprites/0977-Lunala-792/back/normal
+Rock,Poison,pokemon_images/sprites/0978-Nihilego-793/front/normal,pokemon_images/sprites/0978-Nihilego-793/back/normal
+Bug,Fighting,pokemon_images/sprites/0979-Buzzwole-794/front/normal,pokemon_images/sprites/0979-Buzzwole-794/back/normal
+Bug,Fighting,pokemon_images/sprites/0980-Pheromosa-795/front/normal,pokemon_images/sprites/0980-Pheromosa-795/back/normal
+Electric,,pokemon_images/sprites/0981-Xurkitree-796/front/normal,pokemon_images/sprites/0981-Xurkitree-796/back/normal
+Steel,Flying,pokemon_images/sprites/0982-Celesteela-797/front/normal,pokemon_images/sprites/0982-Celesteela-797/back/normal
+Grass,Steel,pokemon_images/sprites/0983-Kartana-798/front/normal,pokemon_images/sprites/0983-Kartana-798/back/normal
+Dark,Dragon,pokemon_images/sprites/0984-Guzzlord-799/front/normal,pokemon_images/sprites/0984-Guzzlord-799/back/normal
+Psychic,,pokemon_images/sprites/0985-Necrozma-800/front/normal,pokemon_images/sprites/0985-Necrozma-800/back/normal
+Psychic,Ghost,pokemon_images/sprites/0986-Necrozma Dawn-800/front/normal,pokemon_images/sprites/0986-Necrozma Dawn-800/back/normal
+Psychic,Steel,pokemon_images/sprites/0987-Necrozma Dusk-800/front/normal,pokemon_images/sprites/0987-Necrozma Dusk-800/back/normal
+Psychic,Dragon,pokemon_images/sprites/0988-Necrozma Ultra-800/front/normal,pokemon_images/sprites/0988-Necrozma Ultra-800/back/normal
+Steel,Fairy,pokemon_images/sprites/0989-Magearna-801/front/normal,pokemon_images/sprites/0989-Magearna-801/back/normal
+Steel,Fairy,pokemon_images/sprites/0990-Magearna Original-801/front/normal,pokemon_images/sprites/0990-Magearna Original-801/back/normal
+Fighting,Ghost,pokemon_images/sprites/0991-Marshadow-802/front/normal,pokemon_images/sprites/0991-Marshadow-802/back/normal
+Poison,,pokemon_images/sprites/0992-Poipole-803/front/normal,pokemon_images/sprites/0992-Poipole-803/back/normal
+Poison,Dragon,pokemon_images/sprites/0993-Naganadel-804/front/normal,pokemon_images/sprites/0993-Naganadel-804/back/normal
+Rock,Steel,pokemon_images/sprites/0994-Stakataka-805/front/normal,pokemon_images/sprites/0994-Stakataka-805/back/normal
+Fire,Ghost,pokemon_images/sprites/0995-Blacephalon-806/front/normal,pokemon_images/sprites/0995-Blacephalon-806/back/normal
+Electric,,pokemon_images/sprites/0996-Zeraora-807/front/normal,pokemon_images/sprites/0996-Zeraora-807/back/normal
+Steel,,pokemon_images/sprites/0997-Meltan-808/front/normal,pokemon_images/sprites/0997-Meltan-808/back/normal
+Steel,,pokemon_images/sprites/0998-Melmetal-809/front/normal,pokemon_images/sprites/0998-Melmetal-809/back/normal
+Grass,,pokemon_images/sprites/1000-Grookey-810/front/normal,pokemon_images/sprites/1000-Grookey-810/back/normal
+Grass,,pokemon_images/sprites/1001-Thwackey-811/front/normal,pokemon_images/sprites/1001-Thwackey-811/back/normal
+Grass,,pokemon_images/sprites/1002-Rillaboom-812/front/normal,pokemon_images/sprites/1002-Rillaboom-812/back/normal
+Fire,,pokemon_images/sprites/1004-Scorbunny-813/front/normal,pokemon_images/sprites/1004-Scorbunny-813/back/normal
+Fire,,pokemon_images/sprites/1005-Raboot-814/front/normal,pokemon_images/sprites/1005-Raboot-814/back/normal
+Fire,,pokemon_images/sprites/1006-Cinderace-815/front/normal,pokemon_images/sprites/1006-Cinderace-815/back/normal
+Water,,pokemon_images/sprites/1008-Sobble-816/front/normal,pokemon_images/sprites/1008-Sobble-816/back/normal
+Water,,pokemon_images/sprites/1009-Drizzile-817/front/normal,pokemon_images/sprites/1009-Drizzile-817/back/normal
+Water,,pokemon_images/sprites/1010-Inteleon-818/front/normal,pokemon_images/sprites/1010-Inteleon-818/back/normal
+Normal,,pokemon_images/sprites/1012-Skwovet-819/front/normal,pokemon_images/sprites/1012-Skwovet-819/back/normal
+Normal,,pokemon_images/sprites/1013-Greedent-820/front/normal,pokemon_images/sprites/1013-Greedent-820/back/normal
+Flying,,pokemon_images/sprites/1014-Rookidee-821/front/normal,pokemon_images/sprites/1014-Rookidee-821/back/normal
+Flying,,pokemon_images/sprites/1015-Corvisquire-822/front/normal,pokemon_images/sprites/1015-Corvisquire-822/back/normal
+Flying,Steel,pokemon_images/sprites/1016-Corviknight-823/front/normal,pokemon_images/sprites/1016-Corviknight-823/back/normal
+Bug,,pokemon_images/sprites/1018-Blipbug-824/front/normal,pokemon_images/sprites/1018-Blipbug-824/back/normal
+Bug,Psychic,pokemon_images/sprites/1019-Dottler-825/front/normal,pokemon_images/sprites/1019-Dottler-825/back/normal
+Bug,Psychic,pokemon_images/sprites/1020-Orbeetle-826/front/normal,pokemon_images/sprites/1020-Orbeetle-826/back/normal
+Dark,,pokemon_images/sprites/1022-Nickit-827/front/normal,pokemon_images/sprites/1022-Nickit-827/back/normal
+Dark,,pokemon_images/sprites/1023-Thievul-828/front/normal,pokemon_images/sprites/1023-Thievul-828/back/normal
+Grass,,pokemon_images/sprites/1024-Gossifleur-829/front/normal,pokemon_images/sprites/1024-Gossifleur-829/back/normal
+Grass,,pokemon_images/sprites/1025-Eldegoss-830/front/normal,pokemon_images/sprites/1025-Eldegoss-830/back/normal
+Normal,,pokemon_images/sprites/1026-Wooloo-831/front/normal,pokemon_images/sprites/1026-Wooloo-831/back/normal
+Normal,,pokemon_images/sprites/1027-Dubwool-832/front/normal,pokemon_images/sprites/1027-Dubwool-832/back/normal
+Water,,pokemon_images/sprites/1028-Chewtle-833/front/normal,pokemon_images/sprites/1028-Chewtle-833/back/normal
+Water,Rock,pokemon_images/sprites/1029-Drednaw-834/front/normal,pokemon_images/sprites/1029-Drednaw-834/back/normal
+Electric,,pokemon_images/sprites/1031-Yamper-835/front/normal,pokemon_images/sprites/1031-Yamper-835/back/normal
+Electric,,pokemon_images/sprites/1032-Boltund-836/front/normal,pokemon_images/sprites/1032-Boltund-836/back/normal
+Rock,,pokemon_images/sprites/1033-Rolycoly-837/front/normal,pokemon_images/sprites/1033-Rolycoly-837/back/normal
+Rock,Fire,pokemon_images/sprites/1034-Carkol-838/front/normal,pokemon_images/sprites/1034-Carkol-838/back/normal
+Rock,Fire,pokemon_images/sprites/1035-Coalossal-839/front/normal,pokemon_images/sprites/1035-Coalossal-839/back/normal
+Grass,Dragon,pokemon_images/sprites/1037-Applin-840/front/normal,pokemon_images/sprites/1037-Applin-840/back/normal
+Grass,Dragon,pokemon_images/sprites/1038-Flapple-841/front/normal,pokemon_images/sprites/1038-Flapple-841/back/normal
+Grass,Dragon,pokemon_images/sprites/1040-Appletun-842/front/normal,pokemon_images/sprites/1040-Appletun-842/back/normal
+Ground,,pokemon_images/sprites/1042-Silicobra-843/front/normal,pokemon_images/sprites/1042-Silicobra-843/back/normal
+Ground,,pokemon_images/sprites/1043-Sandaconda-844/front/normal,pokemon_images/sprites/1043-Sandaconda-844/back/normal
+Flying,Water,pokemon_images/sprites/1045-Cramorant-845/front/normal,pokemon_images/sprites/1045-Cramorant-845/back/normal
+Water,,pokemon_images/sprites/1046-Arrokuda-846/front/normal,pokemon_images/sprites/1046-Arrokuda-846/back/normal
+Water,,pokemon_images/sprites/1047-Barraskewda-847/front/normal,pokemon_images/sprites/1047-Barraskewda-847/back/normal
+Electric,Poison,pokemon_images/sprites/1048-Toxel-848/front/normal,pokemon_images/sprites/1048-Toxel-848/back/normal
+Electric,Poison,pokemon_images/sprites/1049-Toxtricity Amped-849/front/normal,pokemon_images/sprites/1049-Toxtricity Amped-849/back/normal
+Electric,Poison,pokemon_images/sprites/1051-Toxtricity Low Key-849/front/normal,pokemon_images/sprites/1051-Toxtricity Low Key-849/back/normal
+Fire,Bug,pokemon_images/sprites/1053-Sizzlipede-850/front/normal,pokemon_images/sprites/1053-Sizzlipede-850/back/normal
+Fire,Bug,pokemon_images/sprites/1054-Centiskorch-851/front/normal,pokemon_images/sprites/1054-Centiskorch-851/back/normal
+Fighting,,pokemon_images/sprites/1056-Clobbopus-852/front/normal,pokemon_images/sprites/1056-Clobbopus-852/back/normal
+Fighting,,pokemon_images/sprites/1057-Grapploct-853/front/normal,pokemon_images/sprites/1057-Grapploct-853/back/normal
+Ghost,,pokemon_images/sprites/1058-Sinistea-854/front/normal,pokemon_images/sprites/1058-Sinistea-854/back/normal
+Ghost,,pokemon_images/sprites/1059-Polteageist-855/front/normal,pokemon_images/sprites/1059-Polteageist-855/back/normal
+Psychic,,pokemon_images/sprites/1060-Hatenna-856/front/normal,pokemon_images/sprites/1060-Hatenna-856/back/normal
+Psychic,,pokemon_images/sprites/1061-Hattrem-857/front/normal,pokemon_images/sprites/1061-Hattrem-857/back/normal
+Psychic,Fairy,pokemon_images/sprites/1062-Hatterene-858/front/normal,pokemon_images/sprites/1062-Hatterene-858/back/normal
+Dark,Fairy,pokemon_images/sprites/1064-Impidimp-859/front/normal,pokemon_images/sprites/1064-Impidimp-859/back/normal
+Dark,Fairy,pokemon_images/sprites/1065-Morgrem-860/front/normal,pokemon_images/sprites/1065-Morgrem-860/back/normal
+Dark,Fairy,pokemon_images/sprites/1066-Grimmsnarl-861/front/normal,pokemon_images/sprites/1066-Grimmsnarl-861/back/normal
+Dark,Normal,pokemon_images/sprites/1068-Obstagoon-862/front/normal,pokemon_images/sprites/1068-Obstagoon-862/back/normal
+Steel,,pokemon_images/sprites/1069-Perrserker-863/front/normal,pokemon_images/sprites/1069-Perrserker-863/back/normal
+Ghost,,pokemon_images/sprites/1070-Cursola-864/front/normal,pokemon_images/sprites/1070-Cursola-864/back/normal
+Fighting,,pokemon_images/sprites/1071-Sirfetchd-865/front/normal,pokemon_images/sprites/1071-Sirfetchd-865/back/normal
+Ice,Psychic,pokemon_images/sprites/1072-Mr Rime-866/front/normal,pokemon_images/sprites/1072-Mr Rime-866/back/normal
+Ground,Ghost,pokemon_images/sprites/1073-Runerigus-867/front/normal,pokemon_images/sprites/1073-Runerigus-867/back/normal
+Fairy,,pokemon_images/sprites/1074-Milcery-868/front/normal,pokemon_images/sprites/1074-Milcery-868/back/normal
+Fairy,,pokemon_images/sprites/1075-Alcremie-869/front/normal,pokemon_images/sprites/1075-Alcremie-869/back/normal
+Fighting,,pokemon_images/sprites/1077-Falinks-870/front/normal,pokemon_images/sprites/1077-Falinks-870/back/normal
+Electric,,pokemon_images/sprites/1078-Pincurchin-871/front/normal,pokemon_images/sprites/1078-Pincurchin-871/back/normal
+Ice,Bug,pokemon_images/sprites/1079-Snom-872/front/normal,pokemon_images/sprites/1079-Snom-872/back/normal
+Ice,Bug,pokemon_images/sprites/1080-Frosmoth-873/front/normal,pokemon_images/sprites/1080-Frosmoth-873/back/normal
+Rock,,pokemon_images/sprites/1081-Stonjourner-874/front/normal,pokemon_images/sprites/1081-Stonjourner-874/back/normal
+Ice,,pokemon_images/sprites/1082-Eiscue Ice-875/front/normal,pokemon_images/sprites/1082-Eiscue Ice-875/back/normal
+Ice,,pokemon_images/sprites/1083-Eiscue Noice-875/front/normal,pokemon_images/sprites/1083-Eiscue Noice-875/back/normal
+Psychic,Normal,pokemon_images/sprites/1084-Indeedee Female-876/front/normal,pokemon_images/sprites/1084-Indeedee Female-876/back/normal
+Psychic,Normal,pokemon_images/sprites/1085-Indeedee Male-876/front/normal,pokemon_images/sprites/1085-Indeedee Male-876/back/normal
+Electric,Dark,pokemon_images/sprites/1086-Morpeko-877/front/normal,pokemon_images/sprites/1086-Morpeko-877/back/normal
+Steel,,pokemon_images/sprites/1087-Cufant-878/front/normal,pokemon_images/sprites/1087-Cufant-878/back/normal
+Steel,,pokemon_images/sprites/1088-Copperajah-879/front/normal,pokemon_images/sprites/1088-Copperajah-879/back/normal
+Electric,Dragon,pokemon_images/sprites/1090-Dracozolt-880/front/normal,pokemon_images/sprites/1090-Dracozolt-880/back/normal
+Electric,Ice,pokemon_images/sprites/1091-Arctozolt-881/front/normal,pokemon_images/sprites/1091-Arctozolt-881/back/normal
+Water,Dragon,pokemon_images/sprites/1092-Dracovish-882/front/normal,pokemon_images/sprites/1092-Dracovish-882/back/normal
+Water,Ice,pokemon_images/sprites/1093-Arctovish-883/front/normal,pokemon_images/sprites/1093-Arctovish-883/back/normal
+Steel,Dragon,pokemon_images/sprites/1094-Duraludon-884/front/normal,pokemon_images/sprites/1094-Duraludon-884/back/normal
+Dragon,Ghost,pokemon_images/sprites/1096-Dreepy-885/front/normal,pokemon_images/sprites/1096-Dreepy-885/back/normal
+Dragon,Ghost,pokemon_images/sprites/1097-Drakloak-886/front/normal,pokemon_images/sprites/1097-Drakloak-886/back/normal
+Dragon,Ghost,pokemon_images/sprites/1098-Dragapult-887/front/normal,pokemon_images/sprites/1098-Dragapult-887/back/normal
+Fairy,Steel,pokemon_images/sprites/1099-Zacian Crowned-888/front/normal,pokemon_images/sprites/1099-Zacian Crowned-888/back/normal
+Fairy,,pokemon_images/sprites/1100-Zacian Hero-888/front/normal,pokemon_images/sprites/1100-Zacian Hero-888/back/normal
+Fighting,Steel,pokemon_images/sprites/1101-Zamazenta Crowned-889/front/normal,pokemon_images/sprites/1101-Zamazenta Crowned-889/back/normal
+Fighting,,pokemon_images/sprites/1102-Zamazenta Hero-889/front/normal,pokemon_images/sprites/1102-Zamazenta Hero-889/back/normal
+Poison,Dragon,pokemon_images/sprites/1103-Eternatus-890/front/normal,pokemon_images/sprites/1103-Eternatus-890/back/normal
+Fighting,,pokemon_images/sprites/1105-Kubfu-891/front/normal,pokemon_images/sprites/1105-Kubfu-891/back/normal
+Fighting,Water,pokemon_images/sprites/1106-Urshifu Rapid Strike-892/front/normal,pokemon_images/sprites/1106-Urshifu Rapid Strike-892/back/normal
+Fighting,Dark,pokemon_images/sprites/1108-Urshifu Single Strike-892/front/normal,pokemon_images/sprites/1108-Urshifu Single Strike-892/back/normal
+Dark,Grass,pokemon_images/sprites/1110-Zarude-893/front/normal,pokemon_images/sprites/1110-Zarude-893/back/normal
+Electric,,pokemon_images/sprites/1111-Regieleki-894/front/normal,pokemon_images/sprites/1111-Regieleki-894/back/normal
+Dragon,,pokemon_images/sprites/1112-Regidrago-895/front/normal,pokemon_images/sprites/1112-Regidrago-895/back/normal
+Ice,,pokemon_images/sprites/1113-Glastrier-896/front/normal,pokemon_images/sprites/1113-Glastrier-896/back/normal
+Ghost,,pokemon_images/sprites/1114-Spectrier-897/front/normal,pokemon_images/sprites/1114-Spectrier-897/back/normal
+Psychic,Grass,pokemon_images/sprites/1115-Calyrex-898/front/normal,pokemon_images/sprites/1115-Calyrex-898/back/normal
+Psychic,Ice,pokemon_images/sprites/1116-Calyrex Ice Rider-898/front/normal,pokemon_images/sprites/1116-Calyrex Ice Rider-898/back/normal
+Psychic,Ghost,pokemon_images/sprites/1117-Calyrex Shadow Rider-898/front/normal,pokemon_images/sprites/1117-Calyrex Shadow Rider-898/back/normal

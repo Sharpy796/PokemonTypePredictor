@@ -163,7 +163,8 @@ df = assign_spritepaths(df)
 df_original = df.copy()
 # Remove columns we won't be training on
 df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
-
+# Export to CSV
+df.to_csv("pokedex_processed.csv",index=False)
 
 # Visualize Data
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
