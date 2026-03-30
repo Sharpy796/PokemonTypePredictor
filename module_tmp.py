@@ -186,6 +186,7 @@ for i,sax in enumerate(axs):
         for tick in ax.get_xticklabels():
             tick.set_rotation(90)
 plt.tight_layout()
+plt.savefig("data.png")
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
