@@ -136,6 +136,8 @@ def assign_spritepaths(df):
 df = pd.read_csv(CSV_FILEPATH)
 
 # Preprocessing
+# pd.set_option('display.max_rows', 10) # Default df display()
+# pd.set_option('display.max_rows', 1000) # Modified df display()
 
 # Remove entries we don't want to use 
 df = df[df['image_fn'] != '[]']
@@ -148,6 +150,10 @@ df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form'
 # Find the filepaths to each sprite we want to use
 df = assign_spritepaths(df)
 
+# Keep an original copy in case we want names of pokemon
+df_original = df.copy()
+# Remove columns we won't be training on
+df = df.drop(['id','name','pokedex_id','primary_color'], axis=1)
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
