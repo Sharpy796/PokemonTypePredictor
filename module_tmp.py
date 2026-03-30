@@ -67,7 +67,7 @@ if __name__ == "__main__":
 # from time import sleep
 # from tqdm import tqdm
 # from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, recall_score, precision_score, f1_score, log_loss
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 # import matplotlib as mpl
 # from matplotlib.colors import LinearSegmentedColormap, ListedColormap
 import pandas as pd
@@ -95,6 +95,14 @@ import seaborn as sns
 
 #%% CONSTANTS                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CSV_FILEPATH = "pokemon_images/pokedex.csv"
+
+# These are for chart sorting/styling purposes.
+COLORS = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','White','Gray','Black']
+COLORS_CHART = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','Gainsboro','Gray','Black']
+TYPES1 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
+TYPES2 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy','None']
+TYPES1_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','paleturquoise','darkred','mediumorchid','khaki','thistle','deeppink','yellowgreen','goldenrod','mediumpurple','mediumblue','black','lightsteelblue','pink']
+TYPES2_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','paleturquoise','darkred','mediumorchid','khaki','thistle','deeppink','yellowgreen','goldenrod','mediumpurple','mediumblue','black','lightsteelblue','pink','dimgray']
 
 #%% CONFIGURATION               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -135,7 +143,7 @@ def assign_spritepaths(df):
 #Main code start here
 df = pd.read_csv(CSV_FILEPATH)
 
-# Preprocessing
+### Preprocessing
 # pd.set_option('display.max_rows', 10) # Default df display()
 # pd.set_option('display.max_rows', 1000) # Modified df display()
 
@@ -149,11 +157,34 @@ df.reset_index(inplace=True, drop=True)
 df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form','gigantamax','image_fn'], axis=1)
 # Find the filepaths to each sprite we want to use
 df = assign_spritepaths(df)
+# df['type2'] = df['type2'].fillna("None")
 
 # Keep an original copy in case we want names of pokemon
 df_original = df.copy()
 # Remove columns we won't be training on
-df = df.drop(['id','name','pokedex_id','primary_color'], axis=1)
+df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
+
+
+# Visualize Data
+fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
+df_visualizer = df_original.drop(['id','name','pokedex_id',], axis=1)
+df_visualizer = df_visualizer.sort_values('type1', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
+axs[0][0].set_title("type1")
+axs[0][0].bar(TYPES1,df_visualizer['type1'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
+df_visualizer = df_visualizer.sort_values('primary_color', key=lambda s: s.apply(COLORS.index), ignore_index=True)
+axs[1][0].set_title("primary_color")
+axs[1][0].bar(COLORS,df_visualizer['primary_color'].value_counts(sort=False).to_numpy(),color=COLORS_CHART)
+df_visualizer_nona = df_visualizer.dropna().sort_values('type2', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
+axs[1][1].set_title("type2 removing mono-type pokemon ('None')")
+axs[1][1].bar(TYPES1,df_visualizer_nona['type2'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
+df_visualizer = df_visualizer.fillna("None").sort_values('type2', key=lambda s: s.apply(TYPES2.index), ignore_index=True)
+axs[0][1].set_title("type2")
+axs[0][1].bar(TYPES2,df_visualizer['type2'].value_counts(sort=False).to_numpy(),color=TYPES2_COLORS_CHART)
+for i,sax in enumerate(axs):
+    for j,ax in enumerate(sax):
+        for tick in ax.get_xticklabels():
+            tick.set_rotation(90)
+plt.tight_layout()
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
