@@ -166,7 +166,7 @@ df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need
 # Export to CSV
 df.to_csv("pokedex_processed.csv",index=False)
 
-# Visualize Data
+### Visualize Data
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
 df_visualizer = df_original.drop(['id','name','pokedex_id',], axis=1)
 df_visualizer = df_visualizer.sort_values('type1', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
