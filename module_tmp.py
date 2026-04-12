@@ -78,6 +78,8 @@ import numpy as np
 #import cv2 as cv
 from PIL import Image
 from collections import Counter
+from warnings import simplefilter
+simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
 
 
 #custom imports
@@ -129,18 +131,42 @@ def main():
     pass
 #
 
-def assign_spritepaths(df):
-    df_copy = df.copy()
-    df_filepaths = pd.DataFrame(columns=['spritepath_front','spritepath_back'])
-    root = "pokemon_images/sprites/"
-    new_row = {}
-    for i,entry in df_copy.iterrows():
-        new_row = {'spritepath_front': root+f"{entry['id']:04d}"+'-'+entry['name']+'-'+str(entry['pokedex_id'])+'/front/normal',
-                   'spritepath_back': root+f"{entry['id']:04d}"+'-'+entry['name']+'-'+str(entry['pokedex_id'])+'/back/normal',}
-        df_filepaths.loc[len(df_filepaths)] = new_row
+def visualizeData(df, save_name):
+    fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
+    df_visualizer = df.drop(['id','name','pokedex_id',], axis=1)
+    df_visualizer = df_visualizer.sort_values('type1', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
+    axs[0][0].set_title("type1")
+    axs[0][0].bar(TYPES1,df_visualizer['type1'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
+    df_visualizer = df_visualizer.sort_values('primary_color', key=lambda s: s.apply(COLORS.index), ignore_index=True)
+    axs[1][0].set_title("primary_color")
+    axs[1][0].bar(COLORS,df_visualizer['primary_color'].value_counts(sort=False).to_numpy(),color=COLORS_CHART)
+    df_visualizer_nona = df_visualizer.dropna().sort_values('type2', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
+    axs[1][1].set_title("type2 removing mono-type pokemon ('None')")
+    axs[1][1].bar(TYPES1,df_visualizer_nona['type2'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
+    df_visualizer = df_visualizer.fillna("None").sort_values('type2', key=lambda s: s.apply(TYPES2.index), ignore_index=True)
+    axs[0][1].set_title("type2")
+    axs[0][1].bar(TYPES2,df_visualizer['type2'].value_counts(sort=False).to_numpy(),color=TYPES2_COLORS_CHART)
+    for i,sax in enumerate(axs):
+        for j,ax in enumerate(sax):
+            for tick in ax.get_xticklabels():
+                tick.set_rotation(90)
+    plt.tight_layout()
+    if (save_name != None):
+        plt.savefig(save_name)
     #
-    df_copy = pd.concat([df_copy, df_filepaths], sort=False, axis=1)
-    return df_copy
+#
+
+def assign_spritepaths(df):
+    root = "pokemon_images/sprites/"
+    for i,entry in df.iterrows():
+        front = root+f"{entry['id']:04d}"+'-'+entry['name']+'-'+str(entry['pokedex_id'])+'/front/normal'
+        images = os.listdir(front)
+        if len(images) > 0:
+            front += "/"+images[0]
+        else:
+            front = "NONE"
+        df.at[i,'spritepath_front'] = front
+    #
 #
 def convertImgtoHexCode(imgPath):
     #Load image and get list of pixels
@@ -156,10 +182,18 @@ def convertImgtoHexCode(imgPath):
     #Sort frequency
     sortedHexes = hexCodeCount.most_common()
 
-    #Print hexcode Counts
-    for color, count in sortedHexes:
-        return(imgPath, color, count)
-
+    #Return hexcode Counts
+    return sortedHexes
+#
+def storeHexCounts(df, row, hexCounts):
+    for color, count in hexCounts:
+        df.at[row,color] = count
+    #
+#
+def populateHexCounts(df):
+    for i,entry in df.iterrows():
+        storeHexCounts(df, i, convertImgtoHexCode(df.at[i,'spritepath_front']))
+    #
 #
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -179,40 +213,25 @@ df.reset_index(inplace=True, drop=True)
 # Remove columns we aren't using
 df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form','gigantamax','image_fn'], axis=1)
 # Find the filepaths to each sprite we want to use
-df = assign_spritepaths(df)
-# df['type2'] = df['type2'].fillna("None")
+assign_spritepaths(df)
 
 # Keep an original copy in case we want names of pokemon
 df_original = df.copy()
-# Remove columns we won't be training on
-df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
-# Export to CSV
-df.to_csv("pokedex_processed.csv",index=False)
-
 ### Visualize Data
-fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
-df_visualizer = df_original.drop(['id','name','pokedex_id',], axis=1)
-df_visualizer = df_visualizer.sort_values('type1', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
-axs[0][0].set_title("type1")
-axs[0][0].bar(TYPES1,df_visualizer['type1'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
-df_visualizer = df_visualizer.sort_values('primary_color', key=lambda s: s.apply(COLORS.index), ignore_index=True)
-axs[1][0].set_title("primary_color")
-axs[1][0].bar(COLORS,df_visualizer['primary_color'].value_counts(sort=False).to_numpy(),color=COLORS_CHART)
-df_visualizer_nona = df_visualizer.dropna().sort_values('type2', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
-axs[1][1].set_title("type2 removing mono-type pokemon ('None')")
-axs[1][1].bar(TYPES1,df_visualizer_nona['type2'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
-df_visualizer = df_visualizer.fillna("None").sort_values('type2', key=lambda s: s.apply(TYPES2.index), ignore_index=True)
-axs[0][1].set_title("type2")
-axs[0][1].bar(TYPES2,df_visualizer['type2'].value_counts(sort=False).to_numpy(),color=TYPES2_COLORS_CHART)
-for i,sax in enumerate(axs):
-    for j,ax in enumerate(sax):
-        for tick in ax.get_xticklabels():
-            tick.set_rotation(90)
-plt.tight_layout()
-plt.savefig("data.png")
+# visualizeData(df_original)
+# visualizeData(df_original, "data.png") # this is for if we want to save the graphs to a file
 
-for index, row in df.iterrows():
-    print(convertImgtoHexCode(row["spritepath_front"]))
+# Remove columns we won't be training on, Fix columns we will be using
+df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
+populateHexCounts(df)
+df['type2'] = df['type2'].fillna("None") # do we need to do this??
+df = df.fillna(0)
+# Export to CSV
+# df.to_csv("pokedex_processed.csv",index=False)
+
+
+display(df)
+
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
