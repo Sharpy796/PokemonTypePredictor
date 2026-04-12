@@ -102,6 +102,20 @@ import seaborn as sns
 #%% CONSTANTS                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CSV_FILEPATH = "pokemon_images/pokedex.csv"
 
+# These are for color categorizing purposes.
+primary_colors = [
+    'Green',
+    'Red',
+    'Blue',
+    'White',
+    'Brown',
+    'Yellow',
+    'Purple',
+    'Pink',
+    'Gray',
+    'Black'
+]
+
 # These are for chart sorting/styling purposes.
 COLORS = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','White','Gray','Black']
 COLORS_CHART = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','Gainsboro','Gray','Black']
@@ -168,7 +182,30 @@ def assign_spritepaths(df):
         df.at[i,'spritepath_front'] = front
     #
 #
-def convertImgtoHexCode(imgPath):
+def rgbToColor(rgb_tuple): # TODO: Broken classifier.
+    # eg. rgb_tuple = (2,44,300)
+
+    colors = {
+        "red": (255,0,0),
+        "green": (0,255,0),
+        "blue": (0,0,255),
+        "white": (255,255,255),
+        # "grey": (125,125,125),
+        "black": (0,0,0),
+        "yellow": (255,255,0),
+        "pink": (255,0,255),
+        "purple": (125,0,255),
+        "orange": (255,125,0),
+        # "brown": (150, 75, 0),
+    }
+
+    manhattan = lambda x,y : abs(x[0] - y[0]) + abs(x[1] - y[1]) + abs(x[2] - y[2]) 
+    distances = {k: manhattan(v, rgb_tuple) for k, v in colors.items()}
+    color = min(distances, key=distances.get)
+    return color
+#
+
+def convertImgToHexCode(imgPath):
     #Load image and get list of pixels
     pic = Image.open(imgPath).convert("RGB")
     pixelList = list(pic.getdata())
@@ -185,20 +222,48 @@ def convertImgtoHexCode(imgPath):
     #Return hexcode Counts
     return sortedHexes
 #
-def storeHexCounts(df, row, hexCounts):
-    for color, count in hexCounts:
+def convertImgToColors(imgPath):
+    #Load image and get list of pixels
+    pic = Image.open(imgPath).convert("RGB")
+    pixelList = list(pic.getdata())
+
+    #Convert individual pixels to colors -- REMOVE PURE WHITE BACKGROUND PIXELS
+    colors = [rgbToColor((r,g,b)) for r,g,b in pixelList if not (r==255 and g==255 and b==255)]
+
+    #Count color occurences
+    colorCount = Counter(colors)
+
+    #Sort frequency
+    sortedColors = colorCount.most_common()
+
+    #Return color Counts
+    return sortedColors
+#
+def storeColorCounts(df, row, colorCounts):
+    first = True
+    for color, count in colorCounts:
+        if first:
+            df.at[row,"primary_color"] = color
+            first = False
         df.at[row,color] = count
     #
 #
 def populateHexCounts(df):
     for i,entry in df.iterrows():
-        storeHexCounts(df, i, convertImgtoHexCode(df.at[i,'spritepath_front']))
+        storeColorCounts(df, i, convertImgToHexCode(df.at[i,'spritepath_front']))
+    #
+#
+def populateColorCounts(df):
+    for i,entry in df.iterrows():
+        storeColorCounts(df, i, convertImgToColors(df.at[i,'spritepath_front']))
     #
 #
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main code start here
 df = pd.read_csv(CSV_FILEPATH)
+
+# print(df['primary_color'].unique())
 
 ### Preprocessing
 # pd.set_option('display.max_rows', 10) # Default df display()
@@ -223,15 +288,15 @@ df_original = df.copy()
 
 # Remove columns we won't be training on, Fix columns we will be using
 df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
-populateHexCounts(df)
+populateColorCounts(df)
 df['type2'] = df['type2'].fillna("None") # do we need to do this??
 df = df.fillna(0)
-# Export to CSV
-# df.to_csv("pokedex_processed.csv",index=False)
 
-
+# convertImgToColors('pokemon_images/sprites/0000-Bulbasaur-1/front/normal/1-gen3_e-frame2.png')
 display(df)
 
+# Export to CSV
+# df.to_csv("pokedex_extracted.csv",index=False) # TODO: Run this once our classifier is fixed.
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block

@@ -1,0 +1,989 @@
+type1,type2,spritepath_front,grey,black,brown,yellow,white,orange,green,red,blue,purple,pink
+Grass,Poison,pokemon_images/sprites/0000-Bulbasaur-1/front/normal/1-gen3_e-frame2.png,476.0,173.0,51.0,20.0,20.0,11.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0001-Ivysaur-2/front/normal/2-gen3_e-frame2.png,789.0,330.0,107.0,0.0,31.0,25.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0002-Venusaur-3/front/normal/3-gen3_e-frame2.png,971.0,560.0,242.0,61.0,33.0,79.0,136.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0005-Charmander-4/front/normal/4-gen3_e-frame2.png,4.0,73.0,357.0,98.0,45.0,202.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0006-Charmeleon-5/front/normal/5-gen3_e-frame2.png,48.0,137.0,771.0,57.0,51.0,369.0,0.0,0.0,0.0,0.0,0.0
+Fire,Flying,pokemon_images/sprites/0007-Charizard-6/front/normal/6-gen3_e-frame2.png,275.0,302.0,379.0,178.0,113.0,1167.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0011-Squirtle-7/front/normal/7-gen3_e-frame2.png,447.0,84.0,51.0,36.0,117.0,64.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0012-Wartortle-8/front/normal/8-gen3_e-frame2.png,680.0,115.0,21.0,0.0,480.0,50.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0013-Blastoise-9/front/normal/9-gen3_e-frame2.png,999.0,284.0,95.0,64.0,379.0,253.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0016-Caterpie-10/front/normal/10-gen3_e-frame2.png,276.0,84.0,103.0,59.0,4.0,18.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0017-Metapod-11/front/normal/11-gen3_e-frame2.png,371.0,82.0,103.0,32.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0018-Butterfree-12/front/normal/12-gen3_e-frame2.png,478.0,199.0,61.0,17.0,224.0,21.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0020-Weedle-13/front/normal/13-gen3_e-frame2.png,41.0,81.0,100.0,44.0,53.0,235.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0021-Kakuna-14/front/normal/14-gen3_e-frame2.png,7.0,94.0,116.0,184.0,66.0,188.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0022-Beedrill-15/front/normal/15-gen3_e-frame2.png,288.0,243.0,71.0,58.0,306.0,84.0,0.0,10.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0024-Pidgey-16/front/normal/16-gen3_e-frame2.png,239.0,96.0,88.0,0.0,102.0,110.0,0.0,13.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0025-Pidgeotto-17/front/normal/17-gen3_e-frame2.png,427.0,143.0,237.0,95.0,80.0,332.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0026-Pidgeot-18/front/normal/18-gen3_e-frame2.png,676.0,156.0,273.0,0.0,218.0,427.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0028-Rattata-19/front/normal/19-gen3_e-frame2.png,356.0,53.0,9.0,0.0,102.0,3.0,0.0,0.0,0.0,0.0,0.0
+Dark,Normal,pokemon_images/sprites/0029-Rattata Alola-19/front/normal/19_2-gen7.png,484.0,262.0,0.0,0.0,130.0,0.0,0.0,4.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0030-Raticate-20/front/normal/20-gen3_e-frame2.png,62.0,197.0,358.0,142.0,291.0,468.0,0.0,0.0,0.0,0.0,0.0
+Dark,Normal,pokemon_images/sprites/0031-Raticate Alola-20/front/normal/20_2-gen7.png,833.0,321.0,283.0,0.0,314.0,0.0,0.0,4.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0033-Spearow-21/front/normal/21-gen3_e-frame2.png,73.0,110.0,157.0,0.0,52.0,182.0,0.0,66.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0034-Fearow-22/front/normal/22-gen3_e-frame2.png,77.0,220.0,555.0,49.0,67.0,467.0,0.0,67.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0035-Ekans-23/front/normal/23-gen3_e-frame2.png,799.0,99.0,64.0,35.0,25.0,75.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0036-Arbok-24/front/normal/24-gen3_e-frame2.png,1514.0,427.0,108.0,20.0,15.0,8.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0037-Pikachu-25/front/normal/25-gen3_e-frame2.png,29.0,124.0,104.0,459.0,2.0,374.0,0.0,19.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0052-Raichu-26/front/normal/26-gen3_e-frame2.png,47.0,121.0,387.0,509.0,248.0,248.0,0.0,10.0,0.0,0.0,0.0
+Electric,Psychic,pokemon_images/sprites/0053-Raichu Alola-26/front/normal/26_2-gen7.png,58.0,237.0,503.0,664.0,436.0,257.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0054-Sandshrew-27/front/normal/27-gen3_e-frame2.png,72.0,117.0,189.0,151.0,189.0,103.0,0.0,0.0,0.0,0.0,0.0
+Ice,Steel,pokemon_images/sprites/0055-Sandshrew Alola-27/front/normal/27_2-gen7.png,477.0,144.0,0.0,0.0,253.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0056-Sandslash-28/front/normal/28-gen3_e-frame2.png,26.0,248.0,519.0,287.0,137.0,156.0,0.0,0.0,0.0,0.0,0.0
+Ice,Steel,pokemon_images/sprites/0057-Sandslash Alola-28/front/normal/28_2-gen7.png,787.0,232.0,0.0,0.0,621.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0058-Nidoran F-29/front/normal/29-gen3_e-frame2.png,323.0,54.0,4.0,0.0,219.0,1.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0059-Nidorina-30/front/normal/30-gen3_e-frame2.png,841.0,106.0,12.0,0.0,223.0,7.0,0.0,0.0,0.0,0.0,0.0
+Poison,Ground,pokemon_images/sprites/0060-Nidoqueen-31/front/normal/31-gen3_e-frame2.png,1274.0,271.0,89.0,0.0,243.0,22.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0061-Nidoran M-32/front/normal/32-gen3_e-frame2.png,446.0,170.0,1.0,0.0,252.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0062-Nidorino-33/front/normal/33-gen3_e-frame2.png,805.0,168.0,14.0,0.0,272.0,8.0,0.0,0.0,0.0,0.0,0.0
+Poison,Ground,pokemon_images/sprites/0063-Nidoking-34/front/normal/34-gen3_e-frame2.png,1084.0,359.0,0.0,0.0,573.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0064-Clefairy-35/front/normal/35-gen3_e-frame2.png,239.0,83.0,175.0,0.0,418.0,8.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0065-Clefable-36/front/normal/36-gen3_e-frame2.png,379.0,121.0,187.0,0.0,553.0,108.0,0.0,6.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0066-Vulpix-37/front/normal/37-gen3_e-frame2.png,85.0,139.0,352.0,0.0,19.0,660.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0067-Vulpix Alola-37/front/normal/37_2-gen7.png,338.0,148.0,0.0,0.0,907.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0068-Ninetales-38/front/normal/38-gen3_e-frame2.png,0.0,231.0,262.0,930.0,287.0,353.0,0.0,0.0,0.0,0.0,0.0
+Ice,Fairy,pokemon_images/sprites/0069-Ninetales Alola-38/front/normal/38_2-gen7.png,821.0,333.0,0.0,0.0,2116.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Fairy,pokemon_images/sprites/0070-Jigglypuff-39/front/normal/39-gen3_e-frame2.png,50.0,73.0,124.0,0.0,431.0,101.0,0.0,0.0,0.0,0.0,0.0
+Normal,Fairy,pokemon_images/sprites/0071-Wigglytuff-40/front/normal/40-gen3_e-frame2.png,251.0,133.0,199.0,0.0,664.0,123.0,0.0,0.0,0.0,0.0,0.0
+Poison,Flying,pokemon_images/sprites/0072-Zubat-41/front/normal/41-gen3_e-frame2.png,590.0,109.0,0.0,0.0,29.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Flying,pokemon_images/sprites/0073-Golbat-42/front/normal/42-gen3_e-frame2.png,793.0,244.0,0.0,0.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0074-Oddish-43/front/normal/43-gen3_e-frame2.png,362.0,59.0,81.0,27.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0075-Gloom-44/front/normal/44-gen3_e-frame2.png,360.0,274.0,227.0,29.0,36.0,133.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0076-Vileplume-45/front/normal/45-gen3_e-frame2.png,476.0,230.0,105.0,0.0,80.0,510.0,0.0,0.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0077-Paras-46/front/normal/46-gen3_e-frame2.png,27.0,222.0,80.0,14.0,76.0,295.0,0.0,25.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0078-Parasect-47/front/normal/47-gen3_e-frame2.png,94.0,215.0,373.0,105.0,0.0,431.0,0.0,276.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0079-Venonat-48/front/normal/48-gen3_e-frame2.png,646.0,248.0,76.0,0.0,125.0,46.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0080-Venomoth-49/front/normal/49-gen3_e-frame2.png,551.0,119.0,48.0,0.0,635.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0081-Diglett-50/front/normal/50-gen3_e-frame2.png,244.0,73.0,77.0,0.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Steel,pokemon_images/sprites/0082-Diglett Alola-50/front/normal/50_2-gen7.png,213.0,111.0,62.0,17.0,6.0,127.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0083-Dugtrio-51/front/normal/51-gen3_e-frame2.png,152.0,111.0,420.0,0.0,97.0,400.0,0.0,0.0,0.0,0.0,0.0
+Ground,Steel,pokemon_images/sprites/0084-Dugtrio Alola-51/front/normal/51_2-gen7.png,451.0,253.0,160.0,203.0,24.0,355.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0085-Meowth-52/front/normal/52-gen3_e-frame2.png,0.0,162.0,162.0,5.0,291.0,221.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0086-Meowth Alola-52/front/normal/52_2-gen7.png,716.0,232.0,27.0,10.0,65.0,15.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0087-Meowth Galar-52/front/normal/52_3-gen8.png,765.0,253.0,76.0,23.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0089-Persian-53/front/normal/53-gen3_e-frame2.png,8.0,247.0,278.0,0.0,655.0,205.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0090-Persian Alola-53/front/normal/53_2-gen7.png,1559.0,322.0,0.0,0.0,11.0,0.0,0.0,0.0,11.0,0.0,0.0
+Water,None,pokemon_images/sprites/0091-Psyduck-54/front/normal/54-gen3_e-frame2.png,0.0,132.0,105.0,176.0,226.0,317.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0092-Golduck-55/front/normal/55-gen3_e-frame2.png,1300.0,154.0,16.0,0.0,141.0,0.0,0.0,6.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0093-Mankey-56/front/normal/56-gen3_e-frame2.png,308.0,139.0,278.0,0.0,141.0,69.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0094-Primeape-57/front/normal/57-gen3_e-frame2.png,248.0,209.0,499.0,0.0,201.0,155.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0095-Growlithe-58/front/normal/58-gen3_e-frame2.png,91.0,206.0,207.0,28.0,311.0,233.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0096-Arcanine-59/front/normal/59-gen3_e-frame2.png,33.0,586.0,448.0,0.0,491.0,990.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0097-Poliwag-60/front/normal/60-gen3_e-frame2.png,425.0,98.0,0.0,0.0,233.0,10.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0098-Poliwhirl-61/front/normal/61-gen3_e-frame2.png,817.0,308.0,0.0,0.0,293.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Fighting,pokemon_images/sprites/0099-Poliwrath-62/front/normal/62-gen3_e-frame2.png,903.0,220.0,0.0,0.0,462.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0100-Abra-63/front/normal/63-gen3_e-frame2.png,0.0,163.0,211.0,335.0,0.0,183.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0101-Kadabra-64/front/normal/64-gen3_e-frame2.png,60.0,367.0,329.0,315.0,79.0,455.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0102-Alakazam-65/front/normal/65-gen3_e-frame2.png,65.0,237.0,530.0,395.0,58.0,279.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0104-Machop-66/front/normal/66-gen3_e-frame2.png,411.0,228.0,49.0,17.0,85.0,0.0,0.0,15.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0105-Machoke-67/front/normal/67-gen3_e-frame2.png,907.0,186.0,92.0,40.0,42.0,0.0,0.0,26.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0106-Machamp-68/front/normal/68-gen3_e-frame2.png,1483.0,380.0,92.0,103.0,157.0,0.0,0.0,26.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0108-Bellsprout-69/front/normal/69-gen3_e-frame2.png,147.0,120.0,207.0,65.0,86.0,43.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0109-Weepinbell-70/front/normal/70-gen3_e-frame2.png,344.0,142.0,203.0,144.0,130.0,168.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0110-Victreebel-71/front/normal/71-gen3_e-frame2.png,648.0,317.0,353.0,163.0,138.0,136.0,0.0,0.0,0.0,0.0,0.0
+Water,Poison,pokemon_images/sprites/0111-Tentacool-72/front/normal/72-gen3_e-frame2.png,443.0,114.0,82.0,0.0,94.0,41.0,0.0,0.0,0.0,0.0,0.0
+Water,Poison,pokemon_images/sprites/0112-Tentacruel-73/front/normal/73-gen3_e-frame2.png,836.0,235.0,268.0,0.0,254.0,105.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ground,pokemon_images/sprites/0113-Geodude-74/front/normal/74-gen3_e-frame2.png,319.0,190.0,104.0,0.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Electric,pokemon_images/sprites/0114-Geodude Alola-74/front/normal/74_2-gen7.png,787.0,259.0,0.0,0.0,13.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ground,pokemon_images/sprites/0115-Graveler-75/front/normal/75-gen3_e-frame2.png,1279.0,247.0,306.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Electric,pokemon_images/sprites/0116-Graveler Alola-75/front/normal/75_2-gen7.png,1257.0,330.0,229.0,0.0,25.0,45.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ground,pokemon_images/sprites/0117-Golem-76/front/normal/76-gen3_e-frame2.png,953.0,424.0,471.0,52.0,45.0,0.0,0.0,24.0,0.0,0.0,0.0
+Rock,Electric,pokemon_images/sprites/0118-Golem Alola-76/front/normal/76_2-gen7.png,1521.0,483.0,527.0,0.0,62.0,17.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0119-Ponyta-77/front/normal/77-gen3_e-frame2.png,36.0,102.0,120.0,650.0,95.0,248.0,0.0,170.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0120-Ponyta Galar-77/front/normal/77_2-gen8.png,783.0,120.0,0.0,0.0,1264.0,0.0,0.0,0.0,0.0,100.0,0.0
+Fire,None,pokemon_images/sprites/0121-Rapidash-78/front/normal/78-gen3_e-frame2.png,37.0,176.0,72.0,761.0,152.0,778.0,0.0,339.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0122-Rapidash Galar-78/front/normal/78_2-gen8.png,601.0,231.0,0.0,0.0,1459.0,0.0,0.0,0.0,0.0,308.0,449.0
+Water,Psychic,pokemon_images/sprites/0123-Slowpoke-79/front/normal/79-gen3_e-frame2.png,155.0,90.0,124.0,22.0,78.0,626.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0124-Slowpoke Galar-79/front/normal/79_2-gen8.png,754.0,90.0,113.0,94.0,126.0,43.0,0.0,0.0,0.0,0.0,0.0
+Water,Psychic,pokemon_images/sprites/0125-Slowbro-80/front/normal/80-gen3_e-frame2.png,527.0,319.0,181.0,77.0,290.0,720.0,0.0,0.0,0.0,0.0,0.0
+Poison,Psychic,pokemon_images/sprites/0126-Slowbro Galar-80/front/normal/80_3-gen8.png,1316.0,273.0,164.0,0.0,449.0,15.0,0.0,0.0,0.0,0.0,0.0
+Electric,Steel,pokemon_images/sprites/0128-Magnemite-81/front/normal/81-gen3_e-frame2.png,128.0,133.0,39.0,0.0,60.0,2.0,0.0,5.0,0.0,0.0,0.0
+Electric,Steel,pokemon_images/sprites/0129-Magneton-82/front/normal/82-gen3_e-frame2.png,340.0,552.0,112.0,0.0,333.0,17.0,0.0,35.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0130-Farfetchd-83/front/normal/83-gen3_e-frame2.png,260.0,248.0,248.0,61.0,114.0,58.0,65.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0131-Farfetchd Galar-83/front/normal/83_2-gen8.png,310.0,468.0,344.0,0.0,221.0,130.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0132-Doduo-84/front/normal/84-gen3_e-frame2.png,569.0,215.0,58.0,0.0,89.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0133-Dodrio-85/front/normal/85-gen3_e-frame2.png,943.0,324.0,326.0,0.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0134-Seel-86/front/normal/86-gen3_e-frame2.png,260.0,126.0,8.0,0.0,1079.0,6.0,0.0,0.0,0.0,0.0,0.0
+Water,Ice,pokemon_images/sprites/0135-Dewgong-87/front/normal/87-gen3_e-frame2.png,429.0,97.0,0.0,0.0,1391.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0136-Grimer-88/front/normal/88-gen3_e-frame2.png,781.0,102.0,0.0,0.0,120.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Dark,pokemon_images/sprites/0137-Grimer Alola-88/front/normal/88_2-gen7.png,735.0,411.0,15.0,47.0,31.0,29.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0138-Muk-89/front/normal/89-gen3_e-frame2.png,1466.0,144.0,0.0,0.0,305.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Dark,pokemon_images/sprites/0139-Muk Alola-89/front/normal/89_2-gen7.png,840.0,658.0,81.0,245.0,281.0,177.0,0.0,0.0,400.0,0.0,0.0
+Water,None,pokemon_images/sprites/0140-Shellder-90/front/normal/90-gen3_e-frame2.png,347.0,79.0,32.0,0.0,113.0,3.0,0.0,0.0,0.0,0.0,0.0
+Water,Ice,pokemon_images/sprites/0141-Cloyster-91/front/normal/91-gen3_e-frame2.png,878.0,367.0,94.0,0.0,210.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Poison,pokemon_images/sprites/0142-Gastly-92/front/normal/92-gen3_e-frame2.png,991.0,53.0,47.0,0.0,589.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Poison,pokemon_images/sprites/0143-Haunter-93/front/normal/93-gen3_e-frame2.png,1187.0,246.0,145.0,0.0,74.0,0.0,0.0,72.0,0.0,0.0,0.0
+Ghost,Poison,pokemon_images/sprites/0144-Gengar-94/front/normal/94-gen3_e-frame2.png,1450.0,307.0,22.0,0.0,130.0,7.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ground,pokemon_images/sprites/0147-Onix-95/front/normal/95-gen3_e-frame2.png,944.0,251.0,172.0,0.0,440.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0148-Drowzee-96/front/normal/96-gen3_e-frame2.png,16.0,158.0,537.0,574.0,5.0,323.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0149-Hypno-97/front/normal/97-gen3_e-frame2.png,460.0,190.0,201.0,487.0,247.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0150-Krabby-98/front/normal/98-gen3_e-frame2.png,105.0,121.0,182.0,0.0,113.0,247.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0151-Kingler-99/front/normal/99-gen3_e-frame2.png,348.0,336.0,864.0,0.0,205.0,419.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0153-Voltorb-100/front/normal/100-gen3_e-frame2.png,110.0,25.0,155.0,0.0,177.0,71.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0154-Electrode-101/front/normal/101-gen3_e-frame2.png,75.0,34.0,298.0,0.0,481.0,124.0,0.0,0.0,0.0,0.0,0.0
+Grass,Psychic,pokemon_images/sprites/0155-Exeggcute-102/front/normal/102-gen3_e-frame2.png,384.0,113.0,319.0,4.0,735.0,212.0,0.0,0.0,0.0,0.0,0.0
+Grass,Psychic,pokemon_images/sprites/0156-Exeggutor-103/front/normal/103-gen3_e-frame2.png,747.0,187.0,399.0,320.0,86.0,147.0,0.0,0.0,0.0,0.0,0.0
+Grass,Dragon,pokemon_images/sprites/0157-Exeggutor Alola-103/front/normal/103_2-gen7.png,579.0,420.0,1150.0,0.0,206.0,174.0,192.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0158-Cubone-104/front/normal/104-gen3_e-frame2.png,190.0,90.0,224.0,0.0,234.0,21.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0159-Marowak-105/front/normal/105-gen3_e-frame2.png,347.0,122.0,430.0,0.0,175.0,24.0,0.0,0.0,0.0,0.0,0.0
+Fire,Ghost,pokemon_images/sprites/0160-Marowak Alola-105/front/normal/105_2-gen7.png,942.0,247.0,0.0,0.0,546.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0162-Hitmonlee-106/front/normal/106-gen3_e-frame2.png,684.0,186.0,130.0,0.0,133.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0163-Hitmonchan-107/front/normal/107-gen3_e-frame2.png,427.0,234.0,186.0,0.0,114.0,75.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0164-Lickitung-108/front/normal/108-gen3_e-frame2.png,438.0,126.0,339.0,82.0,151.0,589.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0165-Koffing-109/front/normal/109-gen3_e-frame2.png,568.0,134.0,36.0,263.0,58.0,115.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0166-Weezing-110/front/normal/110-gen3_e-frame2.png,1218.0,201.0,150.0,128.0,138.0,85.0,0.0,0.0,0.0,0.0,0.0
+Poison,Fairy,pokemon_images/sprites/0167-Weezing Galar-110/front/normal/110_2-gen8.png,2894.0,265.0,0.0,96.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Rock,pokemon_images/sprites/0168-Rhyhorn-111/front/normal/111-gen3_e-frame2.png,1256.0,280.0,9.0,0.0,176.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Rock,pokemon_images/sprites/0169-Rhydon-112/front/normal/112-gen3_e-frame2.png,1557.0,391.0,30.0,0.0,295.0,17.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0170-Chansey-113/front/normal/113-gen3_e-frame2.png,0.0,84.0,180.0,0.0,903.0,328.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0171-Tangela-114/front/normal/114-gen3_e-frame2.png,567.0,554.0,29.0,0.0,137.0,77.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0172-Kangaskhan-115/front/normal/115-gen3_e-frame2.png,1143.0,276.0,363.0,175.0,344.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0174-Horsea-116/front/normal/116-gen3_e-frame2.png,268.0,69.0,5.0,33.0,228.0,12.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0175-Seadra-117/front/normal/117-gen3_e-frame2.png,677.0,270.0,0.0,118.0,238.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0176-Goldeen-118/front/normal/118-gen3_e-frame2.png,230.0,106.0,79.0,79.0,500.0,156.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0177-Seaking-119/front/normal/119-gen3_e-frame2.png,420.0,201.0,243.0,0.0,976.0,194.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0178-Staryu-120/front/normal/120-gen3_e-frame2.png,107.0,96.0,307.0,60.0,84.0,71.0,0.0,0.0,0.0,0.0,0.0
+Water,Psychic,pokemon_images/sprites/0179-Starmie-121/front/normal/121-gen3_e-frame2.png,727.0,155.0,139.0,57.0,282.0,125.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0180-Mr Mime-122/front/normal/122-gen3_e-frame2.png,424.0,188.0,114.0,0.0,396.0,93.0,0.0,0.0,0.0,0.0,0.0
+Ice,Psychic,pokemon_images/sprites/0181-Mr Mime Galar-122/front/normal/122_2-gen8.png,588.0,299.0,40.0,0.0,413.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0182-Scyther-123/front/normal/123-gen3_e-frame2.png,625.0,182.0,304.0,214.0,230.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Psychic,pokemon_images/sprites/0183-Jynx-124/front/normal/124-gen3_e-frame2.png,163.0,173.0,458.0,232.0,326.0,655.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0184-Electabuzz-125/front/normal/125-gen3_e-frame2.png,28.0,496.0,335.0,374.0,339.0,342.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0185-Magmar-126/front/normal/126-gen3_e-frame2.png,48.0,178.0,258.0,479.0,70.0,350.0,0.0,357.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0186-Pinsir-127/front/normal/127-gen3_e-frame2.png,732.0,269.0,290.0,0.0,390.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0188-Tauros-128/front/normal/128-gen3_e-frame2.png,340.0,254.0,568.0,297.0,50.0,265.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0189-Magikarp-129/front/normal/129-gen3_e-frame2.png,90.0,101.0,187.0,32.0,217.0,202.0,0.0,88.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0190-Gyarados-130/front/normal/130-gen3_e-frame2.png,1238.0,302.0,44.0,0.0,389.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Ice,pokemon_images/sprites/0192-Lapras-131/front/normal/131-gen3_e-frame2.png,1126.0,147.0,43.0,0.0,335.0,5.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0194-Ditto-132/front/normal/132-gen3_e-frame2.png,293.0,30.0,0.0,0.0,393.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0195-Eevee-133/front/normal/133-gen3_e-frame2.png,307.0,128.0,222.0,0.0,89.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0197-Vaporeon-134/front/normal/134-gen3_e-frame2.png,794.0,172.0,58.0,32.0,139.0,32.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0198-Jolteon-135/front/normal/135-gen3_e-frame2.png,194.0,148.0,151.0,199.0,199.0,365.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0199-Flareon-136/front/normal/136-gen3_e-frame2.png,1.0,183.0,209.0,492.0,65.0,376.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0200-Porygon-137/front/normal/137-gen3_e-frame2.png,473.0,63.0,15.0,0.0,253.0,58.0,0.0,0.0,60.0,0.0,0.0
+Rock,Water,pokemon_images/sprites/0201-Omanyte-138/front/normal/138-gen3_e-frame2.png,346.0,156.0,84.0,0.0,228.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Water,pokemon_images/sprites/0202-Omastar-139/front/normal/139-gen3_e-frame2.png,798.0,185.0,174.0,8.0,260.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Water,pokemon_images/sprites/0203-Kabuto-140/front/normal/140-gen3_e-frame2.png,0.0,274.0,215.0,45.0,41.0,236.0,0.0,0.0,0.0,0.0,0.0
+Rock,Water,pokemon_images/sprites/0204-Kabutops-141/front/normal/141-gen3_e-frame2.png,755.0,210.0,147.0,0.0,232.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Flying,pokemon_images/sprites/0205-Aerodactyl-142/front/normal/142-gen3_e-frame2.png,767.0,122.0,2.0,0.0,606.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0207-Snorlax-143/front/normal/143-gen3_e-frame2.png,1204.0,152.0,53.0,0.0,759.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Flying,pokemon_images/sprites/0209-Articuno-144/front/normal/144-gen3_e-frame2.png,1621.0,84.0,10.0,0.0,399.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0210-Articuno Galar-144/front/normal/144_2-gen8.png,784.0,675.0,0.0,0.0,671.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0211-Zapdos-145/front/normal/145-gen3_e-frame2.png,1.0,629.0,307.0,480.0,59.0,433.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Flying,pokemon_images/sprites/0212-Zapdos Galar-145/front/normal/145_2-gen8.png,0.0,562.0,937.0,26.0,0.0,470.0,0.0,0.0,0.0,0.0,0.0
+Fire,Flying,pokemon_images/sprites/0213-Moltres-146/front/normal/146-gen3_e-frame2.png,0.0,154.0,296.0,641.0,319.0,842.0,0.0,254.0,0.0,0.0,0.0
+Dark,Flying,pokemon_images/sprites/0214-Moltres Galar-146/front/normal/146_2-gen8.png,1314.0,539.0,122.0,0.0,154.0,0.0,3.0,486.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0215-Dratini-147/front/normal/147-gen3_e-frame2.png,551.0,106.0,0.0,0.0,231.0,0.0,0.0,0.0,0.0,2.0,0.0
+Dragon,None,pokemon_images/sprites/0216-Dragonair-148/front/normal/148-gen3_e-frame2.png,897.0,103.0,0.0,0.0,348.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Flying,pokemon_images/sprites/0217-Dragonite-149/front/normal/149-gen3_e-frame2.png,1206.0,188.0,340.0,474.0,348.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0218-Mewtwo-150/front/normal/150-gen3_e-frame2.png,772.0,134.0,0.0,0.0,723.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0221-Mew-151/front/normal/151-gen3_e-frame2.png,0.0,63.0,178.0,0.0,269.0,189.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0222-Chikorita-152/front/normal/152-gen3_e-frame2.png,137.0,122.0,223.0,263.0,31.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0223-Bayleef-153/front/normal/153-gen3_e-frame2.png,131.0,261.0,381.0,408.0,50.0,169.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0224-Meganium-154/front/normal/154-gen3_e-frame2.png,1142.0,187.0,135.0,92.0,194.0,14.0,214.0,609.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0225-Cyndaquil-155/front/normal/155-gen3_e-frame2.png,152.0,56.0,63.0,97.0,136.0,151.0,0.0,64.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0226-Quilava-156/front/normal/156-gen3_e-frame2.png,295.0,98.0,54.0,215.0,319.0,256.0,0.0,148.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0227-Typhlosion-157/front/normal/157-gen3_e-frame2.png,808.0,130.0,77.0,35.0,859.0,52.0,0.0,125.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0228-Totodile-158/front/normal/158-gen3_e-frame2.png,547.0,105.0,51.0,30.0,52.0,20.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0229-Croconaw-159/front/normal/159-gen3_e-frame2.png,581.0,139.0,197.0,70.0,55.0,150.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0230-Feraligatr-160/front/normal/160-gen3_e-frame2.png,1329.0,226.0,239.0,97.0,225.0,242.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0231-Sentret-161/front/normal/161-gen3_e-frame2.png,97.0,114.0,258.0,219.0,251.0,22.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0232-Furret-162/front/normal/162-gen3_e-frame2.png,2.0,128.0,509.0,77.0,389.0,114.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0233-Hoothoot-163/front/normal/163-gen3_e-frame2.png,53.0,206.0,234.0,66.0,67.0,71.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0234-Noctowl-164/front/normal/164-gen3_e-frame2.png,243.0,321.0,518.0,210.0,192.0,455.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0235-Ledyba-165/front/normal/165-gen3_e-frame2.png,148.0,239.0,112.0,99.0,147.0,164.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0236-Ledian-166/front/normal/166-gen3_e-frame2.png,246.0,301.0,213.0,83.0,145.0,202.0,0.0,0.0,8.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0237-Spinarak-167/front/normal/167-gen3_e-frame2.png,271.0,160.0,137.0,72.0,11.0,4.0,0.0,5.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0238-Ariados-168/front/normal/168-gen3_e-frame2.png,241.0,278.0,236.0,136.0,63.0,250.0,0.0,0.0,0.0,122.0,0.0
+Poison,Flying,pokemon_images/sprites/0239-Crobat-169/front/normal/169-gen3_e-frame2.png,864.0,146.0,0.0,7.0,50.0,2.0,0.0,0.0,0.0,0.0,0.0
+Water,Electric,pokemon_images/sprites/0240-Chinchou-170/front/normal/170-gen3_e-frame2.png,386.0,107.0,5.0,37.0,236.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Electric,pokemon_images/sprites/0241-Lanturn-171/front/normal/171-gen3_e-frame2.png,816.0,92.0,62.0,117.0,114.0,4.0,0.0,7.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0242-Pichu-172/front/normal/172-gen3_e-frame2.png,50.0,116.0,34.0,0.0,183.0,95.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0243-Cleffa-173/front/normal/173-gen3_e-frame2.png,108.0,42.0,109.0,0.0,162.0,59.0,0.0,2.0,0.0,0.0,0.0
+Normal,Fairy,pokemon_images/sprites/0244-Igglybuff-174/front/normal/174-gen3_e-frame2.png,0.0,58.0,49.0,0.0,199.0,148.0,0.0,9.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0245-Togepi-175/front/normal/175-gen3_e-frame2.png,119.0,26.0,27.0,0.0,170.0,0.0,0.0,8.0,2.0,0.0,0.0
+Fairy,Flying,pokemon_images/sprites/0246-Togetic-176/front/normal/176-gen3_e-frame2.png,195.0,62.0,5.0,0.0,348.0,0.0,0.0,6.0,8.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0247-Natu-177/front/normal/177-gen3_e-frame2.png,142.0,69.0,74.0,19.0,8.0,41.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0248-Xatu-178/front/normal/178-gen3_e-frame2.png,583.0,303.0,164.0,31.0,324.0,23.0,0.0,76.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0249-Mareep-179/front/normal/179-gen3_e-frame2.png,83.0,145.0,80.0,172.0,305.0,94.0,0.0,0.0,27.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0250-Flaaffy-180/front/normal/180-gen3_e-frame2.png,151.0,101.0,87.0,0.0,241.0,270.0,0.0,46.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0251-Ampharos-181/front/normal/181-gen3_e-frame2.png,74.0,164.0,166.0,478.0,192.0,186.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0253-Bellossom-182/front/normal/182-gen3_e-frame2.png,189.0,174.0,165.0,35.0,2.0,40.0,0.0,82.0,0.0,0.0,0.0
+Water,Fairy,pokemon_images/sprites/0254-Marill-183/front/normal/183-gen3_e-frame2.png,381.0,101.0,56.0,0.0,288.0,0.0,0.0,0.0,0.0,26.0,0.0
+Water,Fairy,pokemon_images/sprites/0255-Azumarill-184/front/normal/184-gen3_e-frame2.png,625.0,112.0,28.0,0.0,221.0,47.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0256-Sudowoodo-185/front/normal/185-gen3_e-frame2.png,414.0,158.0,260.0,2.0,6.0,8.0,127.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0257-Politoed-186/front/normal/186-gen3_e-frame2.png,18.0,127.0,585.0,348.0,51.0,121.0,0.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0258-Hoppip-187/front/normal/187-gen3_e-frame2.png,235.0,177.0,130.0,8.0,0.0,248.0,0.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0259-Skiploom-188/front/normal/188-gen3_e-frame2.png,268.0,185.0,74.0,80.0,6.0,44.0,182.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0260-Jumpluff-189/front/normal/189-gen3_e-frame2.png,651.0,62.0,11.0,0.0,586.0,0.0,9.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0261-Aipom-190/front/normal/190-gen3_e-frame2.png,406.0,96.0,0.0,103.0,162.0,0.0,0.0,0.0,0.0,128.0,0.0
+Grass,None,pokemon_images/sprites/0262-Sunkern-191/front/normal/191-gen3_e-frame2.png,111.0,82.0,174.0,145.0,2.0,0.0,0.0,0.0,0.0,0.0,8.0
+Grass,None,pokemon_images/sprites/0263-Sunflora-192/front/normal/192-gen3_e-frame2.png,277.0,101.0,216.0,232.0,65.0,129.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0264-Yanma-193/front/normal/193-gen3_e-frame2.png,273.0,109.0,229.0,84.0,273.0,227.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0265-Wooper-194/front/normal/194-gen3_e-frame2.png,493.0,57.0,0.0,0.0,55.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0266-Quagsire-195/front/normal/195-gen3_e-frame2.png,1047.0,90.0,0.0,0.0,389.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0267-Espeon-196/front/normal/196-gen3_e-frame2.png,760.0,66.0,8.0,0.0,246.0,0.0,0.0,0.0,5.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0268-Umbreon-197/front/normal/197-gen3_e-frame2.png,579.0,161.0,170.0,41.0,21.0,43.0,0.0,0.0,0.0,0.0,0.0
+Dark,Flying,pokemon_images/sprites/0269-Murkrow-198/front/normal/198-gen3_e-frame2.png,345.0,203.0,60.0,31.0,19.0,28.0,0.0,8.0,0.0,0.0,0.0
+Water,Psychic,pokemon_images/sprites/0270-Slowking-199/front/normal/199-gen3_e-frame2.png,188.0,122.0,312.0,0.0,243.0,477.0,0.0,0.0,0.0,0.0,0.0
+Poison,Psychic,pokemon_images/sprites/0271-Slowking Galar-199/front/normal/199_2-gen8.png,1427.0,288.0,60.0,0.0,48.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0272-Misdreavus-200/front/normal/200-gen3_e-frame2.png,500.0,163.0,101.0,9.0,85.0,11.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0273-Unown-201/front/normal/201-a-gen5.png,219.0,97.0,0.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0274-Wobbuffet-202/front/normal/202-gen3_e-frame2.png,1207.0,99.0,0.0,0.0,210.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Psychic,pokemon_images/sprites/0275-Girafarig-203/front/normal/203-gen3_e-frame2.png,412.0,221.0,280.0,200.0,157.0,241.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0276-Pineco-204/front/normal/204-gen3_e-frame2.png,862.0,151.0,0.0,0.0,98.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Steel,pokemon_images/sprites/0277-Forretress-205/front/normal/205-gen3_e-frame2.png,818.0,270.0,152.0,0.0,392.0,47.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0278-Dunsparce-206/front/normal/206-gen3_e-frame2.png,320.0,62.0,51.0,0.0,293.0,187.0,0.0,0.0,0.0,0.0,0.0
+Ground,Flying,pokemon_images/sprites/0279-Gligar-207/front/normal/207-gen3_e-frame2.png,960.0,195.0,0.0,0.0,369.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Ground,pokemon_images/sprites/0280-Steelix-208/front/normal/208-gen3_e-frame2.png,1442.0,349.0,3.0,0.0,629.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0282-Snubbull-209/front/normal/209-gen3_e-frame2.png,581.0,108.0,112.0,0.0,170.0,11.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0283-Granbull-210/front/normal/210-gen3_e-frame2.png,929.0,182.0,2.0,0.0,379.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Poison,pokemon_images/sprites/0284-Qwilfish-211/front/normal/211-gen3_e-frame2.png,674.0,89.0,37.0,56.0,55.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Steel,pokemon_images/sprites/0285-Scizor-212/front/normal/212-gen3_e-frame2.png,136.0,305.0,434.0,145.0,187.0,540.0,0.0,0.0,0.0,0.0,0.0
+Bug,Rock,pokemon_images/sprites/0287-Shuckle-213/front/normal/213-gen3_e-frame2.png,56.0,124.0,224.0,123.0,146.0,94.0,0.0,0.0,0.0,0.0,0.0
+Bug,Fighting,pokemon_images/sprites/0288-Heracross-214/front/normal/214-gen3_e-frame2.png,886.0,158.0,9.0,0.0,191.0,5.0,0.0,0.0,0.0,0.0,0.0
+Dark,Ice,pokemon_images/sprites/0290-Sneasel-215/front/normal/215-gen3_e-frame2.png,459.0,200.0,111.0,5.0,77.0,33.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0291-Teddiursa-216/front/normal/216-gen3_e-frame2.png,348.0,69.0,145.0,25.0,76.0,6.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0292-Ursaring-217/front/normal/217-gen3_e-frame2.png,1093.0,113.0,636.0,70.0,80.0,62.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0293-Slugma-218/front/normal/218-gen3_e-frame2.png,2.0,42.0,114.0,42.0,19.0,473.0,0.0,0.0,0.0,0.0,0.0
+Fire,Rock,pokemon_images/sprites/0294-Magcargo-219/front/normal/219-gen3_e-frame2.png,235.0,169.0,201.0,38.0,20.0,618.0,0.0,0.0,0.0,0.0,0.0
+Ice,Ground,pokemon_images/sprites/0295-Swinub-220/front/normal/220-gen3_e-frame2.png,345.0,76.0,110.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0
+Ice,Ground,pokemon_images/sprites/0296-Piloswine-221/front/normal/221-gen3_e-frame2.png,1056.0,97.0,324.0,0.0,56.0,5.0,0.0,0.0,0.0,0.0,0.0
+Water,Rock,pokemon_images/sprites/0297-Corsola-222/front/normal/222-gen3_e-frame2.png,253.0,59.0,145.0,0.0,476.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0298-Corsola Galar-222/front/normal/222_2-gen8.png,332.0,46.0,0.0,0.0,574.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0299-Remoraid-223/front/normal/223-gen3_e-frame2.png,314.0,29.0,0.0,0.0,239.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0300-Octillery-224/front/normal/224-gen3_e-frame2.png,13.0,95.0,641.0,32.0,45.0,448.0,0.0,0.0,0.0,0.0,0.0
+Ice,Flying,pokemon_images/sprites/0301-Delibird-225/front/normal/225-gen3_e-frame2.png,204.0,124.0,277.0,25.0,359.0,189.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0302-Mantine-226/front/normal/226-gen3_e-frame2.png,791.0,269.0,0.0,0.0,944.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Flying,pokemon_images/sprites/0303-Skarmory-227/front/normal/227-gen3_e-frame2.png,566.0,332.0,223.0,2.0,496.0,150.0,0.0,0.0,0.0,0.0,0.0
+Dark,Fire,pokemon_images/sprites/0304-Houndour-228/front/normal/228-gen3_e-frame2.png,71.0,423.0,267.0,0.0,80.0,49.0,0.0,0.0,0.0,0.0,0.0
+Dark,Fire,pokemon_images/sprites/0305-Houndoom-229/front/normal/229-gen3_e-frame2.png,218.0,684.0,407.0,0.0,119.0,111.0,0.0,0.0,0.0,0.0,0.0
+Water,Dragon,pokemon_images/sprites/0307-Kingdra-230/front/normal/230-gen3_e-frame2.png,758.0,135.0,51.0,24.0,581.0,35.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0308-Phanpy-231/front/normal/231-gen3_e-frame2.png,589.0,71.0,57.0,0.0,87.0,29.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0309-Donphan-232/front/normal/232-gen3_e-frame2.png,1374.0,363.0,44.0,0.0,391.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0310-Porygon2-233/front/normal/233-gen3_e-frame2.png,227.0,62.0,29.0,0.0,206.0,130.0,0.0,0.0,47.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0311-Stantler-234/front/normal/234-gen3_e-frame2.png,34.0,150.0,662.0,105.0,162.0,425.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0312-Smeargle-235/front/normal/235-gen3_e-frame2.png,495.0,155.0,265.0,0.0,310.0,10.0,50.0,3.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0313-Tyrogue-236/front/normal/236-gen3_e-frame2.png,239.0,123.0,72.0,0.0,183.0,24.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0314-Hitmontop-237/front/normal/237-gen3_e-frame2.png,452.0,94.0,72.0,0.0,104.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Psychic,pokemon_images/sprites/0315-Smoochum-238/front/normal/238-gen3_e-frame2.png,270.0,53.0,53.0,152.0,29.0,47.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0316-Elekid-239/front/normal/239-gen3_e-frame2.png,47.0,196.0,106.0,170.0,124.0,224.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0317-Magby-240/front/normal/240-gen3_e-frame2.png,46.0,87.0,299.0,16.0,45.0,178.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0318-Miltank-241/front/normal/241-gen3_e-frame2.png,426.0,305.0,122.0,0.0,510.0,0.0,0.0,0.0,6.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0319-Blissey-242/front/normal/242-gen3_e-frame2.png,477.0,99.0,209.0,0.0,1148.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0320-Raikou-243/front/normal/243-gen3_e-frame2.png,344.0,337.0,127.0,238.0,595.0,242.0,0.0,10.0,0.0,466.0,0.0
+Fire,None,pokemon_images/sprites/0321-Entei-244/front/normal/244-gen3_e-frame2.png,818.0,405.0,652.0,22.0,528.0,49.0,0.0,40.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0322-Suicune-245/front/normal/245-gen3_e-frame2.png,1303.0,217.0,4.0,0.0,412.0,0.0,0.0,0.0,0.0,371.0,0.0
+Rock,Ground,pokemon_images/sprites/0323-Larvitar-246/front/normal/246-gen3_e-frame2.png,556.0,87.0,35.0,0.0,63.0,17.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ground,pokemon_images/sprites/0324-Pupitar-247/front/normal/247-gen3_e-frame2.png,763.0,158.0,4.0,0.0,128.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Dark,pokemon_images/sprites/0325-Tyranitar-248/front/normal/248-gen3_e-frame2.png,1602.0,272.0,320.0,0.0,270.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0327-Lugia-249/front/normal/249-gen3_e-frame2.png,644.0,280.0,0.0,0.0,1339.0,0.0,0.0,0.0,94.0,87.0,0.0
+Fire,Flying,pokemon_images/sprites/0328-Ho Oh-250/front/normal/250-gen3_e-frame2.png,437.0,307.0,584.0,126.0,306.0,512.0,188.0,0.0,0.0,0.0,0.0
+Psychic,Grass,pokemon_images/sprites/0329-Celebi-251/front/normal/251-gen3_e-frame2.png,171.0,91.0,0.0,0.0,246.0,0.0,98.0,0.0,20.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0330-Treecko-252/front/normal/252-gen3_e-frame2.png,506.0,202.0,181.0,56.0,2.0,46.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0331-Grovyle-253/front/normal/253-gen3_e-frame2.png,830.0,573.0,169.0,4.0,31.0,69.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0332-Sceptile-254/front/normal/254-gen3_e-frame2.png,1161.0,377.0,330.0,147.0,4.0,45.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0334-Torchic-255/front/normal/255-gen3_e-frame2.png,78.0,61.0,167.0,151.0,22.0,304.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0335-Combusken-256/front/normal/256-gen3_e-frame2.png,331.0,139.0,267.0,202.0,109.0,587.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0336-Blaziken-257/front/normal/257-gen3_e-frame2.png,227.0,303.0,74.0,172.0,204.0,450.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0338-Mudkip-258/front/normal/258-gen3_e-frame2.png,676.0,50.0,0.0,0.0,134.0,95.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0339-Marshtomp-259/front/normal/259-gen3_e-frame2.png,788.0,215.0,63.0,0.0,70.0,208.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0340-Swampert-260/front/normal/260-gen3_e-frame2.png,982.0,490.0,88.0,87.0,433.0,81.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0342-Poochyena-261/front/normal/261-gen3_e-frame2.png,482.0,217.0,5.0,6.0,232.0,2.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0343-Mightyena-262/front/normal/262-gen3_e-frame2.png,523.0,943.0,19.0,2.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0344-Zigzagoon-263/front/normal/263-gen3_e-frame2.png,843.0,96.0,212.0,0.0,199.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Normal,pokemon_images/sprites/0345-Zigzagoon Galar-263/front/normal/263_2-gen8.png,568.0,334.0,264.0,0.0,226.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0346-Linoone-264/front/normal/264-gen3_e-frame2.png,336.0,117.0,322.0,0.0,510.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Normal,pokemon_images/sprites/0347-Linoone Galar-264/front/normal/264_2-gen8.png,379.0,574.0,309.0,0.0,361.0,16.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0348-Wurmple-265/front/normal/265-gen3_e-frame2.png,232.0,41.0,155.0,28.0,212.0,74.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0349-Silcoon-266/front/normal/266-gen3_e-frame2.png,250.0,45.0,0.0,0.0,480.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0350-Beautifly-267/front/normal/267-gen3_e-frame2.png,657.0,53.0,0.0,178.0,82.0,32.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0351-Cascoon-268/front/normal/268-gen3_e-frame2.png,238.0,52.0,0.0,0.0,457.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0352-Dustox-269/front/normal/269-gen3_e-frame2.png,778.0,66.0,334.0,101.0,209.0,16.0,0.0,0.0,0.0,0.0,0.0
+Water,Grass,pokemon_images/sprites/0353-Lotad-270/front/normal/270-gen3_e-frame2.png,403.0,62.0,143.0,12.0,4.0,20.0,0.0,0.0,0.0,0.0,0.0
+Water,Grass,pokemon_images/sprites/0354-Lombre-271/front/normal/271-gen3_e-frame2.png,606.0,0.0,80.0,164.0,159.0,29.0,0.0,0.0,0.0,0.0,0.0
+Water,Grass,pokemon_images/sprites/0355-Ludicolo-272/front/normal/272-gen3_e-frame2.png,1607.0,124.0,0.0,0.0,506.0,151.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0356-Seedot-273/front/normal/273-gen3_e-frame2.png,145.0,0.0,333.0,64.0,107.0,129.0,0.0,0.0,0.0,0.0,0.0
+Grass,Dark,pokemon_images/sprites/0357-Nuzleaf-274/front/normal/274-gen3_e-frame2.png,606.0,81.0,103.0,0.0,115.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Dark,pokemon_images/sprites/0358-Shiftry-275/front/normal/275-gen3_e-frame2.png,853.0,196.0,348.0,10.0,601.0,173.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0359-Taillow-276/front/normal/276-gen3_e-frame2.png,463.0,270.0,41.0,22.0,450.0,42.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0360-Swellow-277/front/normal/277-gen3_e-frame2.png,732.0,385.0,92.0,13.0,109.0,114.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0361-Wingull-278/front/normal/278-gen3_e-frame2.png,116.0,86.0,25.0,4.0,235.0,25.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0362-Pelipper-279/front/normal/279-gen3_e-frame2.png,488.0,184.0,63.0,401.0,486.0,389.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0363-Ralts-280/front/normal/280-gen3_e-frame2.png,187.0,74.0,0.0,0.0,181.0,37.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0364-Kirlia-281/front/normal/281-gen3_e-frame2.png,393.0,107.0,0.0,0.0,336.0,50.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0365-Gardevoir-282/front/normal/282-gen3_e-frame2.png,573.0,148.0,0.0,0.0,804.0,24.0,0.0,0.0,0.0,0.0,0.0
+Bug,Water,pokemon_images/sprites/0367-Surskit-283/front/normal/283-gen3_e-frame2.png,347.0,0.0,56.0,24.0,2.0,14.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0368-Masquerain-284/front/normal/284-gen3_e-frame2.png,272.0,85.0,211.0,0.0,457.0,304.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0369-Shroomish-285/front/normal/285-gen3_e-frame2.png,439.0,61.0,119.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fighting,pokemon_images/sprites/0370-Breloom-286/front/normal/286-gen3_e-frame2.png,612.0,199.0,288.0,151.0,32.0,33.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0371-Slakoth-287/front/normal/287-gen3_e-frame2.png,371.0,119.0,188.0,0.0,279.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0372-Vigoroth-288/front/normal/288-gen3_e-frame2.png,208.0,117.0,297.0,0.0,1001.0,60.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0373-Slaking-289/front/normal/289-gen3_e-frame2.png,1074.0,150.0,392.0,0.0,707.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Ground,pokemon_images/sprites/0374-Nincada-290/front/normal/290-gen3_e-frame2.png,485.0,46.0,44.0,0.0,129.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0375-Ninjask-291/front/normal/291-gen3_e-frame2.png,390.0,194.0,82.0,44.0,307.0,94.0,0.0,0.0,0.0,0.0,0.0
+Bug,Ghost,pokemon_images/sprites/0376-Shedinja-292/front/normal/292-gen3_e-frame2.png,232.0,51.0,319.0,257.0,79.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0377-Whismur-293/front/normal/293-gen3_e-frame2.png,245.0,106.0,29.0,105.0,274.0,131.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0378-Loudred-294/front/normal/294-gen3_e-frame2.png,1094.0,261.0,62.0,82.0,77.0,85.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0379-Exploud-295/front/normal/295-gen3_e-frame2.png,968.0,377.0,384.0,139.0,394.0,260.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0380-Makuhita-296/front/normal/296-gen3_e-frame2.png,434.0,94.0,153.0,290.0,0.0,245.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0381-Hariyama-297/front/normal/297-gen3_e-frame2.png,731.0,287.0,296.0,147.0,327.0,515.0,0.0,0.0,0.0,0.0,0.0
+Normal,Fairy,pokemon_images/sprites/0382-Azurill-298/front/normal/298-gen3_e-frame2.png,587.0,125.0,19.0,0.0,95.0,11.0,0.0,0.0,0.0,159.0,0.0
+Rock,None,pokemon_images/sprites/0383-Nosepass-299/front/normal/299-gen3_e-frame2.png,717.0,52.0,90.0,0.0,91.0,50.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0384-Skitty-300/front/normal/300-gen3_e-frame2.png,161.0,86.0,210.0,68.0,185.0,293.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0385-Delcatty-301/front/normal/301-gen3_e-frame2.png,435.0,124.0,89.0,74.0,41.0,158.0,0.0,0.0,0.0,0.0,0.0
+Dark,Ghost,pokemon_images/sprites/0386-Sableye-302/front/normal/302-gen3_e-frame2.png,615.0,100.0,113.0,0.0,41.0,3.0,0.0,0.0,0.0,0.0,0.0
+Steel,Fairy,pokemon_images/sprites/0388-Mawile-303/front/normal/303-gen3_e-frame2.png,1006.0,339.0,0.0,130.0,175.0,131.0,0.0,0.0,0.0,0.0,0.0
+Steel,Rock,pokemon_images/sprites/0390-Aron-304/front/normal/304-gen3_e-frame2.png,119.0,107.0,22.0,0.0,168.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Rock,pokemon_images/sprites/0391-Lairon-305/front/normal/305-gen3_e-frame2.png,635.0,212.0,120.0,0.0,433.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Rock,pokemon_images/sprites/0392-Aggron-306/front/normal/306-gen3_e-frame2.png,1123.0,217.0,429.0,0.0,460.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Psychic,pokemon_images/sprites/0394-Meditite-307/front/normal/307-gen3_e-frame2.png,246.0,107.0,3.0,0.0,445.0,4.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Psychic,pokemon_images/sprites/0395-Medicham-308/front/normal/308-gen3_e-frame2.png,480.0,141.0,216.0,35.0,175.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0397-Electrike-309/front/normal/309-gen3_e-frame2.png,576.0,85.0,78.0,81.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0398-Manectric-310/front/normal/310-gen3_e-frame2.png,496.0,67.0,94.0,436.0,13.0,8.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0400-Plusle-311/front/normal/311-gen3_e-frame2.png,189.0,86.0,62.0,0.0,182.0,132.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0401-Minun-312/front/normal/312-gen3_e-frame2.png,389.0,97.0,0.0,0.0,158.0,8.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0402-Volbeat-313/front/normal/313-gen3_e-frame2.png,473.0,144.0,233.0,51.0,132.0,212.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0403-Illumise-314/front/normal/314-gen3_e-frame2.png,578.0,203.0,131.0,26.0,132.0,51.0,0.0,0.0,8.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0404-Roselia-315/front/normal/315-gen3_e-frame2.png,753.0,125.0,158.0,21.0,67.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0405-Gulpin-316/front/normal/316-gen3_e-frame2.png,602.0,83.0,14.0,15.0,49.0,6.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0406-Swalot-317/front/normal/317-gen3_e-frame2.png,1070.0,171.0,0.0,25.0,248.0,0.0,0.0,129.0,0.0,0.0,0.0
+Water,Dark,pokemon_images/sprites/0407-Carvanha-318/front/normal/318-gen3_e-frame2.png,212.0,217.0,285.0,0.0,32.0,340.0,0.0,97.0,0.0,0.0,0.0
+Water,Dark,pokemon_images/sprites/0408-Sharpedo-319/front/normal/319-gen3_e-frame2.png,637.0,92.0,144.0,17.0,234.0,15.0,0.0,4.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0410-Wailmer-320/front/normal/320-gen3_e-frame2.png,908.0,148.0,0.0,0.0,183.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0411-Wailord-321/front/normal/321-gen3_e-frame2.png,864.0,20.0,23.0,0.0,865.0,0.0,0.0,0.0,268.0,0.0,0.0
+Fire,Ground,pokemon_images/sprites/0412-Numel-322/front/normal/322-gen3_e-frame2.png,121.0,64.0,179.0,333.0,46.0,282.0,0.0,0.0,0.0,0.0,0.0
+Fire,Ground,pokemon_images/sprites/0413-Camerupt-323/front/normal/323-gen3_e-frame2.png,509.0,100.0,651.0,0.0,69.0,716.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0415-Torkoal-324/front/normal/324-gen3_e-frame2.png,987.0,224.0,308.0,0.0,649.0,89.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0416-Spoink-325/front/normal/325-gen3_e-frame2.png,364.0,127.0,51.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0417-Grumpig-326/front/normal/326-gen3_e-frame2.png,905.0,174.0,161.0,0.0,321.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0418-Spinda-327/front/normal/327-gen3_e.png,324.0,91.0,165.0,0.0,401.0,43.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0419-Trapinch-328/front/normal/328-gen3_e-frame2.png,211.0,51.0,190.0,4.0,1.0,266.0,0.0,0.0,0.0,0.0,0.0
+Ground,Dragon,pokemon_images/sprites/0420-Vibrava-329/front/normal/329-gen3_e-frame2.png,976.0,191.0,0.0,0.0,88.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Dragon,pokemon_images/sprites/0421-Flygon-330/front/normal/330-gen3_e-frame2.png,890.0,215.0,203.0,0.0,212.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0422-Cacnea-331/front/normal/331-gen3_e-frame2.png,501.0,144.0,98.0,162.0,41.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Dark,pokemon_images/sprites/0423-Cacturne-332/front/normal/332-gen3_e-frame2.png,1226.0,149.0,154.0,95.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0424-Swablu-333/front/normal/333-gen3_e-frame2.png,252.0,37.0,0.0,0.0,573.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Flying,pokemon_images/sprites/0425-Altaria-334/front/normal/334-gen3_e-frame2.png,550.0,181.0,15.0,0.0,1273.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0427-Zangoose-335/front/normal/335-gen3_e-frame2.png,387.0,102.0,26.0,0.0,874.0,94.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0428-Seviper-336/front/normal/336-gen3_e-frame2.png,101.0,678.0,591.0,46.0,8.0,167.0,0.0,0.0,0.0,128.0,0.0
+Rock,Psychic,pokemon_images/sprites/0429-Lunatone-337/front/normal/337-gen3_e-frame2.png,998.0,63.0,114.0,0.0,171.0,6.0,0.0,0.0,0.0,0.0,0.0
+Rock,Psychic,pokemon_images/sprites/0430-Solrock-338/front/normal/338-gen3_e-frame2.png,367.0,191.0,156.0,146.0,77.0,447.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0431-Barboach-339/front/normal/339-gen3_e-frame2.png,426.0,38.0,0.0,0.0,141.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0432-Whiscash-340/front/normal/340-gen3_e-frame2.png,686.0,86.0,85.0,69.0,102.0,94.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0433-Corphish-341/front/normal/341-gen3_e-frame2.png,157.0,157.0,384.0,52.0,56.0,153.0,0.0,0.0,0.0,0.0,0.0
+Water,Dark,pokemon_images/sprites/0434-Crawdaunt-342/front/normal/342-gen3_e-frame2.png,333.0,472.0,461.0,57.0,84.0,413.0,0.0,0.0,0.0,0.0,0.0
+Ground,Psychic,pokemon_images/sprites/0435-Baltoy-343/front/normal/343-gen3_e-frame2.png,310.0,0.0,16.0,0.0,64.0,18.0,0.0,0.0,0.0,0.0,0.0
+Ground,Psychic,pokemon_images/sprites/0436-Claydol-344/front/normal/344-gen3_e-frame2.png,654.0,0.0,628.0,31.0,373.0,114.0,0.0,0.0,0.0,0.0,0.0
+Rock,Grass,pokemon_images/sprites/0437-Lileep-345/front/normal/345-gen3_e-frame2.png,254.0,96.0,288.0,17.0,164.0,312.0,0.0,0.0,0.0,0.0,0.0
+Rock,Grass,pokemon_images/sprites/0438-Cradily-346/front/normal/346-gen3_e-frame2.png,947.0,289.0,92.0,104.0,61.0,260.0,0.0,0.0,0.0,0.0,0.0
+Rock,Bug,pokemon_images/sprites/0439-Anorith-347/front/normal/347-gen3_e-frame2.png,488.0,344.0,123.0,0.0,132.0,69.0,0.0,0.0,0.0,0.0,0.0
+Rock,Bug,pokemon_images/sprites/0440-Armaldo-348/front/normal/348-gen3_e-frame2.png,1237.0,571.0,33.0,45.0,179.0,66.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0441-Feebas-349/front/normal/349-gen3_e-frame2.png,491.0,70.0,82.0,0.0,190.0,13.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0442-Milotic-350/front/normal/350-gen3_e-frame2.png,625.0,92.0,307.0,0.0,558.0,467.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0443-Castform-351/front/normal/351-gen3_e.png,81.0,36.0,0.0,0.0,333.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0444-Castform Rainy-351/front/normal/351-rainy-gen3_e.png,727.0,79.0,0.0,0.0,192.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0445-Castform Snowy-351/front/normal/351-snowy-gen3_e.png,939.0,76.0,196.0,0.0,186.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0446-Castform Sunny-351/front/normal/351-sunny-gen3_e.png,53.0,70.0,294.0,72.0,194.0,530.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0447-Kecleon-352/front/normal/352-gen3_e-frame2.png,797.0,122.0,38.0,177.0,2.0,18.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0448-Shuppet-353/front/normal/353-gen3_e-frame2.png,517.0,35.0,86.0,3.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0449-Banette-354/front/normal/354-gen3_e-frame2.png,579.0,107.0,54.0,2.0,0.0,56.0,0.0,6.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0451-Duskull-355/front/normal/355-gen3_e-frame2.png,660.0,163.0,0.0,0.0,226.0,4.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0452-Dusclops-356/front/normal/356-gen3_e-frame2.png,928.0,79.0,281.0,0.0,110.0,0.0,0.0,5.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0453-Tropius-357/front/normal/357-gen3_e-frame2.png,1219.0,423.0,598.0,22.0,142.0,31.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0454-Chimecho-358/front/normal/358-gen3_e-frame2.png,282.0,37.0,47.0,40.0,78.0,57.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0455-Absol-359/front/normal/359-gen3_e-frame2.png,440.0,311.0,5.0,0.0,721.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0457-Wynaut-360/front/normal/360-gen3_e-frame2.png,658.0,63.0,62.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0458-Snorunt-361/front/normal/361-gen3_e-frame2.png,57.0,159.0,288.0,49.0,110.0,321.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0459-Glalie-362/front/normal/362-gen3_e-frame2.png,545.0,410.0,0.0,0.0,518.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Water,pokemon_images/sprites/0461-Spheal-363/front/normal/363-gen3_e-frame2.png,307.0,38.0,18.0,0.0,444.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Water,pokemon_images/sprites/0462-Sealeo-364/front/normal/364-gen3_e-frame2.png,1050.0,105.0,0.0,0.0,721.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Water,pokemon_images/sprites/0463-Walrein-365/front/normal/365-gen3_e-frame2.png,1412.0,224.0,0.0,14.0,594.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0464-Clamperl-366/front/normal/366-gen3_e-frame2.png,402.0,299.0,0.0,0.0,177.0,0.0,0.0,0.0,0.0,0.0,27.0
+Water,None,pokemon_images/sprites/0465-Huntail-367/front/normal/367-gen3_e-frame2.png,529.0,164.0,133.0,0.0,141.0,284.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0466-Gorebyss-368/front/normal/368-gen3_e-frame2.png,525.0,128.0,108.0,0.0,197.0,0.0,0.0,0.0,0.0,0.0,25.0
+Water,Rock,pokemon_images/sprites/0467-Relicanth-369/front/normal/369-gen3_e-frame2.png,1054.0,128.0,101.0,0.0,155.0,7.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0468-Luvdisc-370/front/normal/370-gen3_e-frame2.png,157.0,27.0,21.0,0.0,39.0,163.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0469-Bagon-371/front/normal/371-gen3_e-frame2.png,537.0,45.0,0.0,0.0,161.0,22.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0470-Shelgon-372/front/normal/372-gen3_e-frame2.png,369.0,63.0,45.0,12.0,777.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Flying,pokemon_images/sprites/0471-Salamence-373/front/normal/373-gen3_e-frame2.png,1231.0,88.0,71.0,0.0,335.0,109.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0473-Beldum-374/front/normal/374-gen3_e-frame2.png,406.0,94.0,11.0,0.0,36.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0474-Metang-375/front/normal/375-gen3_e-frame2.png,1166.0,154.0,14.0,0.0,192.0,2.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0475-Metagross-376/front/normal/376-gen3_e-frame2.png,1129.0,274.0,13.0,0.0,182.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0477-Regirock-377/front/normal/377-gen3_e-frame2.png,626.0,88.0,286.0,0.0,620.0,364.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0478-Regice-378/front/normal/378-gen3_e-frame2.png,1172.0,66.0,0.0,15.0,519.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0479-Registeel-379/front/normal/379-gen3_e-frame2.png,1300.0,121.0,0.0,0.0,711.0,0.0,0.0,0.0,0.0,0.0,38.0
+Dragon,Psychic,pokemon_images/sprites/0480-Latias-380/front/normal/380-gen3_e-frame2.png,119.0,177.0,443.0,3.0,511.0,474.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Psychic,pokemon_images/sprites/0482-Latios-381/front/normal/381-gen3_e-frame2.png,1458.0,135.0,23.0,0.0,210.0,5.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0484-Kyogre-382/front/normal/382-gen3_e-frame2.png,1172.0,185.0,98.0,3.0,240.0,0.0,0.0,106.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0486-Groudon-383/front/normal/383-gen3_e-frame2.png,647.0,668.0,475.0,4.0,305.0,0.0,0.0,205.0,0.0,0.0,0.0
+Dragon,Flying,pokemon_images/sprites/0488-Rayquaza-384/front/normal/384-gen3_e-frame2.png,1377.0,199.0,466.0,59.0,35.0,57.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0490-Jirachi-385/front/normal/385-gen3_e-frame2.png,166.0,80.0,93.0,442.0,238.0,0.0,0.0,0.0,0.0,18.0,0.0
+Psychic,None,pokemon_images/sprites/0491-Deoxys Attack-386/front/normal/386-attack-gen3_fl.png,650.0,336.0,132.0,0.0,2.0,271.0,0.0,0.0,6.0,16.0,0.0
+Psychic,None,pokemon_images/sprites/0492-Deoxys Defense-386/front/normal/386-defense-gen3_fl.png,1028.0,300.0,174.0,0.0,4.0,457.0,0.0,0.0,8.0,15.0,0.0
+Psychic,None,pokemon_images/sprites/0493-Deoxys Normal-386/front/normal/386-normal-gen3_e.png,634.0,173.0,207.0,0.0,4.0,232.0,0.0,0.0,0.0,14.0,10.0
+Psychic,None,pokemon_images/sprites/0494-Deoxys Speed-386/front/normal/386-speed-gen3_e.png,610.0,303.0,150.0,0.0,4.0,136.0,0.0,0.0,0.0,8.0,12.0
+Grass,None,pokemon_images/sprites/0495-Turtwig-387/front/normal/387-gen4_dp-frame2.png,441.0,78.0,100.0,59.0,23.0,72.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0496-Grotle-388/front/normal/388-gen4_dp-frame2.png,1290.0,169.0,291.0,122.0,20.0,294.0,0.0,0.0,0.0,0.0,0.0
+Grass,Ground,pokemon_images/sprites/0497-Torterra-389/front/normal/389-gen4_dp-frame2.png,2651.0,451.0,277.0,0.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0498-Chimchar-390/front/normal/390-gen4_dp-frame2.png,5.0,93.0,120.0,0.0,137.0,330.0,0.0,40.0,0.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0499-Monferno-391/front/normal/391-gen4_dp-frame2.png,184.0,96.0,403.0,111.0,197.0,268.0,0.0,0.0,96.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0500-Infernape-392/front/normal/392-gen4_dp-frame2.png,406.0,214.0,257.0,227.0,208.0,345.0,0.0,261.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0501-Piplup-393/front/normal/393-gen4_dp-frame2.png,341.0,59.0,12.0,10.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0502-Prinplup-394/front/normal/394-gen4_dp-frame2.png,942.0,138.0,34.0,83.0,266.0,0.0,0.0,0.0,0.0,13.0,0.0
+Water,Steel,pokemon_images/sprites/0503-Empoleon-395/front/normal/395-gen4_dp-frame2.png,1271.0,913.0,28.0,70.0,212.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0504-Starly-396/front/normal/396-gen4_dp-frame2.png,329.0,348.0,472.0,0.0,17.0,43.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0505-Staravia-397/front/normal/397-gen4_dp-frame2.png,450.0,374.0,64.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0506-Staraptor-398/front/normal/398-gen4_dp-frame2.png,992.0,291.0,256.0,0.0,0.0,62.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0507-Bidoof-399/front/normal/399-gen4_dp-frame2.png,37.0,149.0,480.0,0.0,80.0,290.0,0.0,0.0,0.0,0.0,0.0
+Normal,Water,pokemon_images/sprites/0508-Bibarel-400/front/normal/400-gen4_dp-frame2.png,1045.0,289.0,887.0,0.0,272.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0509-Kricketot-401/front/normal/401-gen4_dp-frame2.png,150.0,232.0,308.0,83.0,133.0,119.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0510-Kricketune-402/front/normal/402-gen4_dp-frame2.png,139.0,356.0,473.0,0.0,16.0,368.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0511-Shinx-403/front/normal/403-gen4_dp-frame2.png,630.0,222.0,7.0,36.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0512-Luxio-404/front/normal/404-gen4_dp-frame2.png,752.0,422.0,1.0,60.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0513-Luxray-405/front/normal/405-gen4_dp-frame2.png,1021.0,920.0,1.0,54.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0514-Budew-406/front/normal/406-gen4_dp-frame2.png,265.0,81.0,104.0,67.0,0.0,32.0,0.0,4.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0515-Roserade-407/front/normal/407-gen4_dp-frame2.png,786.0,147.0,0.0,25.0,104.0,39.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0516-Cranidos-408/front/normal/408-gen4_dp-frame2.png,996.0,152.0,3.0,0.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0517-Rampardos-409/front/normal/409-gen4_dp-frame2.png,1997.0,359.0,248.0,0.0,145.0,6.0,0.0,0.0,0.0,0.0,0.0
+Rock,Steel,pokemon_images/sprites/0518-Shieldon-410/front/normal/410-gen4_dp-frame2.png,469.0,132.0,154.0,58.0,71.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Steel,pokemon_images/sprites/0519-Bastiodon-411/front/normal/411-gen4_dp-frame2.png,1121.0,430.0,597.0,194.0,198.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0520-Burmy-412/front/normal/412-plant-gen4_dp-frame2.png,302.0,136.0,141.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0521-Wormadam Plant-413/front/normal/413-plant-gen4_dp-frame2.png,483.0,190.0,116.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Ground,pokemon_images/sprites/0522-Wormadam Sandy-413/front/normal/413-sandy-gen4_dp-frame2.png,562.0,222.0,138.0,0.0,0.0,29.0,0.0,0.0,0.0,0.0,0.0
+Bug,Steel,pokemon_images/sprites/0523-Wormadam Trash-413/front/normal/413-trash-gen4_dp-frame2.png,637.0,139.0,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0524-Mothim-414/front/normal/414-gen4_dp-frame2.png,253.0,245.0,230.0,462.0,67.0,177.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0525-Combee-415/front/normal/415-gen4_dp-frame2.png,0.0,103.0,240.0,269.0,215.0,90.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0526-Vespiquen-416/front/normal/416-gen4_dp-frame2.png,0.0,473.0,682.0,345.0,292.0,147.0,0.0,9.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0527-Pachirisu-417/front/normal/417-gen4_dp-frame2.png,482.0,92.0,3.0,11.0,580.0,1.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0528-Buizel-418/front/normal/418-gen4_dp-frame2.png,105.0,152.0,322.0,25.0,158.0,296.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0529-Floatzel-419/front/normal/419-gen4_dp-frame2.png,237.0,263.0,516.0,81.0,332.0,507.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0530-Cherubi-420/front/normal/420-gen4_dp-frame2.png,428.0,47.0,64.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0531-Cherrim-421/front/normal/421-overcast-gen4_dp-frame2.png,696.0,196.0,79.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0532-Shellos-422/front/normal/422-east-gen4_dp-frame2.png,447.0,94.0,65.0,54.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0533-Gastrodon-423/front/normal/423-east-gen4_dp-frame2.png,1021.0,197.0,121.0,69.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0534-Ambipom-424/front/normal/424-gen4_dp-frame2.png,916.0,379.0,54.0,0.0,273.0,100.0,0.0,0.0,0.0,260.0,0.0
+Ghost,Flying,pokemon_images/sprites/0535-Drifloon-425/front/normal/425-gen4_dp-frame2.png,711.0,162.0,29.0,52.0,61.0,10.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Flying,pokemon_images/sprites/0536-Drifblim-426/front/normal/426-gen4_dp-frame2.png,953.0,205.0,64.0,94.0,132.0,100.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0537-Buneary-427/front/normal/427-gen4_dp-frame2.png,420.0,99.0,186.0,0.0,152.0,16.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0538-Lopunny-428/front/normal/428-gen4_dp-frame2.png,714.0,211.0,403.0,0.0,435.0,8.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0540-Mismagius-429/front/normal/429-gen4_dp-frame2.png,1175.0,329.0,14.0,1.0,0.0,3.0,0.0,13.0,0.0,0.0,0.0
+Dark,Flying,pokemon_images/sprites/0541-Honchkrow-430/front/normal/430-gen4_dp-frame2.png,953.0,441.0,46.0,22.0,160.0,20.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0542-Glameow-431/front/normal/431-gen4_dp-frame2.png,874.0,196.0,0.0,0.0,30.0,31.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0543-Purugly-432/front/normal/432-gen4_dp-frame2.png,1250.0,253.0,0.0,0.0,516.0,9.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0544-Chingling-433/front/normal/433-gen4_dp-frame2.png,136.0,79.0,74.0,121.0,34.0,42.0,0.0,0.0,0.0,0.0,0.0
+Poison,Dark,pokemon_images/sprites/0545-Stunky-434/front/normal/434-gen4_dp-frame2.png,675.0,176.0,7.0,0.0,132.0,10.0,0.0,0.0,0.0,0.0,0.0
+Poison,Dark,pokemon_images/sprites/0546-Skuntank-435/front/normal/435-gen4_dp-frame2.png,1575.0,373.0,16.0,0.0,429.0,10.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0547-Bronzor-436/front/normal/436-gen4_dp-frame2.png,607.0,171.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Psychic,pokemon_images/sprites/0548-Bronzong-437/front/normal/437-gen4_dp-frame2.png,1836.0,212.0,0.0,0.0,138.0,48.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0549-Bonsly-438/front/normal/438-gen4_dp-frame2.png,558.0,114.0,134.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0550-Mime Jr-439/front/normal/439-gen4_dp-frame2.png,413.0,191.0,98.0,0.0,180.0,7.0,0.0,25.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0551-Happiny-440/front/normal/440-gen4_dp-frame2.png,307.0,95.0,0.0,0.0,240.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0552-Chatot-441/front/normal/441-gen4_dp-frame2.png,81.0,288.0,160.0,24.0,44.0,0.0,0.0,17.0,51.0,0.0,0.0
+Ghost,Dark,pokemon_images/sprites/0553-Spiritomb-442/front/normal/442-gen4_dp-frame2.png,2133.0,32.0,10.0,105.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0554-Gible-443/front/normal/443-gen4_dp-frame2.png,847.0,125.0,58.0,0.0,6.0,149.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0555-Gabite-444/front/normal/444-gen4_dp-frame2.png,997.0,375.0,74.0,2.0,71.0,165.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0556-Garchomp-445/front/normal/445-gen4_dp-frame2.png,1715.0,557.0,109.0,79.0,55.0,182.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0558-Munchlax-446/front/normal/446-gen4_dp-frame2.png,595.0,214.0,95.0,0.0,76.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0559-Riolu-447/front/normal/447-gen4_dp-frame2.png,533.0,196.0,95.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Steel,pokemon_images/sprites/0560-Lucario-448/front/normal/448-gen4_dp-frame2.png,724.0,175.0,164.0,0.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0562-Hippopotas-449/front/normal/449-gen4_dp-frame2.png,1049.0,299.0,388.0,0.0,131.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0563-Hippowdon-450/front/normal/450-gen4_dp-frame2.png,1186.0,357.0,327.0,0.0,662.0,500.0,0.0,0.0,0.0,0.0,0.0
+Poison,Bug,pokemon_images/sprites/0564-Skorupi-451/front/normal/451-gen4_dp-frame2.png,763.0,246.0,0.0,0.0,129.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Dark,pokemon_images/sprites/0565-Drapion-452/front/normal/452-gen4_dp-frame2.png,2115.0,715.0,0.0,0.0,58.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Fighting,pokemon_images/sprites/0566-Croagunk-453/front/normal/453-gen4_dp-frame2.png,475.0,296.0,18.0,14.0,4.0,32.0,0.0,0.0,0.0,37.0,0.0
+Poison,Fighting,pokemon_images/sprites/0567-Toxicroak-454/front/normal/454-gen4_dp-frame2.png,809.0,548.0,85.0,6.0,9.0,147.0,0.0,0.0,0.0,39.0,0.0
+Grass,None,pokemon_images/sprites/0568-Carnivine-455/front/normal/455-gen4_dp-frame2.png,1066.0,585.0,243.0,16.0,0.0,33.0,0.0,30.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0569-Finneon-456/front/normal/456-gen4_dp-frame2.png,329.0,150.0,0.0,0.0,150.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0570-Lumineon-457/front/normal/457-gen4_dp-frame2.png,704.0,391.0,0.0,0.0,470.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0571-Mantyke-458/front/normal/458-gen4_dp-frame2.png,515.0,158.0,0.0,0.0,400.0,0.0,0.0,0.0,267.0,0.0,0.0
+Grass,Ice,pokemon_images/sprites/0572-Snover-459/front/normal/459-gen4_dp-frame2.png,905.0,177.0,59.0,0.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Ice,pokemon_images/sprites/0573-Abomasnow-460/front/normal/460-gen4_dp-frame2.png,1390.0,361.0,0.0,0.0,722.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Ice,pokemon_images/sprites/0575-Weavile-461/front/normal/461-gen4_dp-frame2.png,786.0,272.0,0.0,8.0,43.0,242.0,0.0,0.0,0.0,0.0,0.0
+Electric,Steel,pokemon_images/sprites/0576-Magnezone-462/front/normal/462-gen4_dp-frame2.png,1278.0,335.0,27.0,28.0,285.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0577-Lickilicky-463/front/normal/463-gen4_dp-frame2.png,1372.0,132.0,122.0,100.0,130.0,452.0,0.0,0.0,0.0,0.0,0.0
+Ground,Rock,pokemon_images/sprites/0578-Rhyperior-464/front/normal/464-gen4_dp-frame2.png,1657.0,537.0,602.0,0.0,220.0,387.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0579-Tangrowth-465/front/normal/465-gen4_dp-frame2.png,2389.0,872.0,83.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0580-Electivire-466/front/normal/466-gen4_dp-frame2.png,116.0,1140.0,317.0,654.0,28.0,535.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0581-Magmortar-467/front/normal/467-gen4_dp-frame2.png,91.0,560.0,709.0,513.0,49.0,1091.0,0.0,0.0,0.0,0.0,0.0
+Fairy,Flying,pokemon_images/sprites/0582-Togekiss-468/front/normal/468-gen4_dp-frame2.png,234.0,149.0,38.0,0.0,1153.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0583-Yanmega-469/front/normal/469-gen4_dp-frame2.png,669.0,284.0,250.0,0.0,32.0,434.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0584-Leafeon-470/front/normal/470-gen4_dp-frame2.png,659.0,223.0,162.0,0.0,298.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0585-Glaceon-471/front/normal/471-gen4_dp-frame2.png,692.0,252.0,0.0,0.0,283.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Flying,pokemon_images/sprites/0586-Gliscor-472/front/normal/472-gen4_dp-frame2.png,1933.0,432.0,79.0,4.0,79.0,0.0,0.0,20.0,0.0,0.0,0.0
+Ice,Ground,pokemon_images/sprites/0587-Mamoswine-473/front/normal/473-gen4_dp-frame2.png,1363.0,548.0,696.0,0.0,1045.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0588-Porygon Z-474/front/normal/474-gen4_dp-frame2.png,520.0,117.0,39.0,8.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fighting,pokemon_images/sprites/0589-Gallade-475/front/normal/475-gen4_dp-frame2.png,654.0,231.0,0.0,0.0,292.0,59.0,0.0,0.0,0.0,0.0,0.0
+Rock,Steel,pokemon_images/sprites/0591-Probopass-476/front/normal/476-gen4_dp-frame2.png,993.0,561.0,485.0,0.0,0.0,475.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0592-Dusknoir-477/front/normal/477-gen4_dp-frame2.png,1304.0,664.0,773.0,0.0,32.0,166.0,0.0,0.0,0.0,0.0,0.0
+Ice,Ghost,pokemon_images/sprites/0593-Froslass-478/front/normal/478-gen4_dp-frame2.png,503.0,145.0,79.0,4.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0
+Electric,Ghost,pokemon_images/sprites/0594-Rotom-479/front/normal/479-gen4_dp-frame2.png,460.0,25.0,109.0,0.0,33.0,87.0,0.0,0.0,18.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0595-Rotom Fan-479/front/normal/479-fan-gen4_hs-frame2.png,151.0,65.0,249.0,705.0,20.0,602.0,0.0,0.0,0.0,0.0,0.0
+Electric,Ice,pokemon_images/sprites/0596-Rotom Frost-479/front/normal/479-frost-gen4_hs-frame2.png,684.0,385.0,994.0,0.0,15.0,869.0,0.0,0.0,0.0,0.0,680.0
+Electric,Fire,pokemon_images/sprites/0597-Rotom Heat-479/front/normal/479-heat-gen4_hs-frame2.png,58.0,248.0,573.0,0.0,0.0,855.0,0.0,0.0,0.0,0.0,0.0
+Electric,Grass,pokemon_images/sprites/0598-Rotom Mow-479/front/normal/479-mow-gen4_hs-frame2.png,226.0,240.0,292.0,0.0,0.0,348.0,793.0,0.0,0.0,0.0,0.0
+Electric,Water,pokemon_images/sprites/0599-Rotom Wash-479/front/normal/479-wash-gen4_hs-frame2.png,148.0,113.0,593.0,0.0,34.0,531.0,0.0,0.0,296.0,442.0,0.0
+Psychic,None,pokemon_images/sprites/0600-Uxie-480/front/normal/480-gen4_dp-frame2.png,367.0,114.0,116.0,153.0,156.0,11.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0601-Mesprit-481/front/normal/481-gen4_dp-frame2.png,628.0,162.0,114.0,0.0,189.0,19.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0602-Azelf-482/front/normal/482-gen4_dp-frame2.png,458.0,133.0,97.0,0.0,147.0,18.0,0.0,0.0,0.0,0.0,0.0
+Steel,Dragon,pokemon_images/sprites/0603-Dialga-483/front/normal/483-gen4_dp-frame2.png,1526.0,307.0,0.0,0.0,840.0,9.0,0.0,0.0,0.0,18.0,0.0
+Water,Dragon,pokemon_images/sprites/0604-Palkia-484/front/normal/484-gen4_dp-frame2.png,1725.0,182.0,0.0,0.0,1738.0,8.0,0.0,0.0,0.0,0.0,0.0
+Fire,Steel,pokemon_images/sprites/0605-Heatran-485/front/normal/485-gen4_dp-frame2.png,793.0,455.0,387.0,0.0,572.0,160.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0606-Regigigas-486/front/normal/486-gen4_dp-frame2.png,1228.0,225.0,195.0,585.0,958.0,358.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Dragon,pokemon_images/sprites/0607-Giratina Altered-487/front/normal/487-altered-gen4_dp-frame2.png,584.0,261.0,1482.0,380.0,515.0,227.0,0.0,219.0,0.0,0.0,0.0
+Ghost,Dragon,pokemon_images/sprites/0608-Giratina Origin-487/front/normal/487-origin-gen4_hs-frame2.png,522.0,679.0,1790.0,219.0,84.0,537.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0609-Cresselia-488/front/normal/488-gen4_dp-frame2.png,1254.0,214.0,65.0,263.0,192.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0610-Phione-489/front/normal/489-gen4_dp-frame2.png,628.0,114.0,5.0,0.0,31.0,3.0,0.0,0.0,37.0,0.0,0.0
+Water,None,pokemon_images/sprites/0611-Manaphy-490/front/normal/490-gen4_dp-frame2.png,617.0,81.0,12.0,35.0,72.0,43.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0612-Darkrai-491/front/normal/491-gen4_dp-frame2.png,697.0,806.0,65.0,0.0,257.0,0.0,0.0,46.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0613-Shaymin Land-492/front/normal/492-land-gen4_dp-frame2.png,430.0,88.0,0.0,17.0,53.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0614-Shaymin Sky-492/front/normal/492-sky-gen4_hs-frame2.png,307.0,101.0,106.0,146.0,171.0,114.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0615-Arceus-493/front/normal/493-gen4_dp-frame2.png,668.0,333.0,214.0,224.0,713.0,135.0,37.0,2.0,0.0,0.0,0.0
+Psychic,Fire,pokemon_images/sprites/0616-Victini-494/front/normal/494-gen5.png,237.0,131.0,212.0,0.0,256.0,173.0,0.0,0.0,0.0,11.0,0.0
+Grass,None,pokemon_images/sprites/0617-Snivy-495/front/normal/495-gen5.png,77.0,182.0,12.0,51.0,113.0,12.0,256.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0618-Servine-496/front/normal/496-gen5.png,285.0,257.0,10.0,53.0,196.0,0.0,186.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0619-Serperior-497/front/normal/497-gen5.png,1711.0,496.0,5.0,127.0,53.0,69.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0620-Tepig-498/front/normal/498-gen5.png,4.0,173.0,264.0,0.0,0.0,226.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0621-Pignite-499/front/normal/499-gen5.png,18.0,489.0,662.0,86.0,0.0,497.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fighting,pokemon_images/sprites/0622-Emboar-500/front/normal/500-gen5.png,92.0,1691.0,566.0,0.0,85.0,768.0,0.0,331.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0623-Oshawott-501/front/normal/501-gen5.png,243.0,67.0,86.0,0.0,76.0,11.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0624-Dewott-502/front/normal/502-gen5.png,552.0,259.0,177.0,0.0,23.0,15.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0625-Samurott-503/front/normal/503-gen5.png,1579.0,822.0,131.0,0.0,77.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0626-Patrat-504/front/normal/504-gen5.png,498.0,130.0,286.0,0.0,0.0,35.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0627-Watchog-505/front/normal/505-gen5.png,250.0,217.0,521.0,0.0,0.0,168.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0628-Lillipup-506/front/normal/506-gen5.png,86.0,76.0,354.0,0.0,260.0,126.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0629-Herdier-507/front/normal/507-gen5.png,290.0,492.0,320.0,0.0,200.0,154.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0630-Stoutland-508/front/normal/508-gen5.png,1098.0,445.0,379.0,0.0,784.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0631-Purrloin-509/front/normal/509-gen5.png,537.0,249.0,55.0,0.0,92.0,0.0,7.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0632-Liepard-510/front/normal/510-gen5.png,855.0,323.0,69.0,195.0,1.0,126.0,1.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0633-Pansage-511/front/normal/511-gen5.png,416.0,347.0,40.0,145.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0634-Simisage-512/front/normal/512-gen5.png,822.0,810.0,61.0,216.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0635-Pansear-513/front/normal/513-gen5.png,45.0,149.0,218.0,130.0,2.0,421.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0636-Simisear-514/front/normal/514-gen5.png,126.0,292.0,607.0,226.0,12.0,677.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0637-Panpour-515/front/normal/515-gen5.png,478.0,210.0,57.0,178.0,75.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0638-Simipour-516/front/normal/516-gen5.png,929.0,385.0,107.0,283.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0639-Munna-517/front/normal/517-gen5.png,214.0,65.0,4.0,0.0,438.0,0.0,0.0,6.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0640-Musharna-518/front/normal/518-gen5.png,1705.0,99.0,5.0,0.0,412.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0641-Pidove-519/front/normal/519-gen5.png,230.0,144.0,147.0,0.0,126.0,26.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0642-Tranquill-520/front/normal/520-gen5.png,317.0,281.0,231.0,19.0,160.0,34.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0643-Unfezant-521/front/normal/521-gen5.png,979.0,463.0,138.0,13.0,0.0,171.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0644-Blitzle-522/front/normal/522-gen5.png,545.0,270.0,88.0,5.0,72.0,0.0,0.0,0.0,9.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0645-Zebstrika-523/front/normal/523-gen5.png,118.0,594.0,657.0,3.0,323.0,0.0,0.0,0.0,10.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0646-Roggenrola-524/front/normal/524-gen5.png,136.0,220.0,83.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0647-Boldore-525/front/normal/525-gen5.png,731.0,522.0,289.0,8.0,0.0,77.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0648-Gigalith-526/front/normal/526-gen5.png,1055.0,720.0,812.0,0.0,0.0,4.0,0.0,342.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0649-Woobat-527/front/normal/527-gen5.png,347.0,386.0,46.0,0.0,198.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0650-Swoobat-528/front/normal/528-gen5.png,917.0,663.0,49.0,0.0,352.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0651-Drilbur-529/front/normal/529-gen5.png,496.0,451.0,229.0,0.0,208.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Steel,pokemon_images/sprites/0652-Excadrill-530/front/normal/530-gen5.png,612.0,438.0,1474.0,0.0,190.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0653-Audino-531/front/normal/531-gen5.png,840.0,135.0,71.0,0.0,457.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0655-Timburr-532/front/normal/532-gen5.png,574.0,149.0,332.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0656-Gurdurr-533/front/normal/533-gen5.png,1086.0,285.0,660.0,0.0,0.0,48.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0657-Conkeldurr-534/front/normal/534-gen5.png,2616.0,380.0,333.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0658-Tympole-535/front/normal/535-gen5.png,164.0,144.0,84.0,0.0,131.0,0.0,0.0,0.0,0.0,55.0,0.0
+Water,Ground,pokemon_images/sprites/0659-Palpitoad-536/front/normal/536-gen5.png,480.0,172.0,157.0,0.0,415.0,0.0,0.0,0.0,65.0,0.0,0.0
+Water,Ground,pokemon_images/sprites/0660-Seismitoad-537/front/normal/537-gen5.png,1401.0,416.0,364.0,0.0,2.0,10.0,0.0,0.0,554.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0661-Throh-538/front/normal/538-gen5.png,262.0,437.0,430.0,0.0,487.0,258.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0662-Sawk-539/front/normal/539-gen5.png,647.0,428.0,204.0,0.0,462.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0663-Sewaddle-540/front/normal/540-gen5.png,60.0,111.0,294.0,92.0,57.0,33.0,0.0,0.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0664-Swadloon-541/front/normal/541-gen5.png,231.0,187.0,469.0,72.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0
+Bug,Grass,pokemon_images/sprites/0665-Leavanny-542/front/normal/542-gen5.png,263.0,332.0,425.0,139.0,21.0,53.0,0.0,2.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0666-Venipede-543/front/normal/543-gen5.png,51.0,385.0,492.0,0.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0667-Whirlipede-544/front/normal/544-gen5.png,993.0,335.0,30.0,3.0,0.0,4.0,0.0,50.0,0.0,0.0,0.0
+Bug,Poison,pokemon_images/sprites/0668-Scolipede-545/front/normal/545-gen5.png,653.0,615.0,890.0,0.0,0.0,5.0,0.0,449.0,0.0,0.0,0.0
+Grass,Fairy,pokemon_images/sprites/0669-Cottonee-546/front/normal/546-gen5.png,396.0,84.0,10.0,0.0,257.0,8.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fairy,pokemon_images/sprites/0670-Whimsicott-547/front/normal/547-gen5.png,700.0,199.0,283.0,0.0,980.0,6.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0671-Petilil-548/front/normal/548-gen5.png,480.0,130.0,58.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0672-Lilligant-549/front/normal/549-gen5.png,1155.0,319.0,337.0,69.0,38.0,131.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0673-Basculin Blue Striped-550/front/normal/550-blue-striped-gen5.png,513.0,203.0,0.0,0.0,134.0,0.0,0.0,0.0,34.0,0.0,0.0
+Water,None,pokemon_images/sprites/0674-Basculin Red Striped-550/front/normal/550-red-striped-gen5.png,533.0,220.0,37.0,0.0,132.0,26.0,0.0,0.0,0.0,0.0,0.0
+Ground,Dark,pokemon_images/sprites/0675-Sandile-551/front/normal/551-gen5.png,352.0,214.0,174.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Dark,pokemon_images/sprites/0676-Krokorok-552/front/normal/552-gen5.png,724.0,667.0,89.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Dark,pokemon_images/sprites/0677-Krookodile-553/front/normal/553-gen5.png,305.0,1135.0,1315.0,0.0,385.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0678-Darumaka-554/front/normal/554-gen5.png,15.0,131.0,488.0,82.0,0.0,57.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0679-Darumaka Galar-554/front/normal/554_2-gen8.png,236.0,150.0,0.0,0.0,369.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0680-Darmanitan Standard-555/front/normal/555-standard-gen5.png,153.0,198.0,1063.0,73.0,86.0,152.0,0.0,122.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0681-Darmanitan Standard Galar-555/front/normal/555_3-gen8.png,407.0,333.0,0.0,0.0,1683.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Psychic,pokemon_images/sprites/0682-Darmanitan Zen-555/front/normal/555-zen-gen5.png,765.0,156.0,23.0,0.0,192.0,25.0,0.0,0.0,0.0,0.0,0.0
+Ice,Fire,pokemon_images/sprites/0683-Darmanitan Zen Galar-555/front/normal/555_4-gen8.png,94.0,188.0,331.0,0.0,1111.0,203.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0684-Maractus-556/front/normal/556-gen5.png,1265.0,382.0,92.0,99.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0
+Bug,Rock,pokemon_images/sprites/0685-Dwebble-557/front/normal/557-gen5.png,428.0,134.0,152.0,0.0,0.0,169.0,0.0,0.0,0.0,0.0,0.0
+Bug,Rock,pokemon_images/sprites/0686-Crustle-558/front/normal/558-gen5.png,2035.0,287.0,434.0,0.0,0.0,487.0,0.0,0.0,0.0,0.0,0.0
+Dark,Fighting,pokemon_images/sprites/0687-Scraggy-559/front/normal/559-gen5.png,104.0,141.0,85.0,137.0,50.0,110.0,0.0,16.0,0.0,0.0,0.0
+Dark,Fighting,pokemon_images/sprites/0688-Scrafty-560/front/normal/560-gen5.png,79.0,245.0,311.0,187.0,4.0,415.0,0.0,129.0,0.0,0.0,0.0
+Psychic,Flying,pokemon_images/sprites/0689-Sigilyph-561/front/normal/561-gen5.png,456.0,1012.0,156.0,433.0,0.0,0.0,0.0,101.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/0690-Yamask-562/front/normal/562-gen5.png,265.0,314.0,43.0,5.0,4.0,80.0,0.0,38.0,0.0,0.0,0.0
+Ground,Ghost,pokemon_images/sprites/0691-Yamask Galar-562/front/normal/562_2-gen8.png,380.0,318.0,26.0,0.0,12.0,0.0,0.0,0.0,0.0,21.0,0.0
+Ghost,None,pokemon_images/sprites/0692-Cofagrigus-563/front/normal/563-gen5.png,355.0,273.0,1599.0,0.0,0.0,628.0,0.0,25.0,0.0,0.0,0.0
+Water,Rock,pokemon_images/sprites/0693-Tirtouga-564/front/normal/564-gen5.png,752.0,336.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Rock,pokemon_images/sprites/0694-Carracosta-565/front/normal/565-gen5.png,1659.0,606.0,0.0,0.0,96.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Flying,pokemon_images/sprites/0695-Archen-566/front/normal/566-gen5.png,142.0,275.0,213.0,201.0,31.0,120.0,0.0,0.0,139.0,0.0,0.0
+Rock,Flying,pokemon_images/sprites/0696-Archeops-567/front/normal/567-gen5.png,618.0,643.0,280.0,319.0,0.0,105.0,0.0,0.0,512.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0697-Trubbish-568/front/normal/568-gen5.png,377.0,302.0,8.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,5.0
+Poison,None,pokemon_images/sprites/0698-Garbodor-569/front/normal/569-gen5.png,2371.0,658.0,147.0,0.0,0.0,0.0,0.0,0.0,56.0,0.0,80.0
+Dark,None,pokemon_images/sprites/0700-Zorua-570/front/normal/570-gen5.png,502.0,406.0,156.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/0701-Zoroark-571/front/normal/571-gen5.png,535.0,915.0,601.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0702-Minccino-572/front/normal/572-gen5.png,1011.0,181.0,247.0,0.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0703-Cinccino-573/front/normal/573-gen5.png,1008.0,233.0,177.0,0.0,287.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0704-Gothita-574/front/normal/574-gen5.png,222.0,183.0,94.0,0.0,0.0,4.0,0.0,0.0,6.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0705-Gothorita-575/front/normal/575-gen5.png,204.0,445.0,337.0,0.0,0.0,4.0,0.0,0.0,5.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0706-Gothitelle-576/front/normal/576-gen5.png,889.0,486.0,444.0,0.0,42.0,2.0,0.0,0.0,7.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0707-Solosis-577/front/normal/577-gen5.png,395.0,58.0,42.0,13.0,114.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0708-Duosion-578/front/normal/578-gen5.png,1030.0,89.0,17.0,0.0,228.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0709-Reuniclus-579/front/normal/579-gen5.png,1658.0,175.0,70.0,0.0,345.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0710-Ducklett-580/front/normal/580-gen5.png,310.0,67.0,0.0,26.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Flying,pokemon_images/sprites/0711-Swanna-581/front/normal/581-gen5.png,325.0,176.0,31.0,13.0,228.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0712-Vanillite-582/front/normal/582-gen5.png,163.0,33.0,0.0,0.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0713-Vanillish-583/front/normal/583-gen5.png,430.0,63.0,0.0,0.0,185.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0714-Vanilluxe-584/front/normal/584-gen5.png,750.0,80.0,0.0,0.0,290.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Grass,pokemon_images/sprites/0715-Deerling-585/front/normal/585-autumn-gen5.png,93.0,159.0,159.0,61.0,167.0,135.0,0.0,0.0,0.0,0.0,0.0
+Normal,Grass,pokemon_images/sprites/0716-Sawsbuck-586/front/normal/586-autumn-gen5.png,205.0,614.0,1600.0,0.0,1.0,16.0,0.0,0.0,0.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0717-Emolga-587/front/normal/587-gen5.png,41.0,364.0,228.0,130.0,43.0,96.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0718-Karrablast-588/front/normal/588-gen5.png,53.0,163.0,163.0,82.0,21.0,46.0,0.0,0.0,141.0,12.0,0.0
+Bug,Steel,pokemon_images/sprites/0719-Escavalier-589/front/normal/589-gen5.png,375.0,290.0,727.0,33.0,598.0,13.0,0.0,154.0,17.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0720-Foongus-590/front/normal/590-gen5.png,116.0,127.0,119.0,0.0,203.0,16.0,0.0,0.0,0.0,0.0,0.0
+Grass,Poison,pokemon_images/sprites/0721-Amoonguss-591/front/normal/591-gen5.png,702.0,243.0,655.0,0.0,542.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Ghost,pokemon_images/sprites/0722-Frillish-592/front/normal/592-gen5.png,591.0,184.0,0.0,0.0,747.0,0.0,0.0,4.0,0.0,0.0,0.0
+Water,Ghost,pokemon_images/sprites/0723-Jellicent-593/front/normal/593-gen5.png,1524.0,248.0,10.0,0.0,984.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0724-Alomomola-594/front/normal/594-gen5.png,718.0,134.0,92.0,1.0,671.0,11.0,0.0,0.0,0.0,0.0,0.0
+Bug,Electric,pokemon_images/sprites/0725-Joltik-595/front/normal/595-gen5.png,46.0,141.0,97.0,390.0,8.0,110.0,0.0,0.0,0.0,0.0,0.0
+Bug,Electric,pokemon_images/sprites/0726-Galvantula-596/front/normal/596-gen5.png,371.0,354.0,195.0,411.0,0.0,368.0,0.0,0.0,0.0,0.0,0.0
+Grass,Steel,pokemon_images/sprites/0727-Ferroseed-597/front/normal/597-gen5.png,361.0,168.0,42.0,0.0,9.0,4.0,63.0,0.0,0.0,0.0,0.0
+Grass,Steel,pokemon_images/sprites/0728-Ferrothorn-598/front/normal/598-gen5.png,857.0,706.0,0.0,0.0,0.0,20.0,136.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0729-Klink-599/front/normal/599-gen5.png,301.0,139.0,98.0,0.0,290.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0730-Klang-600/front/normal/600-gen5.png,969.0,351.0,214.0,0.0,351.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0731-Klinklang-601/front/normal/601-gen5.png,947.0,508.0,307.0,0.0,608.0,12.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0732-Tynamo-602/front/normal/602-gen5.png,50.0,30.0,12.0,23.0,306.0,3.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0733-Eelektrik-603/front/normal/603-gen5.png,559.0,400.0,127.0,37.0,171.0,181.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/0734-Eelektross-604/front/normal/604-gen5.png,1341.0,811.0,26.0,111.0,249.0,180.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0735-Elgyem-605/front/normal/605-gen5.png,597.0,117.0,74.0,4.0,0.0,0.0,18.0,4.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0736-Beheeyem-606/front/normal/606-gen5.png,520.0,264.0,507.0,4.0,18.0,0.0,33.0,3.0,0.0,0.0,0.0
+Ghost,Fire,pokemon_images/sprites/0737-Litwick-607/front/normal/607-gen5.png,67.0,98.0,10.0,6.0,294.0,0.0,0.0,0.0,0.0,64.0,0.0
+Ghost,Fire,pokemon_images/sprites/0738-Lampent-608/front/normal/608-gen5.png,97.0,442.0,252.0,8.0,140.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Fire,pokemon_images/sprites/0739-Chandelure-609/front/normal/609-gen5.png,53.0,657.0,0.0,22.0,225.0,0.0,0.0,0.0,0.0,422.0,0.0
+Dragon,None,pokemon_images/sprites/0740-Axew-610/front/normal/610-gen5.png,383.0,275.0,120.0,0.0,21.0,0.0,0.0,10.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0741-Fraxure-611/front/normal/611-gen5.png,1102.0,319.0,308.0,0.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0742-Haxorus-612/front/normal/612-gen5.png,347.0,554.0,1608.0,0.0,0.0,0.0,0.0,110.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0743-Cubchoo-613/front/normal/613-gen5.png,214.0,93.0,47.0,0.0,246.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0744-Beartic-614/front/normal/614-gen5.png,304.0,265.0,66.0,0.0,2047.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0745-Cryogonal-615/front/normal/615-gen5.png,1534.0,684.0,0.0,0.0,258.0,0.0,0.0,0.0,15.0,167.0,0.0
+Bug,None,pokemon_images/sprites/0746-Shelmet-616/front/normal/616-gen5.png,304.0,248.0,38.0,0.0,247.0,62.0,2.0,5.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0747-Accelgor-617/front/normal/617-gen5.png,1011.0,223.0,41.0,0.0,7.0,255.0,0.0,0.0,0.0,0.0,0.0
+Ground,Electric,pokemon_images/sprites/0748-Stunfisk-618/front/normal/618-gen5.png,664.0,150.0,132.0,168.0,9.0,87.0,0.0,0.0,0.0,0.0,0.0
+Ground,Steel,pokemon_images/sprites/0749-Stunfisk Galar-618/front/normal/618_2-gen8.png,574.0,248.0,258.0,0.0,47.0,5.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0750-Mienfoo-619/front/normal/619-gen5.png,265.0,92.0,288.0,0.0,236.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0751-Mienshao-620/front/normal/620-gen5.png,737.0,211.0,43.0,0.0,517.0,17.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0752-Druddigon-621/front/normal/621-gen5.png,1452.0,769.0,174.0,4.0,0.0,0.0,0.0,262.0,0.0,0.0,0.0
+Ground,Ghost,pokemon_images/sprites/0753-Golett-622/front/normal/622-gen5.png,1310.0,316.0,137.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,Ghost,pokemon_images/sprites/0754-Golurk-623/front/normal/623-gen5.png,2785.0,360.0,340.0,0.0,122.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Steel,pokemon_images/sprites/0755-Pawniard-624/front/normal/624-gen5.png,240.0,342.0,214.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0
+Dark,Steel,pokemon_images/sprites/0756-Bisharp-625/front/normal/625-gen5.png,294.0,334.0,568.0,0.0,340.0,59.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0757-Bouffalant-626/front/normal/626-gen5.png,166.0,570.0,1143.0,54.0,158.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0758-Rufflet-627/front/normal/627-gen5.png,370.0,137.0,58.0,31.0,331.0,43.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0759-Braviary-628/front/normal/628-gen5.png,907.0,1111.0,1017.0,66.0,259.0,82.0,0.0,0.0,0.0,0.0,0.0
+Dark,Flying,pokemon_images/sprites/0760-Vullaby-629/front/normal/629-gen5.png,412.0,443.0,323.0,0.0,178.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Flying,pokemon_images/sprites/0761-Mandibuzz-630/front/normal/630-gen5.png,832.0,534.0,673.0,0.0,122.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0762-Heatmor-631/front/normal/631-gen5.png,767.0,309.0,894.0,171.0,0.0,39.0,0.0,0.0,0.0,0.0,0.0
+Bug,Steel,pokemon_images/sprites/0763-Durant-632/front/normal/632-gen5.png,395.0,265.0,56.0,0.0,175.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Dragon,pokemon_images/sprites/0764-Deino-633/front/normal/633-gen5.png,550.0,279.0,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Dragon,pokemon_images/sprites/0765-Zweilous-634/front/normal/634-gen5.png,937.0,567.0,269.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Dragon,pokemon_images/sprites/0766-Hydreigon-635/front/normal/635-gen5.png,1432.0,767.0,624.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Fire,pokemon_images/sprites/0767-Larvesta-636/front/normal/636-gen5.png,181.0,134.0,294.0,0.0,73.0,0.0,0.0,0.0,8.0,0.0,0.0
+Bug,Fire,pokemon_images/sprites/0768-Volcarona-637/front/normal/637-gen5.png,610.0,280.0,928.0,0.0,220.0,651.0,0.0,0.0,5.0,0.0,0.0
+Steel,Fighting,pokemon_images/sprites/0769-Cobalion-638/front/normal/638-gen5.png,1272.0,356.0,43.0,0.0,240.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Fighting,pokemon_images/sprites/0770-Terrakion-639/front/normal/639-gen5.png,1513.0,617.0,498.0,0.0,165.0,90.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fighting,pokemon_images/sprites/0771-Virizion-640/front/normal/640-gen5.png,807.0,155.0,435.0,0.0,172.0,0.0,0.0,0.0,0.0,0.0,0.0
+Flying,None,pokemon_images/sprites/0772-Tornadus Incarnate-641/front/normal/641-incarnate-gen5.png,1718.0,567.0,122.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Flying,None,pokemon_images/sprites/0773-Tornadus Therian-641/front/normal/641-therian-gen5.png,2094.0,474.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0774-Thundurus Incarnate-642/front/normal/642-incarnate-gen5.png,1011.0,734.0,261.0,10.0,360.0,3.0,0.0,0.0,0.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0775-Thundurus Therian-642/front/normal/642-therian-gen5.png,1175.0,879.0,0.0,3.0,321.0,3.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Fire,pokemon_images/sprites/0776-Reshiram-643/front/normal/643-gen5.png,1127.0,547.0,0.0,0.0,1395.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Electric,pokemon_images/sprites/0777-Zekrom-644/front/normal/644-gen5.png,35.0,4251.0,4.0,0.0,4.0,0.0,0.0,3.0,15.0,0.0,0.0
+Ground,Flying,pokemon_images/sprites/0778-Landorus Incarnate-645/front/normal/645-incarnate-gen5.png,1060.0,359.0,832.0,12.0,0.0,376.0,0.0,0.0,0.0,0.0,0.0
+Ground,Flying,pokemon_images/sprites/0779-Landorus Therian-645/front/normal/645-therian-gen5.png,1008.0,332.0,1040.0,12.0,0.0,438.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ice,pokemon_images/sprites/0780-Kyurem-646/front/normal/646-gen5.png,1605.0,462.0,8.0,21.0,687.0,1.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ice,pokemon_images/sprites/0781-Kyurem Black-646/front/normal/646-black-gen5.png,1523.0,2012.0,9.0,31.0,1060.0,19.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ice,pokemon_images/sprites/0782-Kyurem White-646/front/normal/646-white-gen5.png,1667.0,546.0,372.0,24.0,832.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Fighting,pokemon_images/sprites/0783-Keldeo Ordinary-647/front/normal/647-ordinary-gen5.png,473.0,305.0,287.0,0.0,161.0,0.0,0.0,0.0,0.0,232.0,0.0
+Water,Fighting,pokemon_images/sprites/0784-Keldeo Resolute-647/front/normal/647-resolute-gen5.png,348.0,280.0,501.0,0.0,175.0,22.0,25.0,0.0,0.0,322.0,0.0
+Normal,Psychic,pokemon_images/sprites/0785-Meloetta Aria-648/front/normal/648-aria-gen5.png,493.0,122.0,84.0,0.0,306.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Fighting,pokemon_images/sprites/0786-Meloetta Pirouette-648/front/normal/648-pirouette-gen5.png,375.0,161.0,373.0,0.0,120.0,182.0,0.0,0.0,0.0,0.0,0.0
+Bug,Steel,pokemon_images/sprites/0787-Genesect-649/front/normal/649-gen5.png,1057.0,366.0,376.0,0.0,172.0,40.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0788-Chespin-650/front/normal/650-gen6.png,148.0,180.0,191.0,195.0,28.0,127.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0789-Quilladin-651/front/normal/651-gen6.png,233.0,159.0,531.0,437.0,48.0,158.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fighting,pokemon_images/sprites/0790-Chesnaught-652/front/normal/652-gen6.png,1543.0,603.0,280.0,0.0,796.0,80.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0791-Fennekin-653/front/normal/653-gen6.png,13.0,158.0,226.0,241.0,123.0,309.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0792-Braixen-654/front/normal/654-gen6.png,65.0,391.0,381.0,351.0,185.0,210.0,0.0,0.0,0.0,0.0,0.0
+Fire,Psychic,pokemon_images/sprites/0793-Delphox-655/front/normal/655-gen6.png,20.0,346.0,1930.0,250.0,109.0,667.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0794-Froakie-656/front/normal/656-gen6.png,324.0,133.0,0.0,0.0,306.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0795-Frogadier-657/front/normal/657-gen6.png,617.0,303.0,0.0,21.0,417.0,0.0,0.0,0.0,6.0,0.0,0.0
+Water,Dark,pokemon_images/sprites/0796-Greninja-658/front/normal/658-gen6.png,983.0,533.0,164.0,0.0,384.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Dark,pokemon_images/sprites/0797-Greninja Ash-658/front/normal/658_2-gen7.png,993.0,824.0,200.0,0.0,324.0,0.0,0.0,94.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0799-Bunnelby-659/front/normal/659-gen6.png,451.0,241.0,26.0,0.0,401.0,17.0,0.0,0.0,0.0,0.0,0.0
+Normal,Ground,pokemon_images/sprites/0800-Diggersby-660/front/normal/660-gen6.png,798.0,368.0,1190.0,108.0,52.0,117.0,0.0,0.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0801-Fletchling-661/front/normal/661-gen6.png,52.0,167.0,174.0,4.0,125.0,119.0,0.0,0.0,0.0,0.0,0.0
+Fire,Flying,pokemon_images/sprites/0802-Fletchinder-662/front/normal/662-gen6.png,92.0,320.0,217.0,205.0,154.0,268.0,0.0,0.0,0.0,0.0,0.0
+Fire,Flying,pokemon_images/sprites/0803-Talonflame-663/front/normal/663-gen6.png,1061.0,461.0,467.0,20.0,0.0,351.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0804-Scatterbug-664/front/normal/664-gen6.png,439.0,144.0,12.0,0.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0805-Spewpa-665/front/normal/665-gen6.png,429.0,127.0,20.0,4.0,242.0,6.0,0.0,0.0,0.0,0.0,0.0
+Bug,Flying,pokemon_images/sprites/0806-Vivillon-666/front/normal/666_1-gen6.png,1103.0,663.0,397.0,0.0,658.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Normal,pokemon_images/sprites/0807-Litleo-667/front/normal/667-gen6.png,644.0,217.0,240.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Normal,pokemon_images/sprites/0808-Pyroar-668/front/normal/668f-gen6.png,827.0,283.0,722.0,71.0,2.0,97.0,0.0,234.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0809-Flabebe-669/front/normal/669_1-gen6.png,113.0,143.0,404.0,53.0,215.0,201.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0810-Floette-670/front/normal/670_1-gen6.png,231.0,216.0,323.0,24.0,212.0,72.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0811-Floette Eternal-670/front/normal/670_6-gen6.png,228.0,316.0,419.0,0.0,212.0,43.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0812-Florges-671/front/normal/671_1-gen6.png,1268.0,403.0,147.0,12.0,225.0,263.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0813-Skiddo-672/front/normal/672-gen6.png,664.0,264.0,106.0,0.0,169.0,26.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0814-Gogoat-673/front/normal/673-gen6.png,1002.0,483.0,324.0,0.0,184.0,33.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0815-Pancham-674/front/normal/674-gen6.png,360.0,202.0,0.0,0.0,205.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Dark,pokemon_images/sprites/0816-Pangoro-675/front/normal/675-gen6.png,2024.0,730.0,0.0,0.0,584.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0817-Furfrou-676/front/normal/676_1-gen6.png,649.0,279.0,29.0,0.0,764.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0818-Espurr-677/front/normal/677-gen6.png,323.0,31.0,0.0,0.0,414.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0819-Meowstic Female-678/front/normal/678f-gen6.png,420.0,272.0,0.0,11.0,840.0,7.0,0.0,4.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0820-Meowstic Male-678/front/normal/678m-gen6.png,768.0,312.0,0.0,0.0,399.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Ghost,pokemon_images/sprites/0821-Honedge-679/front/normal/679_1-gen6.png,634.0,196.0,96.0,0.0,59.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Ghost,pokemon_images/sprites/0822-Doublade-680/front/normal/680_1-gen6.png,846.0,196.0,139.0,0.0,251.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Ghost,pokemon_images/sprites/0823-Aegislash Blade-681/front/normal/681_2-gen6.png,893.0,332.0,407.0,463.0,160.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Ghost,pokemon_images/sprites/0824-Aegislash Shield-681/front/normal/681_1-gen6.png,951.0,318.0,332.0,224.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0825-Spritzee-682/front/normal/682-gen6.png,301.0,99.0,36.0,0.0,338.0,28.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0826-Aromatisse-683/front/normal/683-gen6.png,961.0,202.0,67.0,0.0,433.0,15.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0827-Swirlix-684/front/normal/684-gen6.png,309.0,85.0,6.0,0.0,461.0,0.0,0.0,18.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0828-Slurpuff-685/front/normal/685-gen6.png,335.0,139.0,134.0,0.0,656.0,9.0,0.0,162.0,0.0,0.0,0.0
+Dark,Psychic,pokemon_images/sprites/0829-Inkay-686/front/normal/686-gen6.png,427.0,141.0,0.0,0.0,502.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Psychic,pokemon_images/sprites/0830-Malamar-687/front/normal/687-gen6.png,1881.0,310.0,0.0,0.0,694.0,0.0,0.0,0.0,0.0,0.0,87.0
+Rock,Water,pokemon_images/sprites/0831-Binacle-688/front/normal/688-gen6.png,517.0,247.0,118.0,0.0,324.0,74.0,0.0,0.0,0.0,0.0,0.0
+Rock,Water,pokemon_images/sprites/0832-Barbaracle-689/front/normal/689-gen6.png,1080.0,544.0,541.0,0.0,611.0,106.0,0.0,0.0,0.0,0.0,0.0
+Poison,Water,pokemon_images/sprites/0833-Skrelp-690/front/normal/690-gen6.png,139.0,90.0,414.0,0.0,70.0,0.0,0.0,9.0,0.0,0.0,0.0
+Poison,Dragon,pokemon_images/sprites/0834-Dragalge-691/front/normal/691-gen6.png,289.0,748.0,1300.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0835-Clauncher-692/front/normal/692-gen6.png,183.0,213.0,105.0,43.0,355.0,24.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0836-Clawitzer-693/front/normal/693-gen6.png,1806.0,452.0,245.0,241.0,271.0,157.0,0.0,0.0,0.0,0.0,0.0
+Electric,Normal,pokemon_images/sprites/0837-Helioptile-694/front/normal/694-gen6.png,162.0,162.0,132.0,151.0,24.0,122.0,0.0,0.0,0.0,0.0,0.0
+Electric,Normal,pokemon_images/sprites/0838-Heliolisk-695/front/normal/695-gen6.png,269.0,321.0,326.0,369.0,13.0,250.0,0.0,0.0,0.0,0.0,0.0
+Rock,Dragon,pokemon_images/sprites/0839-Tyrunt-696/front/normal/696-gen6.png,538.0,220.0,544.0,0.0,209.0,37.0,0.0,0.0,0.0,0.0,0.0
+Rock,Dragon,pokemon_images/sprites/0840-Tyrantrum-697/front/normal/697-gen6.png,373.0,782.0,1262.0,0.0,673.0,228.0,0.0,0.0,0.0,0.0,0.0
+Rock,Ice,pokemon_images/sprites/0841-Amaura-698/front/normal/698-gen6.png,316.0,116.0,0.0,0.0,531.0,0.0,0.0,0.0,9.0,0.0,0.0
+Rock,Ice,pokemon_images/sprites/0842-Aurorus-699/front/normal/699-gen6.png,1677.0,244.0,0.0,0.0,979.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0843-Sylveon-700/front/normal/700-gen6.png,574.0,241.0,67.0,0.0,497.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Flying,pokemon_images/sprites/0844-Hawlucha-701/front/normal/701-gen6.png,708.0,269.0,459.0,22.0,326.0,137.0,0.0,0.0,0.0,0.0,0.0
+Electric,Fairy,pokemon_images/sprites/0845-Dedenne-702/front/normal/702-gen6.png,273.0,235.0,35.0,238.0,69.0,21.0,0.0,0.0,0.0,0.0,0.0
+Rock,Fairy,pokemon_images/sprites/0846-Carbink-703/front/normal/703-gen6.png,603.0,69.0,0.0,0.0,208.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0847-Goomy-704/front/normal/704-gen6.png,244.0,24.0,0.0,0.0,363.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0848-Sliggoo-705/front/normal/705-gen6.png,610.0,80.0,0.0,0.0,465.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0849-Goodra-706/front/normal/706-gen6.png,1543.0,184.0,0.0,0.0,665.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Fairy,pokemon_images/sprites/0850-Klefki-707/front/normal/707-gen6.png,361.0,453.0,73.0,0.0,312.0,131.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Grass,pokemon_images/sprites/0851-Phantump-708/front/normal/708-gen6.png,469.0,242.0,104.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Grass,pokemon_images/sprites/0852-Trevenant-709/front/normal/709-gen6.png,1193.0,1301.0,713.0,0.0,5.0,4.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Grass,pokemon_images/sprites/0853-Pumpkaboo Average-710/front/normal/710_1-gen6.png,123.0,199.0,397.0,0.0,80.0,13.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Grass,pokemon_images/sprites/0857-Gourgeist Average-711/front/normal/711_1-gen6.png,105.0,339.0,872.0,61.0,48.0,766.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0861-Bergmite-712/front/normal/712-gen6.png,240.0,69.0,0.0,0.0,584.0,13.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/0862-Avalugg-713/front/normal/713-gen6.png,1352.0,164.0,0.0,6.0,1739.0,4.0,0.0,0.0,0.0,0.0,0.0
+Flying,Dragon,pokemon_images/sprites/0863-Noibat-714/front/normal/714-gen6.png,910.0,225.0,91.0,4.0,170.0,7.0,0.0,0.0,0.0,0.0,0.0
+Flying,Dragon,pokemon_images/sprites/0864-Noivern-715/front/normal/715-gen6.png,2375.0,583.0,567.0,7.0,295.0,0.0,0.0,81.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0865-Xerneas-716/front/normal/716_1-gen6.png,989.0,775.0,485.0,18.0,213.0,82.0,0.0,0.0,0.0,19.0,0.0
+Dark,Flying,pokemon_images/sprites/0866-Yveltal-717/front/normal/717-gen6.png,568.0,1765.0,1588.0,0.0,1.0,226.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0867-Zygarde-718/front/normal/718_4-gen6.png,429.0,70.0,28.0,0.0,56.0,26.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0868-Zygarde 10-718/front/normal/718_2-gen7.png,297.0,715.0,580.0,0.0,43.0,5.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0869-Zygarde 50-718/front/normal/718_1-gen6.png,1148.0,1030.0,1041.0,0.0,33.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ground,pokemon_images/sprites/0870-Zygarde Complete-718/front/normal/718_3-gen7.png,832.0,2496.0,2217.0,0.0,122.0,215.0,0.0,0.0,0.0,0.0,0.0
+Rock,Fairy,pokemon_images/sprites/0871-Diancie-719/front/normal/719_1-gen6.png,890.0,152.0,14.0,16.0,528.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Ghost,pokemon_images/sprites/0873-Hoopa-720/front/normal/720_1-gen6.png,382.0,135.0,143.0,100.0,302.0,195.0,10.0,0.0,0.0,0.0,0.0
+Psychic,Dark,pokemon_images/sprites/0874-Hoopa Unbound-720/front/normal/720_2-gen6.png,2335.0,780.0,581.0,149.0,640.0,163.0,0.0,0.0,0.0,0.0,0.0
+Fire,Water,pokemon_images/sprites/0875-Volcanion-721/front/normal/721-gen6.png,294.0,404.0,1226.0,141.0,124.0,1360.0,0.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0876-Rowlet-722/front/normal/722-gen7.png,237.0,116.0,33.0,0.0,406.0,18.0,0.0,0.0,0.0,0.0,0.0
+Grass,Flying,pokemon_images/sprites/0877-Dartrix-723/front/normal/723-gen7.png,398.0,164.0,237.0,0.0,381.0,51.0,0.0,0.0,0.0,0.0,0.0
+Grass,Ghost,pokemon_images/sprites/0878-Decidueye-724/front/normal/724-gen7.png,1198.0,442.0,143.0,0.0,226.0,57.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0879-Litten-725/front/normal/725-gen7.png,314.0,418.0,97.0,22.0,20.0,141.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/0880-Torracat-726/front/normal/726-gen7.png,371.0,292.0,354.0,24.0,16.0,401.0,0.0,0.0,0.0,0.0,0.0
+Fire,Dark,pokemon_images/sprites/0881-Incineroar-727/front/normal/727-gen7.png,433.0,1148.0,829.0,24.0,30.0,115.0,3.0,562.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0882-Popplio-728/front/normal/728-gen7.png,637.0,89.0,5.0,0.0,146.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0883-Brionne-729/front/normal/729-gen7.png,397.0,159.0,0.0,0.0,339.0,0.0,0.0,0.0,365.0,0.0,0.0
+Water,Fairy,pokemon_images/sprites/0884-Primarina-730/front/normal/730-gen7.png,896.0,313.0,54.0,0.0,1022.0,52.0,0.0,0.0,210.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0885-Pikipek-731/front/normal/731-gen7.png,22.0,206.0,138.0,0.0,127.0,0.0,0.0,87.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0886-Trumbeak-732/front/normal/732-gen7.png,380.0,225.0,158.0,0.0,68.0,24.0,0.0,28.0,0.0,0.0,0.0
+Normal,Flying,pokemon_images/sprites/0887-Toucannon-733/front/normal/733-gen7.png,115.0,373.0,490.0,168.0,172.0,188.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0888-Yungoos-734/front/normal/734-gen7.png,361.0,138.0,342.0,156.0,13.0,114.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0889-Gumshoos-735/front/normal/735-gen7.png,749.0,236.0,376.0,353.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/0891-Grubbin-736/front/normal/736-gen7.png,129.0,102.0,83.0,99.0,99.0,135.0,0.0,0.0,0.0,0.0,0.0
+Bug,Electric,pokemon_images/sprites/0892-Charjabug-737/front/normal/737-gen7.png,662.0,64.0,212.0,0.0,81.0,21.0,0.0,0.0,0.0,0.0,0.0
+Bug,Electric,pokemon_images/sprites/0893-Vikavolt-738/front/normal/738-gen7.png,923.0,365.0,143.0,104.0,431.0,23.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0895-Crabrawler-739/front/normal/739-gen7.png,680.0,235.0,0.0,0.0,166.0,0.0,0.0,0.0,451.0,190.0,0.0
+Fighting,Ice,pokemon_images/sprites/0896-Crabominable-740/front/normal/740-gen7.png,1953.0,572.0,49.0,0.0,1791.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Flying,pokemon_images/sprites/0897-Oricorio Baile-741/front/normal/741_1-gen7.png,127.0,238.0,519.0,0.0,54.0,406.0,0.0,0.0,0.0,8.0,0.0
+Psychic,Flying,pokemon_images/sprites/0898-Oricorio Pau-741/front/normal/741_3-gen7.png,536.0,190.0,53.0,0.0,502.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,Flying,pokemon_images/sprites/0899-Oricorio Pom Pom-741/front/normal/741_2-gen7.png,61.0,156.0,129.0,547.0,218.0,244.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Flying,pokemon_images/sprites/0900-Oricorio Sensu-741/front/normal/741_4-gen7.png,1091.0,227.0,30.0,0.0,302.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Fairy,pokemon_images/sprites/0901-Cutiefly-742/front/normal/742-gen7.png,143.0,112.0,19.0,66.0,272.0,31.0,0.0,0.0,0.0,0.0,0.0
+Bug,Fairy,pokemon_images/sprites/0902-Ribombee-743/front/normal/743-gen7.png,254.0,224.0,123.0,116.0,440.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0904-Rockruff-744/front/normal/744-gen7.png,586.0,205.0,150.0,0.0,161.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0906-Lycanroc Dusk-745/front/normal/745_3-gen7.png,789.0,397.0,287.0,0.0,392.0,316.0,4.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0907-Lycanroc Midday-745/front/normal/745_1-gen7.png,795.0,372.0,152.0,0.0,678.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/0908-Lycanroc Midnight-745/front/normal/745_2-gen7.png,628.0,502.0,48.0,0.0,749.0,0.0,0.0,468.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0909-Wishiwashi School-746/front/normal/746_2-gen7.png,2061.0,1078.0,0.0,0.0,278.0,0.0,0.0,0.0,428.0,0.0,0.0
+Water,None,pokemon_images/sprites/0910-Wishiwashi Solo-746/front/normal/746_1-gen7.png,200.0,105.0,7.0,0.0,222.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Water,pokemon_images/sprites/0911-Mareanie-747/front/normal/747-gen7.png,580.0,222.0,0.0,14.0,656.0,9.0,0.0,0.0,0.0,0.0,0.0
+Poison,Water,pokemon_images/sprites/0912-Toxapex-748/front/normal/748-gen7.png,1628.0,471.0,80.0,0.0,861.0,187.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0913-Mudbray-749/front/normal/749-gen7.png,554.0,390.0,182.0,0.0,114.0,21.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/0914-Mudsdale-750/front/normal/750-gen7.png,998.0,754.0,944.0,0.0,3.0,228.0,0.0,0.0,0.0,0.0,0.0
+Water,Bug,pokemon_images/sprites/0915-Dewpider-751/front/normal/751-gen7.png,363.0,90.0,100.0,116.0,161.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,Bug,pokemon_images/sprites/0916-Araquanid-752/front/normal/752-gen7.png,1418.0,351.0,125.0,99.0,484.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0918-Fomantis-753/front/normal/753-gen7.png,549.0,103.0,24.0,0.0,122.0,41.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0919-Lurantis-754/front/normal/754-gen7.png,397.0,211.0,214.0,0.0,489.0,482.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fairy,pokemon_images/sprites/0921-Morelull-755/front/normal/755-gen7.png,308.0,93.0,0.0,0.0,231.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fairy,pokemon_images/sprites/0922-Shiinotic-756/front/normal/756-gen7.png,1766.0,283.0,0.0,0.0,699.0,0.0,0.0,0.0,0.0,0.0,0.0
+Poison,Fire,pokemon_images/sprites/0923-Salandit-757/front/normal/757-gen7.png,302.0,473.0,387.0,0.0,2.0,25.0,0.0,0.0,0.0,0.0,0.0
+Poison,Fire,pokemon_images/sprites/0924-Salazzle-758/front/normal/758-gen7.png,581.0,543.0,179.0,0.0,1.0,0.0,0.0,99.0,0.0,0.0,44.0
+Normal,Fighting,pokemon_images/sprites/0926-Stufful-759/front/normal/759-gen7.png,216.0,189.0,142.0,0.0,395.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,Fighting,pokemon_images/sprites/0927-Bewear-760/front/normal/760-gen7.png,894.0,258.0,653.0,0.0,566.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0928-Bounsweet-761/front/normal/761-gen7.png,499.0,75.0,133.0,2.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0929-Steenee-762/front/normal/762-gen7.png,596.0,176.0,164.0,8.0,293.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/0930-Tsareena-763/front/normal/763-gen7.png,1280.0,240.0,409.0,88.0,271.0,42.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/0931-Comfey-764/front/normal/764-gen7.png,332.0,254.0,142.0,170.0,239.0,290.0,0.0,0.0,0.0,0.0,0.0
+Normal,Psychic,pokemon_images/sprites/0932-Oranguru-765/front/normal/765-gen7.png,975.0,544.0,0.0,0.0,570.0,47.0,245.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/0933-Passimian-766/front/normal/766-gen7.png,639.0,655.0,358.0,5.0,507.0,16.0,77.0,0.0,0.0,0.0,0.0
+Bug,Water,pokemon_images/sprites/0934-Wimpod-767/front/normal/767-gen7.png,559.0,104.0,0.0,26.0,233.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Water,pokemon_images/sprites/0935-Golisopod-768/front/normal/768-gen7.png,1746.0,637.0,132.0,0.0,1201.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Ground,pokemon_images/sprites/0936-Sandygast-769/front/normal/769-gen7.png,146.0,127.0,199.0,0.0,468.0,28.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Ground,pokemon_images/sprites/0937-Palossand-770/front/normal/770-gen7.png,0.0,110.0,836.0,0.0,34.0,1207.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/0938-Pyukumuku-771/front/normal/771-gen7.png,86.0,212.0,372.0,0.0,31.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0939-Type Null-772/front/normal/772-gen7.png,918.0,540.0,917.0,0.0,98.0,0.0,25.0,0.0,22.0,32.0,0.0
+Normal,None,pokemon_images/sprites/0940-Silvally-773/front/normal/773_1-gen7.png,673.0,402.0,272.0,0.0,1038.0,20.0,0.0,0.0,22.0,32.0,0.0
+Rock,Flying,pokemon_images/sprites/0941-Minior Blue-774/front/normal/774_4-gen7.png,354.0,64.0,0.0,0.0,325.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,Flying,pokemon_images/sprites/0942-Minior Blue Meteor-774/front/normal/774_1-gen7.png,386.0,207.0,339.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/0955-Komala-775/front/normal/775-gen7.png,715.0,129.0,40.0,0.0,137.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Dragon,pokemon_images/sprites/0956-Turtonator-776/front/normal/776-gen7.png,281.0,518.0,817.0,292.0,53.0,495.0,0.0,0.0,0.0,0.0,0.0
+Electric,Steel,pokemon_images/sprites/0957-Togedemaru-777/front/normal/777-gen7.png,388.0,108.0,0.0,0.0,431.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Fairy,pokemon_images/sprites/0959-Mimikyu Busted-778/front/normal/778_1-gen7.png,264.0,144.0,105.0,0.0,332.0,10.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Fairy,pokemon_images/sprites/0960-Mimikyu Disguised-778/front/normal/778_2-gen7.png,298.0,127.0,105.0,0.0,198.0,8.0,0.0,0.0,0.0,0.0,0.0
+Water,Psychic,pokemon_images/sprites/0963-Bruxish-779/front/normal/779-gen7.png,473.0,93.0,56.0,89.0,138.0,94.0,0.0,0.0,0.0,0.0,0.0
+Normal,Dragon,pokemon_images/sprites/0964-Drampa-780/front/normal/780-gen7.png,1733.0,236.0,22.0,32.0,1252.0,9.0,0.0,0.0,0.0,0.0,0.0
+Ghost,Grass,pokemon_images/sprites/0965-Dhelmise-781/front/normal/781-gen7.png,1272.0,573.0,437.0,125.0,22.0,78.0,0.0,7.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/0966-Jangmo O-782/front/normal/782-gen7.png,246.0,193.0,87.0,161.0,329.0,0.0,0.0,4.0,0.0,0.0,0.0
+Dragon,Fighting,pokemon_images/sprites/0967-Hakamo O-783/front/normal/783-gen7.png,423.0,295.0,220.0,201.0,410.0,35.0,0.0,38.0,0.0,0.0,0.0
+Dragon,Fighting,pokemon_images/sprites/0968-Kommo O-784/front/normal/784-gen7.png,1007.0,658.0,625.0,492.0,177.0,359.0,0.0,156.0,0.0,0.0,0.0
+Electric,Fairy,pokemon_images/sprites/0970-Tapu Koko-785/front/normal/785-gen7.png,269.0,491.0,557.0,567.0,129.0,655.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/0971-Tapu Lele-786/front/normal/786-gen7.png,311.0,358.0,289.0,0.0,188.0,135.0,0.0,0.0,0.0,0.0,0.0
+Grass,Fairy,pokemon_images/sprites/0972-Tapu Bulu-787/front/normal/787-gen7.png,382.0,488.0,722.0,193.0,113.0,314.0,0.0,0.0,0.0,0.0,0.0
+Water,Fairy,pokemon_images/sprites/0973-Tapu Fini-788/front/normal/788-gen7.png,901.0,728.0,0.0,0.0,221.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0974-Cosmog-789/front/normal/789-gen7.png,450.0,164.0,24.0,32.0,39.0,0.0,0.0,0.0,216.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0975-Cosmoem-790/front/normal/790-gen7.png,153.0,141.0,156.0,134.0,34.0,376.0,0.0,0.0,17.0,0.0,0.0
+Psychic,Steel,pokemon_images/sprites/0976-Solgaleo-791/front/normal/791_1-gen7.png,429.0,702.0,300.0,227.0,1969.0,200.0,0.0,0.0,56.0,0.0,0.0
+Psychic,Ghost,pokemon_images/sprites/0977-Lunala-792/front/normal/792_1-gen7.png,1610.0,609.0,355.0,522.0,534.0,0.0,0.0,0.0,0.0,605.0,12.0
+Rock,Poison,pokemon_images/sprites/0978-Nihilego-793/front/normal/793-gen7.png,702.0,188.0,0.0,0.0,764.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bug,Fighting,pokemon_images/sprites/0979-Buzzwole-794/front/normal/794-gen7.png,406.0,1432.0,1473.0,40.0,363.0,279.0,0.0,684.0,0.0,0.0,0.0
+Bug,Fighting,pokemon_images/sprites/0980-Pheromosa-795/front/normal/795-gen7.png,1077.0,317.0,116.0,96.0,1611.0,64.0,0.0,0.0,2.0,9.0,0.0
+Electric,None,pokemon_images/sprites/0981-Xurkitree-796/front/normal/796-gen7.png,715.0,708.0,590.0,17.0,490.0,105.0,0.0,0.0,0.0,0.0,0.0
+Steel,Flying,pokemon_images/sprites/0982-Celesteela-797/front/normal/797-gen7.png,3421.0,458.0,0.0,0.0,534.0,0.0,0.0,0.0,0.0,0.0,0.0
+Grass,Steel,pokemon_images/sprites/0983-Kartana-798/front/normal/798-gen7.png,213.0,121.0,135.0,89.0,480.0,89.0,0.0,0.0,0.0,0.0,0.0
+Dark,Dragon,pokemon_images/sprites/0984-Guzzlord-799/front/normal/799-gen7.png,2353.0,2049.0,228.0,575.0,59.0,187.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/0985-Necrozma-800/front/normal/800_1-gen7.png,1486.0,1739.0,0.0,0.0,84.0,4.0,2.0,2.0,2.0,0.0,0.0
+Psychic,Ghost,pokemon_images/sprites/0986-Necrozma Dawn-800/front/normal/800_2-gen7.png,1428.0,1755.0,222.0,296.0,1093.0,123.0,2.0,4.0,0.0,0.0,0.0
+Psychic,Steel,pokemon_images/sprites/0987-Necrozma Dusk-800/front/normal/800_3-gen7.png,1680.0,1544.0,0.0,0.0,1738.0,0.0,2.0,2.0,0.0,0.0,0.0
+Psychic,Dragon,pokemon_images/sprites/0988-Necrozma Ultra-800/front/normal/800_4-gen7.png,1255.0,254.0,402.0,283.0,1161.0,769.0,0.0,4.0,2.0,0.0,0.0
+Steel,Fairy,pokemon_images/sprites/0989-Magearna-801/front/normal/801_1-gen7.png,478.0,141.0,92.0,0.0,765.0,81.0,0.0,0.0,0.0,0.0,0.0
+Steel,Fairy,pokemon_images/sprites/0990-Magearna Original-801/front/normal/801_2-gen7.png,263.0,151.0,316.0,114.0,238.0,89.0,0.0,386.0,0.0,0.0,0.0
+Fighting,Ghost,pokemon_images/sprites/0991-Marshadow-802/front/normal/802_1-gen7.png,553.0,294.0,0.0,0.0,6.0,24.0,0.0,0.0,0.0,0.0,0.0
+Poison,None,pokemon_images/sprites/0992-Poipole-803/front/normal/803-gen7.png,533.0,212.0,45.0,0.0,34.0,0.0,0.0,0.0,15.0,0.0,99.0
+Poison,Dragon,pokemon_images/sprites/0993-Naganadel-804/front/normal/804-gen7.png,1131.0,315.0,104.0,0.0,378.0,0.0,0.0,0.0,0.0,0.0,108.0
+Rock,Steel,pokemon_images/sprites/0994-Stakataka-805/front/normal/805-gen7.png,2782.0,960.0,689.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Ghost,pokemon_images/sprites/0995-Blacephalon-806/front/normal/806-gen7.png,495.0,254.0,8.0,83.0,567.0,0.0,0.0,0.0,0.0,0.0,95.0
+Electric,None,pokemon_images/sprites/0996-Zeraora-807/front/normal/807-gen7.png,389.0,338.0,260.0,606.0,84.0,420.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0997-Meltan-808/front/normal/808-gen7.png,116.0,97.0,163.0,140.0,133.0,88.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/0998-Melmetal-809/front/normal/809_1-gen7.png,1901.0,640.0,1142.0,110.0,909.0,121.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/1000-Grookey-810/front/normal/810-gen8.png,431.0,129.0,152.0,41.0,14.0,47.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/1001-Thwackey-811/front/normal/811-gen8.png,164.0,342.0,392.0,392.0,58.0,39.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/1002-Rillaboom-812/front/normal/812_1-gen8.png,1460.0,1308.0,783.0,0.0,454.0,31.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/1004-Scorbunny-813/front/normal/813-gen8.png,126.0,102.0,58.0,47.0,405.0,97.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/1005-Raboot-814/front/normal/814-gen8.png,205.0,243.0,279.0,40.0,318.0,109.0,0.0,0.0,0.0,0.0,0.0
+Fire,None,pokemon_images/sprites/1006-Cinderace-815/front/normal/815_1-gen8.png,194.0,299.0,424.0,96.0,439.0,56.0,0.0,0.0,154.0,0.0,0.0
+Water,None,pokemon_images/sprites/1008-Sobble-816/front/normal/816-gen8.png,596.0,137.0,0.0,61.0,90.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/1009-Drizzile-817/front/normal/817-gen8.png,572.0,208.0,131.0,0.0,75.0,0.0,0.0,0.0,54.0,0.0,0.0
+Water,None,pokemon_images/sprites/1010-Inteleon-818/front/normal/818_1-gen8.png,546.0,539.0,50.0,172.0,257.0,5.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/1012-Skwovet-819/front/normal/819-gen8.png,615.0,205.0,200.0,0.0,125.0,13.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/1013-Greedent-820/front/normal/820-gen8.png,1422.0,528.0,1172.0,0.0,41.0,42.0,0.0,0.0,0.0,0.0,0.0
+Flying,None,pokemon_images/sprites/1014-Rookidee-821/front/normal/821-gen8.png,289.0,193.0,270.0,71.0,47.0,0.0,0.0,11.0,0.0,0.0,0.0
+Flying,None,pokemon_images/sprites/1015-Corvisquire-822/front/normal/822-gen8.png,861.0,647.0,744.0,0.0,5.0,4.0,0.0,2.0,0.0,0.0,0.0
+Flying,Steel,pokemon_images/sprites/1016-Corviknight-823/front/normal/823_1-gen8.png,1139.0,741.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0
+Bug,None,pokemon_images/sprites/1018-Blipbug-824/front/normal/824-gen8.png,380.0,155.0,0.0,19.0,40.0,9.0,0.0,0.0,0.0,0.0,0.0
+Bug,Psychic,pokemon_images/sprites/1019-Dottler-825/front/normal/825-gen8.png,294.0,188.0,42.0,355.0,98.0,457.0,0.0,0.0,24.0,0.0,0.0
+Bug,Psychic,pokemon_images/sprites/1020-Orbeetle-826/front/normal/826_1-gen8.png,531.0,412.0,675.0,73.0,23.0,45.0,0.0,518.0,18.0,0.0,0.0
+Dark,None,pokemon_images/sprites/1022-Nickit-827/front/normal/827-gen8.png,21.0,753.0,744.0,0.0,26.0,4.0,0.0,0.0,0.0,0.0,0.0
+Dark,None,pokemon_images/sprites/1023-Thievul-828/front/normal/828-gen8.png,89.0,1046.0,1195.0,0.0,87.0,3.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/1024-Gossifleur-829/front/normal/829-gen8.png,152.0,157.0,294.0,340.0,44.0,266.0,0.0,0.0,0.0,0.0,0.0
+Grass,None,pokemon_images/sprites/1025-Eldegoss-830/front/normal/830-gen8.png,526.0,90.0,115.0,42.0,1158.0,25.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/1026-Wooloo-831/front/normal/831-gen8.png,147.0,176.0,123.0,10.0,710.0,0.0,0.0,0.0,0.0,0.0,0.0
+Normal,None,pokemon_images/sprites/1027-Dubwool-832/front/normal/832-gen8.png,1203.0,833.0,377.0,8.0,625.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/1028-Chewtle-833/front/normal/833-gen8.png,588.0,80.0,56.0,70.0,32.0,34.0,0.0,0.0,0.0,0.0,0.0
+Water,Rock,pokemon_images/sprites/1029-Drednaw-834/front/normal/834_1-gen8.png,999.0,251.0,423.0,302.0,98.0,164.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/1031-Yamper-835/front/normal/835-gen8.png,243.0,129.0,179.0,175.0,229.0,138.0,0.0,0.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/1032-Boltund-836/front/normal/836-gen8.png,491.0,258.0,335.0,464.0,388.0,93.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/1033-Rolycoly-837/front/normal/837-gen8.png,329.0,494.0,369.0,0.0,2.0,29.0,0.0,0.0,0.0,0.0,0.0
+Rock,Fire,pokemon_images/sprites/1034-Carkol-838/front/normal/838-gen8.png,408.0,1051.0,394.0,0.0,15.0,8.0,0.0,0.0,0.0,0.0,0.0
+Rock,Fire,pokemon_images/sprites/1035-Coalossal-839/front/normal/839_1-gen8.png,1029.0,1505.0,877.0,0.0,11.0,35.0,0.0,0.0,0.0,0.0,0.0
+Grass,Dragon,pokemon_images/sprites/1037-Applin-840/front/normal/840-gen8.png,153.0,70.0,78.0,67.0,5.0,173.0,0.0,221.0,0.0,0.0,0.0
+Grass,Dragon,pokemon_images/sprites/1038-Flapple-841/front/normal/841_1-gen8.png,655.0,238.0,416.0,48.0,136.0,57.0,0.0,154.0,0.0,0.0,0.0
+Grass,Dragon,pokemon_images/sprites/1040-Appletun-842/front/normal/842_1-gen8.png,1092.0,349.0,310.0,246.0,577.0,428.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/1042-Silicobra-843/front/normal/843-gen8.png,760.0,96.0,127.0,11.0,72.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ground,None,pokemon_images/sprites/1043-Sandaconda-844/front/normal/844_1-gen8.png,1173.0,822.0,571.0,17.0,247.0,0.0,0.0,0.0,0.0,0.0,0.0
+Flying,Water,pokemon_images/sprites/1045-Cramorant-845/front/normal/845_1-gen8.png,166.0,358.0,68.0,72.0,246.0,14.0,0.0,0.0,882.0,0.0,0.0
+Water,None,pokemon_images/sprites/1046-Arrokuda-846/front/normal/846-gen8.png,310.0,120.0,175.0,0.0,247.0,0.0,0.0,12.0,0.0,0.0,0.0
+Water,None,pokemon_images/sprites/1047-Barraskewda-847/front/normal/847-gen8.png,388.0,222.0,497.0,109.0,249.0,67.0,0.0,0.0,0.0,0.0,0.0
+Electric,Poison,pokemon_images/sprites/1048-Toxel-848/front/normal/848-gen8.png,396.0,116.0,0.0,0.0,117.0,0.0,0.0,0.0,0.0,565.0,0.0
+Electric,Poison,pokemon_images/sprites/1049-Toxtricity Amped-849/front/normal/849_1-gen8.png,1210.0,235.0,31.0,321.0,116.0,203.0,0.0,0.0,0.0,0.0,0.0
+Electric,Poison,pokemon_images/sprites/1051-Toxtricity Low Key-849/front/normal/849_2-gen8.png,1402.0,228.0,0.0,0.0,373.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Bug,pokemon_images/sprites/1053-Sizzlipede-850/front/normal/850-gen8.png,0.0,166.0,444.0,43.0,2.0,477.0,0.0,0.0,0.0,0.0,0.0
+Fire,Bug,pokemon_images/sprites/1054-Centiskorch-851/front/normal/851_1-gen8.png,23.0,442.0,1179.0,187.0,2.0,592.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/1056-Clobbopus-852/front/normal/852-gen8.png,273.0,146.0,35.0,0.0,358.0,246.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/1057-Grapploct-853/front/normal/853-gen8.png,483.0,899.0,43.0,116.0,2.0,72.0,0.0,0.0,600.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/1058-Sinistea-854/front/normal/854-gen8.png,346.0,59.0,80.0,57.0,211.0,49.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/1059-Polteageist-855/front/normal/855-gen8.png,750.0,139.0,82.0,93.0,742.0,106.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/1060-Hatenna-856/front/normal/856-gen8.png,132.0,68.0,0.0,0.0,426.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,None,pokemon_images/sprites/1061-Hattrem-857/front/normal/857-gen8.png,292.0,183.0,0.0,0.0,1209.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Fairy,pokemon_images/sprites/1062-Hatterene-858/front/normal/858_1-gen8.png,653.0,196.0,0.0,0.0,1224.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dark,Fairy,pokemon_images/sprites/1064-Impidimp-859/front/normal/859-gen8.png,358.0,168.0,142.0,0.0,510.0,0.0,0.0,68.0,0.0,0.0,0.0
+Dark,Fairy,pokemon_images/sprites/1065-Morgrem-860/front/normal/860-gen8.png,985.0,371.0,173.0,0.0,32.0,0.0,0.0,175.0,0.0,0.0,0.0
+Dark,Fairy,pokemon_images/sprites/1066-Grimmsnarl-861/front/normal/861_1-gen8.png,2292.0,894.0,0.0,0.0,30.0,0.0,0.0,37.0,0.0,0.0,0.0
+Dark,Normal,pokemon_images/sprites/1068-Obstagoon-862/front/normal/862-gen8.png,1098.0,684.0,706.0,0.0,178.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/1069-Perrserker-863/front/normal/863-gen8.png,501.0,504.0,369.0,0.0,450.0,52.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/1070-Cursola-864/front/normal/864-gen8.png,690.0,69.0,0.0,0.0,1917.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/1071-Sirfetchd-865/front/normal/865-gen8.png,1073.0,389.0,271.0,52.0,414.0,30.0,0.0,0.0,0.0,0.0,0.0
+Ice,Psychic,pokemon_images/sprites/1072-Mr Rime-866/front/normal/866-gen8.png,894.0,392.0,30.0,0.0,294.0,37.0,0.0,0.0,0.0,0.0,0.0
+Ground,Ghost,pokemon_images/sprites/1073-Runerigus-867/front/normal/867-gen8.png,1245.0,277.0,1091.0,0.0,12.0,0.0,0.0,0.0,0.0,6.0,0.0
+Fairy,None,pokemon_images/sprites/1074-Milcery-868/front/normal/868-gen8.png,195.0,69.0,0.0,0.0,448.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/1075-Alcremie-869/front/normal/869_1-gen8.png,497.0,123.0,59.0,0.0,672.0,38.0,0.0,0.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/1077-Falinks-870/front/normal/870-gen8.png,73.0,629.0,525.0,387.0,152.0,286.0,0.0,233.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/1078-Pincurchin-871/front/normal/871-gen8.png,447.0,178.0,55.0,18.0,0.0,42.0,0.0,0.0,0.0,0.0,0.0
+Ice,Bug,pokemon_images/sprites/1079-Snom-872/front/normal/872-gen8.png,110.0,54.0,0.0,0.0,419.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,Bug,pokemon_images/sprites/1080-Frosmoth-873/front/normal/873-gen8.png,726.0,90.0,0.0,0.0,1803.0,0.0,0.0,0.0,0.0,0.0,0.0
+Rock,None,pokemon_images/sprites/1081-Stonjourner-874/front/normal/874-gen8.png,1707.0,357.0,944.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/1082-Eiscue Ice-875/front/normal/875_1-gen8.png,804.0,272.0,18.0,36.0,1355.0,14.0,0.0,0.0,0.0,0.0,0.0
+Ice,None,pokemon_images/sprites/1083-Eiscue Noice-875/front/normal/875_2-gen8.png,445.0,245.0,18.0,36.0,462.0,14.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Normal,pokemon_images/sprites/1084-Indeedee Female-876/front/normal/876f-gen8.png,587.0,238.0,7.0,0.0,276.0,0.0,0.0,0.0,0.0,0.0,4.0
+Psychic,Normal,pokemon_images/sprites/1085-Indeedee Male-876/front/normal/876m-gen8.png,635.0,250.0,4.0,0.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+Electric,Dark,pokemon_images/sprites/1086-Morpeko-877/front/normal/877_1-gen8.png,368.0,133.0,47.0,0.0,136.0,168.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/1087-Cufant-878/front/normal/878-gen8.png,359.0,386.0,636.0,0.0,72.0,441.0,0.0,0.0,0.0,0.0,0.0
+Steel,None,pokemon_images/sprites/1088-Copperajah-879/front/normal/879_1-gen8.png,1870.0,1385.0,232.0,0.0,104.0,368.0,0.0,0.0,0.0,0.0,0.0
+Electric,Dragon,pokemon_images/sprites/1090-Dracozolt-880/front/normal/880-gen8.png,843.0,777.0,366.0,235.0,443.0,481.0,0.0,16.0,0.0,0.0,0.0
+Electric,Ice,pokemon_images/sprites/1091-Arctozolt-881/front/normal/881-gen8.png,1482.0,456.0,113.0,156.0,549.0,96.0,0.0,0.0,20.0,0.0,0.0
+Water,Dragon,pokemon_images/sprites/1092-Dracovish-882/front/normal/882-gen8.png,1519.0,518.0,233.0,0.0,180.0,65.0,0.0,372.0,0.0,0.0,0.0
+Water,Ice,pokemon_images/sprites/1093-Arctovish-883/front/normal/883-gen8.png,2342.0,334.0,0.0,0.0,590.0,0.0,0.0,0.0,0.0,0.0,0.0
+Steel,Dragon,pokemon_images/sprites/1094-Duraludon-884/front/normal/884_1-gen8.png,790.0,309.0,10.0,3.0,1263.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ghost,pokemon_images/sprites/1096-Dreepy-885/front/normal/885-gen8.png,505.0,135.0,111.0,44.0,104.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ghost,pokemon_images/sprites/1097-Drakloak-886/front/normal/886-gen8.png,1387.0,306.0,9.0,35.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dragon,Ghost,pokemon_images/sprites/1098-Dragapult-887/front/normal/887-gen8.png,2144.0,540.0,0.0,26.0,143.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fairy,Steel,pokemon_images/sprites/1099-Zacian Crowned-888/front/normal/888_1-gen8.png,1174.0,658.0,773.0,0.0,1044.0,743.0,0.0,0.0,0.0,0.0,0.0
+Fairy,None,pokemon_images/sprites/1100-Zacian Hero-888/front/normal/888_2-gen8.png,1620.0,632.0,579.0,0.0,171.0,288.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Steel,pokemon_images/sprites/1101-Zamazenta Crowned-889/front/normal/889_1-gen8.png,1050.0,590.0,606.0,0.0,970.0,401.0,0.0,384.0,0.0,0.0,0.0
+Fighting,None,pokemon_images/sprites/1102-Zamazenta Hero-889/front/normal/889_2-gen8.png,1315.0,549.0,750.0,0.0,225.0,0.0,0.0,655.0,0.0,0.0,0.0
+Poison,Dragon,pokemon_images/sprites/1103-Eternatus-890/front/normal/890_1-gen8.png,600.0,1304.0,160.0,0.0,53.0,291.0,0.0,278.0,582.0,0.0,11.0
+Fighting,None,pokemon_images/sprites/1105-Kubfu-891/front/normal/891-gen8.png,501.0,256.0,0.0,0.0,469.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Water,pokemon_images/sprites/1106-Urshifu Rapid Strike-892/front/normal/892_1-gen8.png,1684.0,521.0,209.0,46.0,236.0,71.0,0.0,0.0,0.0,0.0,0.0
+Fighting,Dark,pokemon_images/sprites/1108-Urshifu Single Strike-892/front/normal/892_2-gen8.png,1817.0,567.0,379.0,54.0,210.0,54.0,0.0,0.0,0.0,0.0,0.0
+Dark,Grass,pokemon_images/sprites/1110-Zarude-893/front/normal/893_1-gen8.png,1464.0,1281.0,0.0,0.0,2.0,0.0,0.0,8.0,0.0,0.0,0.0
+Electric,None,pokemon_images/sprites/1111-Regieleki-894/front/normal/894-gen8.png,262.0,74.0,238.0,1298.0,503.0,376.0,0.0,0.0,0.0,0.0,0.0
+Dragon,None,pokemon_images/sprites/1112-Regidrago-895/front/normal/895-gen8.png,2023.0,622.0,391.0,0.0,7.0,0.0,0.0,0.0,21.0,0.0,0.0
+Ice,None,pokemon_images/sprites/1113-Glastrier-896/front/normal/896-gen8.png,464.0,387.0,0.0,0.0,1416.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ghost,None,pokemon_images/sprites/1114-Spectrier-897/front/normal/897-gen8.png,1415.0,682.0,214.0,0.0,200.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Grass,pokemon_images/sprites/1115-Calyrex-898/front/normal/898_1-gen8.png,1385.0,692.0,0.0,0.0,355.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Ice,pokemon_images/sprites/1116-Calyrex Ice Rider-898/front/normal/898_2-gen8.png,886.0,780.0,0.0,0.0,1402.0,0.0,0.0,0.0,0.0,0.0,0.0
+Psychic,Ghost,pokemon_images/sprites/1117-Calyrex Shadow Rider-898/front/normal/898_3-gen8.png,1777.0,1083.0,214.0,0.0,279.0,0.0,0.0,0.0,0.0,0.0,0.0
