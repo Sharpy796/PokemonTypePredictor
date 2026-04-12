@@ -75,6 +75,10 @@ import numpy as np
 # import kagglehub
 # from kagglehub import KaggleDatasetAdapter
 # import math
+#import cv2 as cv
+from PIL import Image
+from collections import Counter
+
 
 #custom imports
 
@@ -138,6 +142,25 @@ def assign_spritepaths(df):
     df_copy = pd.concat([df_copy, df_filepaths], sort=False, axis=1)
     return df_copy
 #
+def convertImgtoHexCode(imgPath):
+    #Load image and get list of pixels
+    pic = Image.open(imgPath).convert("RGB")
+    pixelList = list(pic.getdata())
+
+    #Convert individual pixels to hexcode
+    hexcodes = ['#{:02x}{:02x}{:02x}'.format(r, g, b) for r, g, b in pixelList]
+
+    #Count hexcode occurences
+    hexCodeCount = Counter(hexcodes)
+
+    #Sort frequency
+    sortedHexes = hexCodeCount.most_common()
+
+    #Print hexcode Counts
+    for color, count in sortedHexes:
+        return(imgPath, color, count)
+
+#
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main code start here
@@ -187,6 +210,9 @@ for i,sax in enumerate(axs):
             tick.set_rotation(90)
 plt.tight_layout()
 plt.savefig("data.png")
+
+for index, row in df.iterrows():
+    print(convertImgtoHexCode(row["spritepath_front"]))
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
