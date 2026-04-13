@@ -170,17 +170,12 @@ def visualizeData(df, save_name):
         plt.savefig(save_name)
     #
 #
-
 def assign_spritepaths(df):
     root = "pokemon_images/sprites/"
     for i,entry in df.iterrows():
         front = root+f"{entry['id']:04d}"+'-'+entry['name']+'-'+str(entry['pokedex_id'])+'/front/normal'
         images = os.listdir(front)
-        if len(images) > 0:
-            front += "/"+images[len(images)-1]
-        else:
-            front = "NONE"
-        df.at[i,'spritepath_front'] = front
+        df.at[i,'spritepath_front'] = front + "/"+images[len(images)-1]
     #
 #
 def inRange(val,min,max):
@@ -193,7 +188,7 @@ def hsvToColor(hsv_tuple):
     elif (s<.20):
         if (v>.70): color = "White"
         else: color = "Gray"
-    elif inRange(h,0,20): 
+    elif inRange(h,0,20):
         if (s<.70 and v<.40) or (s<.65 and v<.65): color = "Brown"
         else: color = "Red"
     elif inRange(h,20,40):
@@ -208,73 +203,8 @@ def hsvToColor(hsv_tuple):
     elif inRange(h,260,300): color = "Purple"
     elif inRange(h,300,340): color = "Pink"
     else: color = "Red"
-    # print(h,color)
     return color
 #
-def rgbToColor(rgb_tuple): # TODO: Broken classifier.
-    close = lambda x,y : abs(x-y) <= 30
-    thresh_bw = 70
-    color = "None"
-    # eg. rgb_tuple = (2,44,300)
-    r = rgb_tuple[0]
-    g = rgb_tuple[1]
-    b = rgb_tuple[2]
-    if (close(r,g) and close(g,b) and close(r,b)):
-        if (r<thresh_bw and g<thresh_bw and b<thresh_bw): color = "Black"
-        elif (r>255-thresh_bw and g>255-thresh_bw and b>255-thresh_bw): color = "White"
-        else: color = "Gray"
-    else:
-        colors = {
-            "Red": (255,0,0),
-            "Green": (0,255,0),
-            "Green": (167,211,0),
-            "Green": (80, 97, 41),
-            "Green": (105, 140, 90),
-            "Blue": (0,0,255),
-            "Blue": (169, 131, 235),
-            "Blue": (174, 233, 184),
-            "Blue": (0,255,255),
-            "Blue": (84, 168, 152),
-            "Yellow": (255,255,0),
-            "Yellow": (255, 214, 109),
-            "Pink": (255,0,200),
-            "Pink": (225, 97, 124),
-            "Orange": (200,100,25),
-            "Orange": (241, 98, 69),
-            "Purple": (175,0,255),
-            "Purple": (140, 72, 139),
-            "Purple": (75, 40, 65),
-            "Purple": (207, 95, 180),
-            "Brown": (116, 74, 50),
-            "Brown": (115, 75, 0),
-            "Brown": (207, 131, 92),
-            "Brown": (207, 156, 124),
-            "Brown": (166, 98, 91),
-            "Brown": (58, 41, 1),
-        }
-        manhattan = lambda x,y : abs(x[0] - y[0]) + abs(x[1] - y[1]) + abs(x[2] - y[2]) 
-        distances = {k: manhattan(v, rgb_tuple) for k, v in colors.items()}
-        color = min(distances, key=distances.get)
-    return color
-#
-
-# def convertImgToHexCode(imgPath):
-#     #Load image and get list of pixels
-#     pic = Image.open(imgPath).convert("RGB")
-#     pixelList = list(pic.getdata())
-
-#     #Convert individual pixels to hexcode
-#     hexcodes = ['#{:02x}{:02x}{:02x}'.format(r, g, b) for r, g, b in pixelList]
-
-#     #Count hexcode occurences
-#     hexCodeCount = Counter(hexcodes)
-
-#     #Sort frequency
-#     sortedHexes = hexCodeCount.most_common()
-
-#     #Return hexcode Counts
-#     return sortedHexes
-# #
 def isPureWhite(hsv_tuple):
     return (hsv_tuple[0] == 0 and hsv_tuple[1] == 0 and hsv_tuple[2] == 255)
 #
@@ -282,13 +212,12 @@ def convertImgToColors(imgPath):
     #Load image and get list of pixels
     img = cv2.imread(imgPath)
     pixelList = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    # cv2.imwrite('test.png', pixelList)
     
-    #Convert individual pixels to colors -- REMOVE PURE WHITE BACKGROUND PIXELS
+    #Convert individual pixels to colors
     colors = []
     for row in pixelList:
         for pixel in row:
-            if not isPureWhite(pixel):
+            if not isPureWhite(pixel): # bg is pure white, we don't want to include the bg
                 colors.append(hsvToColor(pixel))
 
     #Count color occurences
@@ -313,23 +242,12 @@ def discretizePixels(imgPath):
 def storeColorCounts(df, row, colorCounts):
     first = True
     for color, count in colorCounts:
-        # Compare with primary_color roughly to test accuracy
-        # if first:
-        #     df.at[row,"best_color"] = color
-        #     first = False
-        # #
         df.at[row,color] = count
     #
 #
-# def populateHexCounts(df):
-#     for i,entry in df.iterrows():
-#         storeColorCounts(df, i, convertImgToHexCode(df.at[i,'spritepath_front']))
-#     #
-# #
 def createDiscreteImage(img,name):
     discrete = np.array(discretizePixels(img))
     cv2.imwrite('discrete_images/'+name+'.png',discrete)
-    # print("made image")
 #
 def populateColorCounts(df):
     for i,entry in df.iterrows():
@@ -341,13 +259,10 @@ def populateColorCounts(df):
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main code start here
 df = pd.read_csv(CSV_FILEPATH)
-
-# print(df['primary_color'].unique())
-
-### Preprocessing
 pd.set_option('display.max_rows', 10) # Default df display()
 # pd.set_option('display.max_rows', 1000) # Modified df display()
 
+### Preprocessing
 # Remove entries we don't want to use 
 df = df[df['image_fn'] != '[]']
 df = df[df['gigantamax'] == False]
@@ -359,23 +274,19 @@ df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form'
 # Find the filepaths to each sprite we want to use
 assign_spritepaths(df)
 
-# Keep an original copy in case we want names of pokemon
-df_original = df.copy()
 ### Visualize Data
-# visualizeData(df_original)
+df_original = df.copy() # Keep an original copy in case we want names of pokemon
 # visualizeData(df_original, "data.png") # this is for if we want to save the graphs to a file
 
-# Remove columns we won't be training on, Fix columns we will be using
+### Feature Extraction - Remove columns we won't be training on, Fix columns we will be using
 df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
 populateColorCounts(df)
 df = df.drop(['spritepath_front'],axis=1) # we don't need this anymore
 df['type2'] = df['type2'].fillna("None") # do we need to do this??
 df = df.fillna(0)
+# df.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
 
 display(df)
-
-# Export to CSV
-# df.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
