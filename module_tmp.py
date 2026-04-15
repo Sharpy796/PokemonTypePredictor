@@ -104,17 +104,18 @@ CSV_FILEPATH = "pokemon_images/pokedex.csv"
 
 # These are for color categorizing purposes.
 primary_colors = { # bgr
-    'Green':[0,225,0],
     'Red':[0,0,255],
-    'Blue':[255,0,0],
-    'White':[255,255,255],
-    'Brown':[0,60,135],
     'Orange':[0,121,255],
     'Yellow':[0,255,255],
+    'Green':[0,225,0],
+    'Cyan':[255,255,0],
+    'Blue':[255,0,0],
     'Purple':[255,0,180],
     'Pink':[255, 0, 255],
+    'White':[255,255,255],
     'Gray':[125,125,125],
-    'Black':[0,0,0]
+    'Black':[0,0,0],
+    'Brown':[0,60,135],
 }
 
 # These are for chart sorting/styling purposes.
@@ -146,7 +147,7 @@ def main():
     pass
 #
 
-def visualizeData(df, save_name):
+def visualizeDataPreprocessed(df, save_name):
     fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(9, 9))
     df_visualizer = df.drop(['id','name','pokedex_id',], axis=1)
     df_visualizer = df_visualizer.sort_values('type1', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
@@ -155,10 +156,10 @@ def visualizeData(df, save_name):
     df_visualizer = df_visualizer.sort_values('primary_color', key=lambda s: s.apply(COLORS.index), ignore_index=True)
     axs[1][0].set_title("primary_color")
     axs[1][0].bar(COLORS,df_visualizer['primary_color'].value_counts(sort=False).to_numpy(),color=COLORS_CHART)
-    df_visualizer_nona = df_visualizer.dropna().sort_values('type2', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
+    df_visualizer_nona = df_visualizer[df_visualizer.type2 != 'None'].sort_values('type2', key=lambda s: s.apply(TYPES1.index), ignore_index=True)
     axs[1][1].set_title("type2 removing mono-type pokemon ('None')")
     axs[1][1].bar(TYPES1,df_visualizer_nona['type2'].value_counts(sort=False).to_numpy(),color=TYPES1_COLORS_CHART)
-    df_visualizer = df_visualizer.fillna("None").sort_values('type2', key=lambda s: s.apply(TYPES2.index), ignore_index=True)
+    df_visualizer = df_visualizer.sort_values('type2', key=lambda s: s.apply(TYPES2.index), ignore_index=True)
     axs[0][1].set_title("type2")
     axs[0][1].bar(TYPES2,df_visualizer['type2'].value_counts(sort=False).to_numpy(),color=TYPES2_COLORS_CHART)
     for i,sax in enumerate(axs):
@@ -170,12 +171,15 @@ def visualizeData(df, save_name):
         plt.savefig(save_name)
     #
 #
+def visualizeDataExtracted(df, save_name):
+    pass # TODO: Maybe graph this bc it'd be cool to see.
+#
 def assign_spritepaths(df):
     root = "pokemon_images/sprites/"
     for i,entry in df.iterrows():
         front = root+f"{entry['id']:04d}"+'-'+entry['name']+'-'+str(entry['pokedex_id'])+'/front/normal'
         images = os.listdir(front)
-        df.at[i,'spritepath_front'] = front + "/"+images[len(images)-1]
+        df.at[i,'spritepath'] = front + "/"+images[len(images)-1]
     #
 #
 def inRange(val,min,max):
@@ -189,7 +193,8 @@ def hsvToColor(hsv_tuple):
         if (v>.70): color = "White"
         else: color = "Gray"
     elif inRange(h,0,20):
-        if (s<.70 and v<.40) or (s<.65 and v<.65): color = "Brown"
+        if inRange(h,0,10) and s<.5 and v>.8: color = "Pink"
+        elif (s<.70 and v<.40) or (s<.65 and v<.65): color = "Brown"
         else: color = "Red"
     elif inRange(h,20,40):
         if (s<.60): color = "White"
@@ -198,11 +203,17 @@ def hsvToColor(hsv_tuple):
     elif inRange(h,40,65):
         if (s<.50): color = "White"
         else: color = "Yellow"
-    elif inRange(h,65,175): color = "Green"
-    elif inRange(h,175,260): color = "Blue"
+    elif inRange(h,65,155): color = "Green"
+    elif inRange(h,155,200): color = "Cyan"
+    elif inRange(h,200,260): color = "Blue"
     elif inRange(h,260,300): color = "Purple"
     elif inRange(h,300,340): color = "Pink"
-    else: color = "Red"
+    elif inRange(h,340,352):
+        if (s<.65): color = "Pink"
+        else: color = "Red"
+    else:
+        if s<.5 and v>.8: color = "Pink"
+        else: color = "Red"
     return color
 #
 def isPureWhite(hsv_tuple):
@@ -245,21 +256,36 @@ def storeColorCounts(df, row, colorCounts):
         df.at[row,color] = count
     #
 #
-def createDiscreteImage(img,name):
-    discrete = np.array(discretizePixels(img))
-    cv2.imwrite('discrete_images/'+name+'.png',discrete)
+def createDiscreteImage(from_path,to_path):
+    cv2.imwrite(to_path,np.array(discretizePixels(from_path)))
 #
-def populateColorCounts(df):
+def populateColorCounts(df,make_discrete=False):
     for i,entry in df.iterrows():
-        storeColorCounts(df, i, convertImgToColors(df.at[i,'spritepath_front']))
-        # createDiscreteImage(df.at[i,'spritepath_front'],f"{entry['pokedex_id']:04d}"+'-'+df.at[i,'name'])
+        storeColorCounts(df, i, convertImgToColors(df.at[i,'spritepath']))
+        if (make_discrete):
+            createDiscreteImage(df.at[i,'spritepath'],f"pokemon_images/sprites_discrete/{entry['pokedex_id']:04d}"+'-'+df.at[i,'name']+'.png')
+        #
     #
+#
+def addProminentColor(df, visualize_data=False):
+    df.insert(0, 'primary_color', df.apply('idxmax', axis=1))
+#
+def viewTypeColorAverages(df, visualize_data=False):
+    dft1 = df.drop('type2',axis=1).rename(columns={'type1': 'type'})
+    dft2 = df.drop('type1',axis=1).rename(columns={'type2': 'type'})
+    dft = pd.concat([dft1,dft2])
+    dft = dft.groupby(['type']).mean().apply(np.floor).sort_values('type', key=lambda s: s.apply(TYPES2.index))
+    addProminentColor(dft)
+    if visualize_data:
+        visualizeDataExtracted(dft.reset_index(), 'data_extracted.png')
+    display(dft)
 #
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main code start here
 df = pd.read_csv(CSV_FILEPATH)
-pd.set_option('display.max_rows', 10) # Default df display()
+# pd.set_option('display.max_rows', 10) # Default df display()
+pd.set_option('display.max_rows', 20) # Modified df display()
 # pd.set_option('display.max_rows', 1000) # Modified df display()
 
 ### Preprocessing
@@ -271,22 +297,33 @@ df = df[df['mega_evolution'] == False]
 df.reset_index(inplace=True, drop=True)
 # Remove columns we aren't using
 df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form','gigantamax','image_fn'], axis=1)
+# Fix up bad values
+df['type2'] = df['type2'].fillna("None") # do we need to do this??
 # Find the filepaths to each sprite we want to use
 assign_spritepaths(df)
 
 ### Visualize Data
-df_original = df.copy() # Keep an original copy in case we want names of pokemon
-# visualizeData(df_original, "data.png") # this is for if we want to save the graphs to a file
+df_processed = df.copy() # Keep a copy in case we want names of pokemon
+# visualizeDataPreprocessed(df_processed, "assets/data.png") # this is for if we want to save the graphs to a file
+df_processed = df_processed.drop(['id','name','pokedex_id','primary_color'], axis=1) # we don't need these anymore
+# df_processed.to_csv("pokedex_processed.csv",index=False) # Keeping this in case we need to run this again
+# display(df_processed)
 
 ### Feature Extraction - Remove columns we won't be training on, Fix columns we will be using
-df = df.drop(['id','name','pokedex_id','primary_color'], axis=1) # we won't need 'primary_color' later
-populateColorCounts(df)
-df = df.drop(['spritepath_front'],axis=1) # we don't need this anymore
-df['type2'] = df['type2'].fillna("None") # do we need to do this??
+populateColorCounts(df, True)
+df = df.drop(['id','name','pokedex_id','primary_color','spritepath'], axis=1) # we don't need these anymore
 df = df.fillna(0)
-# df.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
+# df = df.reindex(sorted(df.columns), axis=1)
+df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1)
 
-display(df)
+df_extracted = df.copy()
+df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
+viewTypeColorAverages(df_extracted) # data of average colors for each type
+display(df_extracted)
+
+createDiscreteImage('assets/hsv.png','assets/hsv_discrete_2.png')
+createDiscreteImage('assets/color-tester.png','assets/color-tester-discrete.png')
+
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
