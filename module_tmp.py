@@ -313,17 +313,18 @@ df_processed = df_processed.drop(['id','name','pokedex_id','primary_color'], axi
 populateColorCounts(df, True)
 df = df.drop(['id','name','pokedex_id','primary_color','spritepath'], axis=1) # we don't need these anymore
 df = df.fillna(0)
-# df = df.reindex(sorted(df.columns), axis=1)
-df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1)
+df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1) # Sort columns
 
 df_extracted = df.copy()
-df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
-viewTypeColorAverages(df_extracted) # data of average colors for each type
-display(df_extracted)
+# df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
+# viewTypeColorAverages(df_extracted) # data of average colors for each type
+# display(df_extracted)
 
-createDiscreteImage('assets/hsv.png','assets/hsv_discrete_2.png')
-createDiscreteImage('assets/color-tester.png','assets/color-tester-discrete.png')
+# Show color palette
+# createDiscreteImage('assets/hsv.png','assets/hsv_discrete_2.png')
+# createDiscreteImage('assets/color-tester.png','assets/color-tester-discrete.png')
 
+display(df)
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
