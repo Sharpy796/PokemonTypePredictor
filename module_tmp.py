@@ -54,12 +54,13 @@ if __name__ == "__main__":
 #
 
 # Not sure if we need alll this, but I have this now
-# import torch
+import torch
+import torch_directml
 # import torch.nn as nn
 # import torch.nn.functional as F
-# from torch.utils.data import Dataset
+from torch.utils.data import Dataset
 # from torch import nn
-# from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader
 # from torchvision import datasets, transforms
 # from torchvision.transforms import ToTensor
 # import scipy
@@ -123,11 +124,27 @@ COLORS = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','White','Gray','
 COLORS_CHART = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','Gainsboro','Gray','Black']
 TYPES1 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
 TYPES2 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy','None']
+# Come up with a type combo map so we can use them numerically in our data
+TYPES_COMBO_TO_IDX,seen = {},set()
+for type1 in TYPES1:
+    for type2 in TYPES2:
+        if type2 == "None": key = type1
+        else:
+            if type1 == type2: continue
+            key = f"{type1}/{type2}"
+            reverse = f"{type2}/{type1}"
+            if reverse in seen:
+                TYPES_COMBO_TO_IDX[key] = TYPES_COMBO_TO_IDX[reverse]
+                continue
+        if key not in seen:
+            TYPES_COMBO_TO_IDX[key] = len(seen)
+            seen.add(key)
 TYPES1_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','paleturquoise','darkred','mediumorchid','khaki','thistle','deeppink','yellowgreen','goldenrod','mediumpurple','mediumblue','black','lightsteelblue','pink']
 TYPES2_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','paleturquoise','darkred','mediumorchid','khaki','thistle','deeppink','yellowgreen','goldenrod','mediumpurple','mediumblue','black','lightsteelblue','pink','dimgray']
 
 #%% CONFIGURATION               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+device = torch_directml.device() # THIS IS ONLY SUPPORTED IN PYTHON 3.8 - 3.12
+print(f"Using device: {device}")
 
 
 #%% INITIALIZATIONS             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,8 +156,51 @@ TYPES2_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','pale
 
 
 #Class definitions Start Here
+class DualTypeDataset(Dataset):
+    def __init__(self, csv_file, train, train_val=.9, transform=None):
+        self.__parsecsv__(csv_file)
+        # Shuffle the data around so we don't get any bias in the order that they are listed
+        self.df = self.df.sample(frac=1,random_state=796).reset_index(drop=True)
 
+        # If this is a training dataset, uh... TODO: Remember what this does
+        if train:
+            self.df = self.df.iloc[1:int(self.df.shape[0]*train_val)+1].reset_index(drop=True)
+        else:
+            self.df = self.df.iloc[int(self.df.shape[0]*train_val):self.df.shape[0]].reset_index(drop=True)
 
+        # Create a tensor of our color data
+        df_numeric = self.df.drop('type', axis=1)
+        self.data_numeric = torch.tensor(df_numeric.values, dtype=torch.int)
+        df_target = self.df['type'].map(TYPES_COMBO_TO_IDX).values
+        self.data_targets = torch.tensor(df_target, dtype=torch.int)
+
+        self.transform = transform
+    
+    def __parsecsv__(self, csv_file):
+        self.df_original = pd.read_csv(csv_file)
+        self.df = self.df_original.copy()
+        self.df['type2'] = '/'+self.df['type2'].fillna('None')
+        self.df['type'] = self.df['type1']+(self.df['type2'].where(self.df['type2']!='/None').fillna(''))
+        self.df = self.df.drop(['type1','type2'],axis=1)
+        
+    def __getitem__(self, idx):
+        if torch.is_tensor(idx):
+            idx = idx.tolist()
+        return (
+            self.data_numeric[idx],
+            self.data_targets[idx]
+        )
+    
+    def __len__(self):
+        return len(self.df)
+    
+    def getdf(self):
+        return self.df
+    
+    def getdf_original(self):
+        return self.df_original
+
+# TODO: Create the neural network
 
 #Function definitions Start Here
 def main():
@@ -282,49 +342,67 @@ def viewTypeColorAverages(df, visualize_data=False):
 #
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#Main code start here
-df = pd.read_csv(CSV_FILEPATH)
-# pd.set_option('display.max_rows', 10) # Default df display()
-pd.set_option('display.max_rows', 20) # Modified df display()
-# pd.set_option('display.max_rows', 1000) # Modified df display()
 
-### Preprocessing
-# Remove entries we don't want to use 
-df = df[df['image_fn'] != '[]']
-df = df[df['gigantamax'] == False]
-df = df[df['mega_evolution'] == False]
-# Reset the index
-df.reset_index(inplace=True, drop=True)
-# Remove columns we aren't using
-df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form','gigantamax','image_fn'], axis=1)
-# Fix up bad values
-df['type2'] = df['type2'].fillna("None") # do we need to do this??
-# Find the filepaths to each sprite we want to use
-assign_spritepaths(df)
 
-### Visualize Data
-df_processed = df.copy() # Keep a copy in case we want names of pokemon
-# visualizeDataPreprocessed(df_processed, "assets/data.png") # this is for if we want to save the graphs to a file
-df_processed = df_processed.drop(['id','name','pokedex_id','primary_color'], axis=1) # we don't need these anymore
-# df_processed.to_csv("pokedex_processed.csv",index=False) # Keeping this in case we need to run this again
-# display(df_processed)
+# #Main code start here
+# # df = pd.read_csv(CSV_FILEPATH)
+# # pd.set_option('display.max_rows', 10) # Default df display()
+# # pd.set_option('display.max_rows', 20) # Modified df display()
+# # pd.set_option('display.max_rows', 1000) # Modified df display()
 
-### Feature Extraction - Remove columns we won't be training on, Fix columns we will be using
-populateColorCounts(df, True)
-df = df.drop(['id','name','pokedex_id','primary_color','spritepath'], axis=1) # we don't need these anymore
-df = df.fillna(0)
-df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1) # Sort columns
+# Hyperparameters
+input_size = len(primary_colors) # column length (amount of colors)
+hidden_size = 100 # number of nodes in hidden layer
+num_classes = 34 # number of classes, 0, 1/8, 1/4, 1/2, 1-30
+num_epochs = 100 # number of times we go through the entire dataset
+batch_size = 32 # number of samples in one forward/backward pass
+learning_rate = 0.001 # learning rate
+train_val = .8
 
-df_extracted = df.copy()
-# df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
-# viewTypeColorAverages(df_extracted) # data of average colors for each type
-# display(df_extracted)
+# Datasets & Dataloaders
+train_dataset = DualTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
+test_dataset = DualTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
+train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
+test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
 
-# Show color palette
-# createDiscreteImage('assets/hsv.png','assets/hsv_discrete_2.png')
-# createDiscreteImage('assets/color-tester.png','assets/color-tester-discrete.png')
 
-display(df)
+# ### Preprocessing
+# # Remove entries we don't want to use 
+# df = df[df['image_fn'] != '[]']
+# df = df[df['gigantamax'] == False]
+# df = df[df['mega_evolution'] == False]
+# # Reset the index
+# df.reset_index(inplace=True, drop=True)
+# # Remove columns we aren't using
+# df = df.drop(['shape','legendary','mega_evolution','alolan_form','galarian_form','gigantamax','image_fn'], axis=1)
+# # Fix up bad values
+# df['type2'] = df['type2'].fillna("None") # do we need to do this??
+# # Find the filepaths to each sprite we want to use
+# assign_spritepaths(df)
+
+# ### Visualize Data
+# df_processed = df.copy() # Keep a copy in case we want names of pokemon
+# # visualizeDataPreprocessed(df_processed, "assets/data.png") # this is for if we want to save the graphs to a file
+# df_processed = df_processed.drop(['id','name','pokedex_id','primary_color'], axis=1) # we don't need these anymore
+# # df_processed.to_csv("pokedex_processed.csv",index=False) # Keeping this in case we need to run this again
+# # display(df_processed)
+
+# ### Feature Extraction - Remove columns we won't be training on, Fix columns we will be using
+# populateColorCounts(df, False) # change this to True if you want to save edited sprites to a file
+# df = df.drop(['id','name','pokedex_id','primary_color','spritepath'], axis=1) # we don't need these anymore
+# df = df.fillna(0)
+# df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1) # Sort columns
+
+# df_extracted = df.copy()
+# # df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
+# # viewTypeColorAverages(df_extracted) # data of average colors for each type
+# # display(df_extracted)
+
+# # Show color palette
+# # createDiscreteImage('assets/hsv.png','assets/hsv_discrete_2.png')
+# # createDiscreteImage('assets/color-tester.png','assets/color-tester-discrete.png')
+
+# # display(df)
 
 #%% SELF-RUN                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #Main Self-run block
