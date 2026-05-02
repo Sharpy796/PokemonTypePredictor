@@ -255,30 +255,37 @@ class DualTypeDataset(Dataset):
 
 # TODO: Create the neural network
 class PokemonTypePredictor(nn.Module):
-    def __init__(self, input_size, hidden_size, num_classes, num_classes_2=0):
+    def __init__(self, input_size, hidden_size, num_classes, num_classes_2=0,dropout_p=0.3):
         super(PokemonTypePredictor,self).__init__()
         weight1 = 1.5
         weight2 = 2
         weight3 = 2
+        weight3_5 = 4
         
         self.l1 = nn.Linear(input_size,int(hidden_size*weight1)) # first layer
-        self.act1 = nn.Sigmoid() # activation function
+        self.act1 = nn.ReLU() # activation function
+        self.drop1 = nn.Dropout(p=dropout_p)
         self.l2 = nn.Linear(int(hidden_size*weight1),int(hidden_size*weight2)) # second layer
-        self.act2 = nn.Sigmoid() # activation function
+        self.act2 = nn.ReLU() # activation function
+        self.drop2 = nn.Dropout(p=dropout_p)
         self.l3 = nn.Linear(int(hidden_size*weight2),int(hidden_size*weight3)) # third layer
-        self.act3 = nn.Sigmoid() # activation function
-        self.l4_1 = nn.Linear(int(hidden_size*weight3),num_classes) # fourth layer
+        self.act3 = nn.ReLU() # activation function
+        self.drop3 = nn.Dropout(p=dropout_p)
+        # new stuff
+        self.l3_2 = nn.Linear(int(hidden_size*weight3),int(hidden_size*weight3_5)) # another layer
+        self.act3_2 = nn.ReLU() # activation function
+        self.drop3_2 = nn.Dropout(p=dropout_p)
+        # new stuff
+        self.l4_1 = nn.Linear(int(hidden_size*weight3_5),num_classes) # fourth layer
         if num_classes_2 > 0:
-            self.l4_2 = nn.Linear(int(hidden_size*weight3),num_classes_2) # fourth layer
+            self.l4_2 = nn.Linear(int(hidden_size*weight3_5),num_classes_2) # fourth layer
     
     def forward(self, numeric):
         x = numeric
-        x = self.l1(x)
-        x = self.act1(x)
-        x = self.l2(x)
-        x = self.act2(x)
-        x = self.l3(x)
-        x = self.act3(x)
+        x = self.drop1(self.act1(self.l1(x)))
+        x = self.drop2(self.act2(self.l2(x)))
+        x = self.drop3(self.act3(self.l3(x)))
+        x = self.drop3_2(self.act3_2(self.l3_2(x)))
         y1 = self.l4_1(x)
         try:
             y2 = self.l4_2(x)
@@ -437,7 +444,6 @@ def create_confusion_matrix(y_true,y_pred,table,title="Pokemon Type Confusion Ma
     cmap = ListedColormap(newcolors)
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 10))
-
     disp.plot(ax=ax, cmap=cmap, colorbar=False)
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
     ax.set_title(title)
@@ -460,20 +466,22 @@ num_classes = len(table1) # number of classes, Normal, Fire/Normal, Water/Normal
 num_classes_2 = len(table2) # number of classes, Normal, Fire/Normal, Water/Normal, etc
 num_epochs = 100 # number of times we go through the entire dataset
 batch_size = 64 # number of samples in one forward/backward pass
-learning_rate = 0.001 # learning rate
+learning_rate = 0.001/2 # learning rate
 train_val = .7
+dropout_p = 0.2
 
 # Datasets & Dataloaders
 # train_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
 # test_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
-train_dataset = DualTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
+# TODO: Add weights for various types
+train_dataset = DualTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val,)
 test_dataset = DualTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
 # TODO: Figure out the "verification" part
 
 # Model
-model = PokemonTypePredictor(input_size, hidden_size, num_classes, num_classes_2=num_classes_2).to(device)
+model = PokemonTypePredictor(input_size, hidden_size, num_classes, num_classes_2=num_classes_2,dropout_p=dropout_p).to(device)
 criterion_1 = nn.CrossEntropyLoss()
 criterion_2 = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -486,6 +494,8 @@ i = 0
 loss = 0
 alpha = 0.4
 beta = 1-alpha
+best_loss = float('inf')
+patience, patience_counter = 10, 0
 pbar = tqdm(range(num_epochs),desc="Training",unit="epochs",postfix={"loss":loss},colour="red",ascii=True)
 for epoch in pbar:
     running_loss = 0.0
@@ -516,12 +526,23 @@ for epoch in pbar:
         
         if (i+1) % (2) == 0:
             pbar.set_postfix({"step":f'{(i+1):02d}/{n_total_steps}',"loss":f'{loss.item():.4}'})
+    if running_loss < best_loss:
+        best_loss = running_loss
+        patience_counter = 0
+        torch.save(model.state_dict(), 'best_model.pt')
+    else:
+        patience_counter += 1
+        if patience_counter >= patience:
+            print(f"Early stopping at epoch {epoch}")
+            break
+
 
 print("Finished training.")
 
 plt.plot(loss_values)
 
 #%% TESTING
+model.eval()
 with torch.no_grad(): # we don't need gradients in the testing phase
     y_true1, y_true2 = [], []
     y_pred1, y_pred2 = [], []
