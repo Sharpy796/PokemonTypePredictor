@@ -56,7 +56,7 @@ if __name__ == "__main__":
 # Not sure if we need alll this, but I have this now
 import torch
 import torch_directml
-# import torch.nn as nn
+import torch.nn as nn
 # import torch.nn.functional as F
 from torch.utils.data import Dataset
 # from torch import nn
@@ -66,11 +66,11 @@ from torch.utils.data import DataLoader
 # import scipy
 # from scipy.stats import zscore
 # from time import sleep
-# from tqdm import tqdm
-# from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, recall_score, precision_score, f1_score, log_loss
+from tqdm import tqdm
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, recall_score, precision_score, f1_score, log_loss
 import matplotlib.pyplot as plt
-# import matplotlib as mpl
-# from matplotlib.colors import LinearSegmentedColormap, ListedColormap
+import matplotlib as mpl
+from matplotlib.colors import LinearSegmentedColormap, ListedColormap
 import pandas as pd
 import numpy as np
 # import kagglehub
@@ -124,7 +124,13 @@ COLORS = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','White','Gray','
 COLORS_CHART = ['Red','Yellow','Green','Blue','Purple','Pink','Brown','Gainsboro','Gray','Black']
 TYPES1 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
 TYPES2 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy','None']
+# Type indices
+TYPES1_TO_IDX = {t: i for i, t in enumerate(TYPES1)}
+IDX_TO_TYPES1 = {i: t for i, t in enumerate(TYPES1)}
+TYPES2_TO_IDX = {t: i for i, t in enumerate(TYPES2)}
+IDX_TO_TYPES2 = {i: t for i, t in enumerate(TYPES2)}
 # Come up with a type combo map so we can use them numerically in our data
+PRIMARY_TYPE_TO_IDX = {}
 TYPES_COMBO_TO_IDX,seen = {},set()
 for type1 in TYPES1:
     for type2 in TYPES2:
@@ -143,7 +149,7 @@ TYPES1_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','pale
 TYPES2_COLORS_CHART = ['wheat','darkorange','skyblue','limegreen','yellow','paleturquoise','darkred','mediumorchid','khaki','thistle','deeppink','yellowgreen','goldenrod','mediumpurple','mediumblue','black','lightsteelblue','pink','dimgray']
 
 #%% CONFIGURATION               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-device = torch_directml.device() # THIS IS ONLY SUPPORTED IN PYTHON 3.8 - 3.12
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 
 
@@ -156,6 +162,49 @@ print(f"Using device: {device}")
 
 
 #Class definitions Start Here
+
+class PrimaryTypeDataset(Dataset):
+    def __init__(self, csv_file, train, train_val=.9, transform=None):
+        self.__parsecsv__(csv_file)
+        # Shuffle the data around so we don't get any bias in the order that they are listed
+        self.df = self.df.sample(frac=1,random_state=796).reset_index(drop=True)
+
+        # If this is a training dataset, uh... TODO: Remember what this does
+        if train:
+            self.df = self.df.iloc[1:int(self.df.shape[0]*train_val)+1].reset_index(drop=True)
+        else:
+            self.df = self.df.iloc[int(self.df.shape[0]*train_val):self.df.shape[0]].reset_index(drop=True)
+
+        # Create a tensor of our color data
+        df_numeric = self.df.drop('type1', axis=1)
+        self.data_numeric = torch.tensor(df_numeric.values, dtype=torch.float32)
+        df_target = self.df['type1'].map(TYPES1_TO_IDX).values
+        self.data_targets = torch.tensor(df_target, dtype=torch.long)
+
+        self.transform = transform
+    
+    def __parsecsv__(self, csv_file):
+        self.df_original = pd.read_csv(csv_file)
+        self.df = self.df_original.copy()
+        self.df = self.df.drop(['type2'],axis=1)
+        
+    def __getitem__(self, idx):
+        if torch.is_tensor(idx):
+            idx = idx.tolist()
+        return (
+            self.data_numeric[idx],
+            self.data_targets[idx]
+        )
+    
+    def __len__(self):
+        return len(self.df)
+    
+    def getdf(self):
+        return self.df
+    
+    def getdf_original(self):
+        return self.df_original
+
 class DualTypeDataset(Dataset):
     def __init__(self, csv_file, train, train_val=.9, transform=None):
         self.__parsecsv__(csv_file)
@@ -170,9 +219,10 @@ class DualTypeDataset(Dataset):
 
         # Create a tensor of our color data
         df_numeric = self.df.drop('type', axis=1)
-        self.data_numeric = torch.tensor(df_numeric.values, dtype=torch.int)
+        df_numeric = df_numeric.select_dtypes(include=[np.number])  # keep only numeric
+        self.data_numeric = torch.tensor(df_numeric.values, dtype=torch.float32)
         df_target = self.df['type'].map(TYPES_COMBO_TO_IDX).values
-        self.data_targets = torch.tensor(df_target, dtype=torch.int)
+        self.data_targets = torch.tensor(df_target, dtype=torch.long)
 
         self.transform = transform
     
@@ -201,6 +251,35 @@ class DualTypeDataset(Dataset):
         return self.df_original
 
 # TODO: Create the neural network
+class PokemonTypePredictor(nn.Module):
+    def __init__(self, input_size, hidden_size, num_classes):
+        super(PokemonTypePredictor,self).__init__()
+        weight1 = 1.5
+        weight2 = 2
+        weight3 = 4
+        
+        self.l1 = nn.Linear(input_size,int(hidden_size*weight1)) # first layer
+        self.act1 = nn.Sigmoid() # activation function
+        self.l2 = nn.Linear(int(hidden_size*weight1),int(hidden_size*weight2)) # second layer
+        self.act2 = nn.Sigmoid() # activation function
+        self.l3 = nn.Linear(int(hidden_size*weight2),int(hidden_size*weight3)) # third layer
+        self.act3 = nn.Sigmoid() # activation function
+        self.l4 = nn.Linear(int(hidden_size*weight3),num_classes) # fourth layer
+    
+    def forward(self, numeric):
+        x = torch.cat([numeric],dim=1)
+        # print(numeric.dtype)
+        # print(next(model.parameters()).dtype)
+        # x = numeric
+        x = self.l1(x)
+        x = self.act1(x)
+        x = self.l2(x)
+        x = self.act2(x)
+        x = self.l3(x)
+        x = self.act3(x)
+        x = self.l4(x)
+        return x
+
 
 #Function definitions Start Here
 def main():
@@ -353,18 +432,98 @@ def viewTypeColorAverages(df, visualize_data=False):
 # Hyperparameters
 input_size = len(primary_colors) # column length (amount of colors)
 hidden_size = 100 # number of nodes in hidden layer
-num_classes = 34 # number of classes, 0, 1/8, 1/4, 1/2, 1-30
+num_classes = len(TYPES_COMBO_TO_IDX) # number of classes, Normal, Fire/Normal, Water/Normal, etc
 num_epochs = 100 # number of times we go through the entire dataset
 batch_size = 32 # number of samples in one forward/backward pass
 learning_rate = 0.001 # learning rate
-train_val = .8
+train_val = .7
 
 # Datasets & Dataloaders
-train_dataset = DualTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
-test_dataset = DualTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
+train_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
+test_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
+# TODO: Figure out the "verification" part
 
+# Model
+model = PokemonTypePredictor(input_size, hidden_size, num_classes).to(device)
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+#%% Training
+model.train()
+n_total_steps = len(train_loader)
+loss_values = []
+i = 0
+loss = 0
+pbar = tqdm(range(num_epochs),desc="Training",unit="epochs",postfix={"loss":loss},colour="red",ascii=True)
+for epoch in pbar:
+    running_loss = 0.0
+    for i, (numeric,target) in enumerate(train_loader):
+        
+        # --- CRITICAL STEP: Move all input tensors to the GPU ---
+        numeric = numeric.to(device)
+        target = target.to(device)
+        
+        outputs = model(numeric)
+        loss = criterion(outputs,target)
+        # record loss for graphing loss function
+        running_loss += loss.item()
+        loss_values.append(running_loss / len(train_dataset))
+
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        
+        if (i+1) % (2) == 0:
+            pbar.set_postfix({"step":f'{(i+1):02d}/{n_total_steps}',"loss":f'{loss.item():.4}'})
+
+print("Finished training.")
+
+plt.plot(loss_values)
+
+#%% Testing
+with torch.no_grad(): # we don't need gradients in the testing phase
+    y_true = []
+    y_pred = []
+    cm = None
+    for numeric,target in test_loader:
+
+        # --- CRITICAL STEP: Move all input tensors to the GPU ---
+        numeric = numeric.to(device)
+        target = target.to(device)
+
+        outputs = model(numeric)
+
+        _, predictions = torch.max(outputs,1) # 1 is the dimension
+        y_true = np.concatenate([y_true,target.cpu().numpy()])
+        y_pred = np.concatenate([y_pred,predictions.cpu().numpy()])\
+
+    
+    # Calculate accuracy
+    n_correct = (y_true == y_pred).sum().item()
+    n_samples = y_true.shape[0]
+    avg = 'macro'
+    print(f'Accuracy:\t{accuracy_score(y_true,y_pred)*100:.2f}% ({n_correct}/{n_samples})')
+    print(f'Recall:\t\t{recall_score(y_true,y_pred,average=avg)*100:.2f}%')
+    print(f'Precision:\t{precision_score(y_true,y_pred,average=avg)*100:.2f}%')
+    print(f'F1 Score:\t{f1_score(y_true,y_pred,average=avg)*100:.2f}%')
+
+    # Create confusion matrix
+    cm = confusion_matrix(y_true=y_true,y_pred=y_pred,labels=list(TYPES1_TO_IDX.values()))
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm,
+                                  display_labels=list(TYPES1_TO_IDX.keys()))
+    oldcolors = mpl.colormaps['hsv']
+    newcolors = oldcolors(np.linspace(0,.70, 128))
+    val = 200
+    grey = np.array([val/256, val/256, val/256, 1])
+    newcolors[:1, :] = grey
+    cmap = ListedColormap(newcolors)
+    fig, ax = plt.subplots(figsize=(10, 10))
+    disp.plot(ax=ax,cmap=cmap,colorbar=False)
+    plt.xticks(rotation=45)
+    plt.title("CR Confusion Matrix")
+    plt.tight_layout()
 
 # ### Preprocessing
 # # Remove entries we don't want to use 
