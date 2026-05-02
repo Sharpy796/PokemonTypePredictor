@@ -81,6 +81,10 @@ from PIL import Image
 from collections import Counter
 from warnings import simplefilter
 simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
+from sklearn.exceptions import UndefinedMetricWarning
+import warnings
+warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
+
 
 
 #custom imports
@@ -480,6 +484,8 @@ n_total_steps = len(train_loader)
 loss_values = []
 i = 0
 loss = 0
+alpha = 0.4
+beta = 1-alpha
 pbar = tqdm(range(num_epochs),desc="Training",unit="epochs",postfix={"loss":loss},colour="red",ascii=True)
 for epoch in pbar:
     running_loss = 0.0
@@ -497,7 +503,7 @@ for epoch in pbar:
         if (isinstance(target, (list, tuple))):
             loss1 = criterion_1(outputs[0],target1)
             loss2 = criterion_2(outputs[1],target2)
-            loss = loss1 + loss2 # TODO: Possibly add weights
+            loss = loss1*alpha + loss2*beta
         else:
             loss = criterion_1(outputs[0],target)
         # record loss for graphing loss function
