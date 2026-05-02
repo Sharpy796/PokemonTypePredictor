@@ -169,7 +169,7 @@ class PrimaryTypeDataset(Dataset):
         # Shuffle the data around so we don't get any bias in the order that they are listed
         self.df = self.df.sample(frac=1,random_state=796).reset_index(drop=True)
 
-        # If this is a training dataset, uh... TODO: Remember what this does
+        # Set aside a section of our data for training or testing
         if train:
             self.df = self.df.iloc[1:int(self.df.shape[0]*train_val)+1].reset_index(drop=True)
         else:
@@ -211,7 +211,7 @@ class DualTypeDataset(Dataset):
         # Shuffle the data around so we don't get any bias in the order that they are listed
         self.df = self.df.sample(frac=1,random_state=796).reset_index(drop=True)
 
-        # If this is a training dataset, uh... TODO: Remember what this does
+        # Set aside a section of our data for training or testing
         if train:
             self.df = self.df.iloc[1:int(self.df.shape[0]*train_val)+1].reset_index(drop=True)
         else:
@@ -220,8 +220,6 @@ class DualTypeDataset(Dataset):
         # Create a tensor of our color data
         df_numeric = self.df.drop(['type1','type2'], axis=1)
         self.data_numeric = torch.tensor(df_numeric.values, dtype=torch.float32)
-        # df_target = self.df['type'].map(TYPES_COMBO_TO_IDX).values
-        # self.data_targets = torch.tensor(df_target, dtype=torch.long)
         df_target1 = self.df['type1'].map(TYPES1_TO_IDX).values
         df_target2 = self.df['type2'].map(TYPES2_TO_IDX).values
         self.data_target1 = torch.tensor(df_target1, dtype=torch.long)
@@ -233,15 +231,12 @@ class DualTypeDataset(Dataset):
         self.df_original = pd.read_csv(csv_file)
         self.df = self.df_original.copy()
         self.df['type2'] = self.df['type2'].fillna('None')
-        # self.df['type'] = self.df['type1']+(self.df['type2'].where(self.df['type2']!='/None').fillna(''))
-        # self.df = self.df.drop(['type1','type2'],axis=1)
         
     def __getitem__(self, idx):
         if torch.is_tensor(idx):
             idx = idx.tolist()
         return (
             self.data_numeric[idx],
-            # self.data_targets[idx]
             (self.data_target1[idx],self.data_target2[idx])
         )
     
@@ -427,7 +422,6 @@ def viewTypeColorAverages(df, visualize_data=False):
     display(dft)
 #
 def create_confusion_matrix(y_true,y_pred,table,title="Pokemon Type Confusion Matrix", ax=None):
-    # Create confusion matrix
     cm = confusion_matrix(y_true=y_true,y_pred=y_pred,labels=list(table.values()))
     disp = ConfusionMatrixDisplay(confusion_matrix=cm,
                                   display_labels=list(table.keys()))
@@ -443,12 +437,6 @@ def create_confusion_matrix(y_true,y_pred,table,title="Pokemon Type Confusion Ma
     disp.plot(ax=ax, cmap=cmap, colorbar=False)
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
     ax.set_title(title)
-
-    # fig, ax = plt.subplots(figsize=(10, 10))
-    # disp.plot(ax=ax,cmap=cmap,colorbar=False)
-    # plt.xticks(rotation=45)
-    # plt.title(title)
-    # plt.tight_layout()
 
 #%% MAIN CODE                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -472,15 +460,16 @@ learning_rate = 0.001 # learning rate
 train_val = .7
 
 # Datasets & Dataloaders
-train_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
-test_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
+# train_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
+# test_dataset = PrimaryTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
+train_dataset = DualTypeDataset("pokedex_extracted.csv",train=True,train_val=train_val)
+test_dataset = DualTypeDataset("pokedex_extracted.csv",train=False,train_val=train_val)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
 # TODO: Figure out the "verification" part
 
 # Model
 model = PokemonTypePredictor(input_size, hidden_size, num_classes, num_classes_2=num_classes_2).to(device)
-# criterion = nn.CrossEntropyLoss()
 criterion_1 = nn.CrossEntropyLoss()
 criterion_2 = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
