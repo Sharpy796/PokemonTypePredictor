@@ -62,18 +62,18 @@ CSV_FILEPATH = "training_data/pokedex_extracted.csv"
 
 # These are for color categorizing purposes.
 primary_colors = { # bgr
-    'Red':[0,0,255],
-    'Orange':[0,121,255],
-    'Yellow':[0,255,255],
-    'Green':[0,225,0],
-    'Cyan':[255,255,0],
-    'Blue':[255,0,0],
-    'Purple':[255,0,180],
-    'Pink':[255, 0, 255],
-    'White':[255,255,255],
-    'Gray':[125,125,125],
-    'Black':[0,0,0],
-    'Brown':[0,60,135],
+    'Red':      [  0,  0,255],
+    'Orange':   [  0,121,255],
+    'Yellow':   [  0,255,255],
+    'Green':    [  0,225,  0],
+    'Cyan':     [255,255,  0],
+    'Blue':     [255,  0,  0],
+    'Purple':   [255,  0,180],
+    'Pink':     [255,  0,255],
+    'White':    [255,255,255],
+    'Gray':     [125,125,125],
+    'Black':    [  0,  0,  0],
+    'Brown':    [  0, 60,135],
 }
 
 TYPES1 = ['Normal','Fire','Water','Grass','Electric','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy']
