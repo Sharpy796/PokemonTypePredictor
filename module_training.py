@@ -58,7 +58,7 @@ filterwarnings("ignore", category=UndefinedMetricWarning)
 
 
 #%% CONSTANTS                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-CSV_FILEPATH = "pokedex_extracted.csv"
+CSV_FILEPATH = "training_data/pokedex_extracted.csv"
 
 # These are for color categorizing purposes.
 primary_colors = { # bgr
@@ -163,8 +163,12 @@ class DualTypeDataset(Dataset):
         # Set aside a section of our data for training or testing
         if train:
             self.df = self.df.iloc[1:int(self.df.shape[0]*train_val)+1].reset_index(drop=True)
+            self.save_csv_filepath = 'training_data/pokedex_training.csv'
         else:
             self.df = self.df.iloc[int(self.df.shape[0]*train_val):self.df.shape[0]].reset_index(drop=True)
+            self.save_csv_filepath = 'training_data/pokedex_testing.csv'
+
+        self.df.to_csv(self.save_csv_filepath)
 
         # Create a tensor of our color data
         df_numeric = self.df.drop(['type1','type2'], axis=1)

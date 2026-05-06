@@ -253,7 +253,7 @@ assign_spritepaths(df)
 df_processed = df.copy() # Keep a copy in case we want names of pokemon
 visualizeDataPreprocessed(df_processed, "assets/data.png") # this is for if we want to save the graphs to a file
 df_processed = df_processed.drop(['id','name','pokedex_id','primary_color'], axis=1) # we don't need these anymore
-df_processed.to_csv("pokedex_processed.csv",index=False) # Keeping this in case we need to run this again
+df_processed.to_csv("training_data/pokedex_processed.csv",index=False) # Keeping this in case we need to run this again
 display(df_processed)
 
 ### Feature Extraction - Remove columns we won't be training on, Fix columns we will be using
@@ -263,7 +263,7 @@ df = df.fillna(0)
 df = df.reindex(['type1','type2']+list(primary_colors.keys()), axis=1) # Sort columns
 
 df_extracted = df.copy()
-df_extracted.to_csv("pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
+df_extracted.to_csv("training_data/pokedex_extracted.csv",index=False) # Keeping this in case we need to run this again
 viewTypeColorAverages(df_extracted) # data of average colors for each type
 display(df_extracted)
 
